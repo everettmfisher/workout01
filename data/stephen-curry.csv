@@ -1,951 +1,1251 @@
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-  <link rel="dns-prefetch" href="https://github.githubassets.com">
-  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
-  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
-
-
-
-  <link crossorigin="anonymous" media="all" integrity="sha512-UFMpXZiU8/kG0aZl62l3OFZi0gwlVRLYrsamBbXttDRSbDmQk1ZyKj5R11ghzrHB/NaIPBuLauI34mVpsuxx5w==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-94eca081886beb7440fa7236f4fd103f.css" />
-  <link crossorigin="anonymous" media="all" integrity="sha512-cuy1+HcJo6pH8huwA6BbbIAj7f4qZnwUlLVFveS7LnjnLdnZAMwHmXXHhtPGEpZAXOXrceXfY8rbjggZxl1+ug==" rel="stylesheet" href="https://github.githubassets.com/assets/site-4ec8effe5135777359c6a2fed489d0c1.css" />
-    <link crossorigin="anonymous" media="all" integrity="sha512-eqxTRxKT94LInlg/McScBezWtiFHXzx2NUh8bTSXsscsE8e7zxJE3tueMuDN+7DpHHo3ipfX6wnDuoechvkHAA==" rel="stylesheet" href="https://github.githubassets.com/assets/github-6a52a05624a8e37c96244b9669fd07a4.css" />
-    
-    
-    
-    
-
-  <meta name="viewport" content="width=device-width">
-  
-  <title>GitHub - ucb-stat133/stat133-hws: Homework assignments</title>
-    <meta name="description" content="Homework assignments. Contribute to ucb-stat133/stat133-hws development by creating an account on GitHub.">
-    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
-  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
-  <meta property="fb:app_id" content="1401488693436528">
-
-    
-    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/19289365?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="ucb-stat133/stat133-hws" /><meta property="og:url" content="https://github.com/ucb-stat133/stat133-hws" /><meta property="og:description" content="Homework assignments. Contribute to ucb-stat133/stat133-hws development by creating an account on GitHub." />
-
-  <link rel="assets" href="https://github.githubassets.com/">
-  
-  <meta name="pjax-timeout" content="1000">
-  
-  <meta name="request-id" content="1E9F:9088:2DE833C:4712686:5C7DB255" data-pjax-transient>
-
-
-  
-
-  <meta name="selected-link" value="repo_source" data-pjax-transient>
-
-      <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
-    <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
-    <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
-
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="1E9F:9088:2DE833C:4712686:5C7DB255" /><meta name="octolytics-dimension-region_edge" content="sea" /><meta name="octolytics-dimension-region_render" content="iad" />
-<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
-
-
-
-    <meta name="google-analytics" content="UA-3769691-2">
-
-
-<meta class="js-ga-set" name="dimension1" content="Logged Out">
-
-
-
-  
-
-      <meta name="hostname" content="github.com">
-    <meta name="user-login" content="">
-
-      <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="MzAyM2Q3M2YyOTgwYzFhZGZhMTYwMWMzODYxOWVhOGZkNmUyZGVjZmRjMDg3MzcxZjg0OGVmNDA1YjkxYzNhNnx7InJlbW90ZV9hZGRyZXNzIjoiMTkyLjMxLjEwNS4xNjciLCJyZXF1ZXN0X2lkIjoiMUU5Rjo5MDg4OjJERTgzM0M6NDcxMjY4Njo1QzdEQjI1NSIsInRpbWVzdGFtcCI6MTU1MTc0MTUyNSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
-
-    <meta name="enabled-features" content="UNIVERSE_BANNER,MARKETPLACE_SOCIAL_PROOF,MARKETPLACE_PLAN_RESTRICTION_EDITOR,MARKETPLACE_BROWSING_V2">
-
-  <meta name="html-safe-nonce" content="cc894ad4340a18eccb29eb5d58312021fa11ca96">
-
-  <meta http-equiv="x-pjax-version" content="d66398d19c9344a8dea892a4c48e7bc8">
-  
-
-      <link href="https://github.com/ucb-stat133/stat133-hws/commits/master.atom" rel="alternate" title="Recent Commits to stat133-hws:master" type="application/atom+xml">
-
-  <meta name="go-import" content="github.com/ucb-stat133/stat133-hws git https://github.com/ucb-stat133/stat133-hws.git">
-
-  <meta name="octolytics-dimension-user_id" content="19289365" /><meta name="octolytics-dimension-user_login" content="ucb-stat133" /><meta name="octolytics-dimension-repository_id" content="167828846" /><meta name="octolytics-dimension-repository_nwo" content="ucb-stat133/stat133-hws" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="167828846" /><meta name="octolytics-dimension-repository_network_root_nwo" content="ucb-stat133/stat133-hws" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
-
-
-    <link rel="canonical" href="https://github.com/ucb-stat133/stat133-hws" data-pjax-transient>
-
-
-  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
-
-  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
-
-  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
-  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://github.githubassets.com/favicon.ico">
-
-<meta name="theme-color" content="#1e2327">
-
-
-
-
-  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class="logged-out env-production">
-    
-
-  <div class="position-relative js-header-wrapper ">
-    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
-    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
-
-    
-    
-    
-
-
-        
-<header class="Header header-logged-out  position-relative f4 py-3" role="banner">
-  <div class="container-lg d-flex px-3">
-    <div class="d-flex flex-justify-between flex-items-center">
-        <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
-          <svg height="32" class="octicon octicon-mark-github text-white" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
-        </a>
-    </div>
-
-    <div class="HeaderMenu HeaderMenu--logged-out d-flex flex-justify-between flex-items-center flex-auto">
-      <div class="d-none">
-        <button class="btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
-          <svg height="24" class="octicon octicon-x text-gray" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-        </button>
-      </div>
-
-        <nav class="mt-0" aria-label="Global">
-          <ul class="d-flex list-style-none">
-              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
-                <details class="HeaderMenu-details details-overlay details-reset width-full">
-                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
-                    Why GitHub?
-                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
-                      <path d="M1,1l6.2,6L13,1"></path>
-                    </svg>
-                  </summary>
-                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 mt-0  p-4 left-n4 position-absolute">
-                    <a href="/features" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Features <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
-                    <ul class="list-style-none f5 pb-3">
-                      <li class="edge-item-fix"><a href="/features/code-review/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code review">Code review</a></li>
-                      <li class="edge-item-fix"><a href="/features/project-management/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Project management">Project management</a></li>
-                      <li class="edge-item-fix"><a href="/features/integrations" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Integrations">Integrations</a></li>
-                      <li class="edge-item-fix"><a href="/features/actions" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Actions">Actions</a>
-                      <li class="edge-item-fix"><a href="/features#team-management" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team management">Team management</a></li>
-                      <li class="edge-item-fix"><a href="/features#social-coding" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Social coding">Social coding</a></li>
-                      <li class="edge-item-fix"><a href="/features#documentation" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Documentation">Documentation</a></li>
-                      <li class="edge-item-fix"><a href="/features#code-hosting" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code hosting">Code hosting</a></li>
-                    </ul>
-
-                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
-                      <li class="edge-item-fix"><a href="/case-studies" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Customer stories">Customer stories <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
-                      <li class="edge-item-fix"><a href="/security" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Security">Security <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
-                    </ul>
-                  </div>
-                </details>
-              </li>
-              <li class=" mr-3 mr-lg-3">
-                <a href="/enterprise" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, click, go to Enterprise">Enterprise</a>
-              </li>
-
-              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
-                <details class="HeaderMenu-details details-overlay details-reset width-full">
-                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
-                    Explore
-                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
-                      <path d="M1,1l6.2,6L13,1"></path>
-                    </svg>
-                  </summary>
-
-                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-0 mt-0  p-4 left-n4 position-absolute">
-                    <ul class="list-style-none mb-3">
-                      <li class="edge-item-fix"><a href="/explore" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Explore GitHub <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
-                    </ul>
-
-                    <h4 class="text-gray-light text-normal text-mono f5 mb-2  border-top pt-3">Learn &amp; contribute</h4>
-                    <ul class="list-style-none mb-3">
-                      <li class="edge-item-fix"><a href="/topics" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Topics">Topics</a></li>
-                        <li class="edge-item-fix"><a href="/collections" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Collections">Collections</a></li>
-                      <li class="edge-item-fix"><a href="/trending" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Trending">Trending</a></li>
-                      <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab</a></li>
-                      <li class="edge-item-fix"><a href="https://opensource.guide" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides</a></li>
-                    </ul>
-
-                    <h4 class="text-gray-light text-normal text-mono f5 mb-2  border-top pt-3">Connect with others</h4>
-                    <ul class="list-style-none mb-0">
-                      <li class="edge-item-fix"><a href="https://github.com/events" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Events">Events</a></li>
-                      <li class="edge-item-fix"><a href="https://github.community" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Community forum">Community forum</a></li>
-                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education</a></li>
-                    </ul>
-                  </div>
-                </details>
-              </li>
-
-              <li class=" mr-3 mr-lg-3">
-                <a href="/marketplace" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Marketplace">Marketplace</a>
-              </li>
-
-              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
-                <details class="HeaderMenu-details details-overlay details-reset width-full">
-                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
-                    Pricing
-                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
-                       <path d="M1,1l6.2,6L13,1"></path>
-                    </svg>
-                  </summary>
-
-                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-4 mt-0  p-4 left-n4 position-absolute">
-                    <a href="/pricing" class="pb-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing">Plans <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
-
-                    <ul class="list-style-none mb-3">
-                      <li class="edge-item-fix"><a href="/pricing#feature-comparison" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Compare features">Compare plans</a></li>
-                      <li class="edge-item-fix"><a href="https://enterprise.github.com/contact" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Compare features">Contact Sales</a></li>
-                    </ul>
-
-                    <ul class="list-style-none mb-0  border-top pt-3">
-                      <li class="edge-item-fix"><a href="/nonprofit" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Nonprofits">Nonprofit <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
-                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover"  data-ga-click="(Logged out) Header, go to Education">Education <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
-                    </ul>
-                  </div>
-                </details>
-              </li>
-          </ul>
-        </nav>
-
-      <div class="d-flex flex-items-center px-0 text-center text-left">
-          <div class="d-lg-flex mr-3">
-            <div class="header-search scoped-search site-scoped-search js-site-search position-relative js-jump-to"
-  role="combobox"
-  aria-owns="jump-to-results"
-  aria-label="Search or jump to"
-  aria-haspopup="listbox"
-  aria-expanded="false"
->
-  <div class="position-relative">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="167828846" data-scoped-search-url="/ucb-stat133/stat133-hws/search" data-unscoped-search-url="/search" action="/ucb-stat133/stat133-hws/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
-      <label class="form-control header-search-wrapper header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
-        <input type="text"
-          class="form-control header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
-          data-hotkey="s,/"
-          name="q"
-          value=""
-          placeholder="Search"
-          data-unscoped-placeholder="Search GitHub"
-          data-scoped-placeholder="Search"
-          autocapitalize="off"
-          aria-autocomplete="list"
-          aria-controls="jump-to-results"
-          aria-label="Search"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=OTJi1AZe5yZHLtB3d8V0JXvRx9DTrNxE7WJh7R5Wc3Kq/vop5xiQfdfoZXnUnRPfm38uKeIEHoDecALH56y89w=="
-          spellcheck="false"
-          autocomplete="off"
-          >
-          <input type="hidden" class="js-site-search-type-field" name="type" >
-            <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
-
-            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
-              
-<ul class="d-none js-jump-to-suggestions-template-container">
-  
-
-<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
-  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
-    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
-      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
-      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
-      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
-    </div>
-
-    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
-
-    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
-    </div>
-
-    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
-      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
-        In this repository
-      </span>
-      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
-        All GitHub
-      </span>
-      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-
-    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
-      Jump to
-      <span class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-  </a>
-</li>
-
-</ul>
-
-<ul class="d-none js-jump-to-no-results-template-container">
-  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
-    <span class="text-gray">No suggested jump to results</span>
-  </li>
-</ul>
-
-<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
-  
-
-<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
-  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
-    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
-      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
-      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
-      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
-    </div>
-
-    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
-
-    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
-    </div>
-
-    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
-      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
-        In this repository
-      </span>
-      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
-        All GitHub
-      </span>
-      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-
-    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
-      Jump to
-      <span class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-  </a>
-</li>
-
-  
-
-<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
-  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
-    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
-      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
-      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
-      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
-    </div>
-
-    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
-
-    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
-    </div>
-
-    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
-      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
-        In this repository
-      </span>
-      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
-        All GitHub
-      </span>
-      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-
-    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
-      Jump to
-      <span class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-  </a>
-</li>
-
-
-</ul>
-
-            </div>
-      </label>
-</form>  </div>
-</div>
-
-          </div>
-
-        <a class="HeaderMenu-link no-underline mr-3" href="/login?return_to=%2Fucb-stat133%2Fstat133-hws" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign&nbsp;in</a>
-          <a class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign&nbsp;up</a>
-      </div>
-    </div>
-  </div>
-</header>
-
-  </div>
-
-  <div id="start-of-content" class="show-on-focus"></div>
-
-    <div id="js-flash-container">
-
-</div>
-
-
-
-  <div class="application-main " data-commit-hovercards-enabled>
-        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
-    <main id="js-repo-pjax-container" data-pjax-container >
-      
-  
-
-
-  
-
-
-
-
-  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
-    <div class="repohead-details-container clearfix container">
-
-      <ul class="pagehead-actions">
-
-
-
-  <li>
-      <a href="/login?return_to=%2Fucb-stat133%2Fstat133-hws"
-    class="btn btn-sm btn-with-count tooltipped tooltipped-s"
-    aria-label="You must be signed in to watch a repository" rel="nofollow">
-    <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
-    Watch
-  </a>
-  <a class="social-count" href="/ucb-stat133/stat133-hws/watchers"
-     aria-label="1 user is watching this repository">
-    1
-  </a>
-
-  </li>
-
-  <li>
-        <a href="/login?return_to=%2Fucb-stat133%2Fstat133-hws"
-      class="btn btn-sm btn-with-count tooltipped tooltipped-s"
-      aria-label="You must be signed in to star a repository" rel="nofollow">
-      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
-      Star
-    </a>
-
-    <a class="social-count js-social-count" href="/ucb-stat133/stat133-hws/stargazers"
-      aria-label="1 user starred this repository">
-      1
-    </a>
-
-  </li>
-
-  <li>
-      <a href="/login?return_to=%2Fucb-stat133%2Fstat133-hws"
-        class="btn btn-sm btn-with-count tooltipped tooltipped-s"
-        aria-label="You must be signed in to fork a repository" rel="nofollow">
-        <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
-        Fork
-      </a>
-
-    <a href="/ucb-stat133/stat133-hws/network/members" class="social-count"
-       aria-label="1 user forked this repository">
-      1
-    </a>
-  </li>
-</ul>
-
-      <h1 class="public ">
-  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
-  <span class="author" itemprop="author"><a class="url fn" rel="author" data-hovercard-type="organization" data-hovercard-url="/orgs/ucb-stat133/hovercard" href="/ucb-stat133">ucb-stat133</a></span><!--
---><span class="path-divider">/</span><!--
---><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/ucb-stat133/stat133-hws">stat133-hws</a></strong>
-
-</h1>
-
-    </div>
-    
-<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
-     itemscope
-     itemtype="http://schema.org/BreadcrumbList"
-    aria-label="Repository"
-     data-pjax="#js-repo-pjax-container">
-
-  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /ucb-stat133/stat133-hws" href="/ucb-stat133/stat133-hws">
-      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
-      <span itemprop="name">Code</span>
-      <meta itemprop="position" content="1">
-</a>  </span>
-
-    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /ucb-stat133/stat133-hws/issues" href="/ucb-stat133/stat133-hws/issues">
-        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
-        <span itemprop="name">Issues</span>
-        <span class="Counter">0</span>
-        <meta itemprop="position" content="2">
-</a>    </span>
-
-  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /ucb-stat133/stat133-hws/pulls" href="/ucb-stat133/stat133-hws/pulls">
-      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
-      <span itemprop="name">Pull requests</span>
-      <span class="Counter">0</span>
-      <meta itemprop="position" content="3">
-</a>  </span>
-
-
-    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /ucb-stat133/stat133-hws/projects" href="/ucb-stat133/stat133-hws/projects">
-      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
-      Projects
-      <span class="Counter" >0</span>
-</a>
-
-
-    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse alerts security people /ucb-stat133/stat133-hws/pulse" href="/ucb-stat133/stat133-hws/pulse">
-      <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
-      Insights
-</a>
-
-</nav>
-
-
-  </div>
-<div class="container new-discussion-timeline experiment-repo-nav  ">
-  <div class="repository-content ">
-
-    
-    
-      <div class="signup-prompt-bg rounded-1">
-      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
-        <div class="position-relative">
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="uLFAG2ccEjP7ihKNpQQ8RseNaFhqNsvkRRhhtRCaZxpSSdhvMp3MimPIkreVT4Bn5hMYYXtyPiBhTqTIHVcxLw==" />
-            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
-              Dismiss
-            </button>
-</form>          <h3 class="pt-2">Join GitHub today</h3>
-          <p class="col-6 mx-auto">GitHub is home to over 31 million developers working together to host and review code, manage projects, and build software together.</p>
-          <a class="btn btn-primary" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
-        </div>
-      </div>
-    </div>
-
-
-      <div class="mb-3">  <div class="f4">
-        <span class="text-gray-dark mr-2" itemprop="about">
-          Homework assignments
-        </span>
-  </div>
-</div>
-
-
-
-
-  <div class="overall-summary ">
-    <div class="stats-switcher-viewport js-stats-switcher-viewport">
-      <div class="stats-switcher-wrapper">
-      <ul class="numbers-summary">
-        <li class="commits">
-          <a data-pjax href="/ucb-stat133/stat133-hws/commits/master">
-              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
-              <span class="num text-emphasized">
-                12
-              </span>
-              commits
-          </a>
-        </li>
-        <li>
-          <a data-pjax href="/ucb-stat133/stat133-hws/branches">
-            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
-            <span class="num text-emphasized">
-              1
-            </span>
-            branch
-          </a>
-        </li>
-
-        <li>
-          <a href="/ucb-stat133/stat133-hws/releases">
-            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
-            <span class="num text-emphasized">
-              0
-            </span>
-            releases
-          </a>
-        </li>
-
-
-          <li>
-              <a href="/ucb-stat133/stat133-hws/graphs/contributors">
-  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4z"/></svg>
-    <span class="num text-emphasized">
-      1
-    </span>
-    contributor
-</a>
-
-          </li>
-
-      </ul>
-
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-  <div class="file-navigation in-mid-page d-flex flex-items-start">
-  
-<details class="details-reset details-overlay select-menu branch-select-menu float-left">
-  <summary class="btn btn-sm select-menu-button css-truncate"
-           data-hotkey="w"
-           
-           title="Switch branches or tags">
-    <i>Branch:</i>
-    <span class="css-truncate-target">master</span>
-  </summary>
-
-  <details-menu class="select-menu-modal position-absolute" style="z-index: 99;" src="/ucb-stat133/stat133-hws/ref-list/master?source_action=disambiguate&amp;source_controller=files" preload>
-    <include-fragment class="select-menu-loading-overlay anim-pulse">
-      <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
-    </include-fragment>
-  </details-menu>
-</details>
-
-
-        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
-          New pull request
-        </button>
-
-  <div class="breadcrumb flex-auto">
-    
-  </div>
-
-  <div class="BtnGroup">
-
-    <a href="/ucb-stat133/stat133-hws/find/master"
-      class="btn btn-sm empty-icon float-right BtnGroup-item"
-      data-pjax
-      data-hotkey="t"
-      data-ga-click="Repository, find file, location:repo overview">
-      Find file
-    </a>
-  </div>
-  
-
-    <details class="get-repo-select-menu js-get-repo-select-menu position-relative details-overlay details-reset">
-  <summary class="btn btn-sm btn-primary">
-    Clone or download
-    <span class="dropdown-caret"></span>
-  </summary>
-  <div class="position-relative">
-    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
-
-      <div class="get-repo-modal-options">
-          <div class="clone-options https-clone-options">
-
-            <h4 class="mb-1">
-              Clone with HTTPS
-              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
-                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
-              </a>
-            </h4>
-            <p class="mb-2 get-repo-decription-text">
-              Use Git or checkout with SVN using the web URL.
-            </p>
-
-            <div class="input-group">
-  <input type="text" class="form-control input-monospace input-sm" data-autoselect value="https://github.com/ucb-stat133/stat133-hws.git" aria-label="Clone this repository at https://github.com/ucb-stat133/stat133-hws.git" readonly>
-  <div class="input-group-button">
-    <clipboard-copy value="https://github.com/ucb-stat133/stat133-hws.git" aria-label="Copy to clipboard" class="btn btn-sm">
-      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
-    </clipboard-copy>
-  </div>
-</div>
-
-          </div>
-
-        <div class="mt-2">
-          
-<a href="/ucb-stat133/stat133-hws/archive/master.zip"
-   class="btn btn-outline get-repo-btn
-"
-   rel="nofollow"
-   data-ga-click="Repository, download zip, location:repo overview">
-  Download ZIP
-</a>
-
-        </div>
-      </div>
-
-      <div class="js-modal-download-mac py-2 px-3 d-none">
-        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
-        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
-        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
-      </div>
-
-      <div class="js-modal-download-windows py-2 px-3 d-none">
-        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
-        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
-        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
-      </div>
-
-      <div class="js-modal-download-xcode py-2 px-3 d-none">
-        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
-        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
-        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
-      </div>
-
-      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
-        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
-        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
-        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
-      </div>
-
-    </div>
-  </div>
-</details>
-
-</div>
-
-
-  
-
-
-  <div class="commit-tease js-details-container Details d-flex rounded-top-1" data-issue-and-pr-hovercards-enabled>
-    
-<div class="AvatarStack flex-self-start ">
-  <div class="AvatarStack-body" aria-label="gastonstat">
-        <a class="avatar" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=929485" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/gastonstat">
-          <img height="20" width="20" alt="@gastonstat" src="https://avatars0.githubusercontent.com/u/929485?s=60&amp;v=4" />
-</a>  </div>
-</div>
-
-    <div class="flex-auto f6 mr-3">
-      
-      <a href="/ucb-stat133/stat133-hws/commits?author=gastonstat"
-     class="commit-author tooltipped tooltipped-s user-mention"
-     aria-label="View all commits by gastonstat">gastonstat</a>
-
-
-  
-
-
-        <a data-pjax="true" title="2019: add workout1" class="message" href="/ucb-stat133/stat133-hws/commit/53db1bc694536e812a271b8f46137df4b57eb633">2019: add workout1</a>
-
-    </div>
-    <div class="no-wrap">
-      Latest commit
-      <a class="commit-tease-sha" href="/ucb-stat133/stat133-hws/commit/53db1bc694536e812a271b8f46137df4b57eb633" data-pjax>
-        53db1bc
-      </a>
-      <span itemprop="dateModified"><relative-time datetime="2019-03-02T17:35:54Z">Mar 2, 2019</relative-time></span>
-    </div>
-  </div>
-
-
-
-<div class="file-wrap">
-  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/ucb-stat133/stat133-hws/tree/53db1bc694536e812a271b8f46137df4b57eb633">Permalink</a>
-
-  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
-    <thead>
-      <tr>
-        <th><span class="sr-only">Type</span></th>
-        <th><span class="sr-only">Name</span></th>
-        <th><span class="sr-only">Latest commit message</span></th>
-        <th><span class="sr-only">Commit time</span></th>
-      </tr>
-    </thead>
-
-
-    <tbody>
-      <tr class="warning include-fragment-error">
-        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg></td>
-        <td class="content" colspan="3">Failed to load latest commit information.</td>
-      </tr>
-
-        <tr class="js-navigation-item">
-          <td class="icon">
-            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
-            <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
-          </td>
-          <td class="content">
-            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="2019-spring" id="40d5c20cd4323a6ce307a0f474f00ecd-b55e8ff8df277df6d1dabe7ddb69702a71f1306c" href="/ucb-stat133/stat133-hws/tree/master/2019-spring">2019-spring</a></span>
-          </td>
-          <td class="message">
-            <span class="css-truncate css-truncate-target">
-                  <a data-pjax="true" title="2019: add workout1" class="message" href="/ucb-stat133/stat133-hws/commit/53db1bc694536e812a271b8f46137df4b57eb633">2019: add workout1</a>
-            </span>
-          </td>
-          <td class="age">
-            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-02T17:35:54Z">Mar 2, 2019</time-ago></span>
-          </td>
-        </tr>
-        <tr class="js-navigation-item">
-          <td class="icon">
-            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
-            <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
-          </td>
-          <td class="content">
-            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="data" id="8d777f385d3dfec8815d20f7496026dc-8d4189410743b34e7e72724a1105bf650a2eec7f" href="/ucb-stat133/stat133-hws/tree/master/data">data</a></span>
-          </td>
-          <td class="message">
-            <span class="css-truncate css-truncate-target">
-                  <a data-pjax="true" title="data: csv files for workout 1" class="message" href="/ucb-stat133/stat133-hws/commit/5b9a7163af9f54cec0ddb66c0ea28d20d1fa2fa5">data: csv files for workout 1</a>
-            </span>
-          </td>
-          <td class="age">
-            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-02T17:04:47Z">Mar 2, 2019</time-ago></span>
-          </td>
-        </tr>
-        <tr class="js-navigation-item">
-          <td class="icon">
-            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
-            <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
-          </td>
-          <td class="content">
-            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="images" id="59b514174bffe4ae402b3d63aad79fe0-7fb370b61e55468053e5d648be2f8142bcd65548" href="/ucb-stat133/stat133-hws/tree/master/images">images</a></span>
-          </td>
-          <td class="message">
-            <span class="css-truncate css-truncate-target">
-                  <a data-pjax="true" title="images: add nba-court.jpg" class="message" href="/ucb-stat133/stat133-hws/commit/27de376354ad7f5d7bd33c3ad49bf075e2c5b12c">images: add nba-court.jpg</a>
-            </span>
-          </td>
-          <td class="age">
-            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-02T17:05:04Z">Mar 2, 2019</time-ago></span>
-          </td>
-        </tr>
-        <tr class="js-navigation-item">
-          <td class="icon">
-            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
-            <img width="16" height="16" class="spinner" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-32.gif" />
-          </td>
-          <td class="content">
-            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-4d91c6f2137b612f3b4bf29d2715c9b7df050ee8" href="/ucb-stat133/stat133-hws/blob/master/README.md">README.md</a></span>
-          </td>
-          <td class="message">
-            <span class="css-truncate css-truncate-target">
-                  <a data-pjax="true" title="initial commit" class="message" href="/ucb-stat133/stat133-hws/commit/d37f13eeead5920076edb1b7b0cb2acad6be0182">initial commit</a>
-            </span>
-          </td>
-          <td class="age">
-            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-01-27T16:13:11Z">Jan 27, 2019</time-ago></span>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
-</div>
-
-
-
-  <div id="readme" class="Box Box--condensed instapaper_body md js-code-block-container">
-    <div class="Box-header d-flex flex-items-center flex-justify-between px-2">
-      <h3 class="Box-title pr-3">
-        <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
-        README.md
-      </h3>
-    </div>
-      <div class="Box-body p-6">
-        <article class="markdown-body entry-content" itemprop="text"><h2><a id="user-content-stat-133-homework-assignments" class="anchor" aria-hidden="true" href="#stat-133-homework-assignments"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Stat 133 Homework Assignments</h2>
-</article>
-      </div>
-  </div>
-
-
-
-  </div>
-  <div class="modal-backdrop js-touch-events"></div>
-</div>
-
-    </main>
-  </div>
-  
-
-  </div>
-
-        
-<div class="footer container-lg px-3" role="contentinfo">
-  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
-    <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2019 <span title="0.14497s from unicorn-86c59796b-fdpx2">GitHub</span>, Inc.</li>
-        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
-        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
-        <li class="mr-3"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
-        <li class="mr-3"><a href="https://githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
-        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
-    </ul>
-
-    <a aria-label="Homepage" title="GitHub" class="footer-octicon mr-lg-4" href="https://github.com">
-      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
-</a>
-   <ul class="list-style-none d-flex flex-wrap ">
-        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
-        <li class="mr-3"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
-      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
-      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
-        <li class="mr-3"><a href="https://github.blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
-        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
-
-    </ul>
-  </div>
-  <div class="d-flex flex-justify-center pb-6">
-    <span class="f6 text-gray-light"></span>
-  </div>
-</div>
-
-
-
-  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
-    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
-    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
-      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-    </button>
-    You can’t perform that action at this time.
-  </div>
-
-
-    <script crossorigin="anonymous" integrity="sha512-DiQPbGWa0ALOwLs02fk5hmD72O2vgBbk95bHBIgqW0LwS8rjQPrv/NBhNnINkjmpEwQWrnX8hwEG0pfL8ptluw==" type="application/javascript" src="https://github.githubassets.com/assets/compat-bootstrap-4857aac6.js"></script>
-    <script crossorigin="anonymous" integrity="sha512-3xoVN5Gv/jGY+cP8LfhoI54EFBhCVRxuPhpXkuVdbL932EmZ7UP6IjvKD9/S0Vg+HqEqHwmuC5inZCFyWNyAww==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-b740280f.js"></script>
-    
-    <script crossorigin="anonymous" async="async" integrity="sha512-6sVOnGehZuYws7Cz9qgQ8DPeAsrNBI8mpB+zkdsWdkLt9IuaaUK1Hb2bCYrny3QBhsc2l+YMnyqDVCZ0Idczvg==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-ec802528.js"></script>
-    
-    
-    
-  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
-    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
-    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
-    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
-  </div>
-  <template id="site-details-dialog">
-  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark" open>
-    <summary aria-haspopup="dialog" aria-label="Close dialog"></summary>
-    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast">
-      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
-        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-      </button>
-      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
-    </details-dialog>
-  </details>
-</template>
-
-  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
-  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
-  </div>
-</div>
-
-  <div aria-live="polite" class="js-global-screen-reader-notice sr-only"></div>
-
-  </body>
-</html>
-
+team_name,game_date,season,period,minutes_remaining,seconds_remaining,shot_made_flag,action_type,shot_type,shot_distance,opponent,x,y
+Golden State Warriors,12/15/16,2016,3,3,51,y,Cutting Finger Roll Layup Shot,2PT Field Goal,3,New York Knicks,25,21
+Golden State Warriors,10/28/16,2016,3,9,14,y,Cutting Finger Roll Layup Shot,2PT Field Goal,2,New Orleans Pelicans,9,26
+Golden State Warriors,11/1/16,2016,2,5,8,y,Cutting Finger Roll Layup Shot,2PT Field Goal,2,Portland Trail Blazers,-22,2
+Golden State Warriors,12/1/16,2016,3,5,27,y,Cutting Finger Roll Layup Shot,2PT Field Goal,0,Houston Rockets,2,7
+Golden State Warriors,4/4/17,2016,3,2,4,y,Cutting Finger Roll Layup Shot,2PT Field Goal,2,Minnesota Timberwolves,1,26
+Golden State Warriors,11/19/16,2016,4,5,36,y,Cutting Finger Roll Layup Shot,2PT Field Goal,0,Milwaukee Bucks,2,7
+Golden State Warriors,11/21/16,2016,3,9,51,y,Cutting Finger Roll Layup Shot,2PT Field Goal,0,Indiana Pacers,-1,2
+Golden State Warriors,3/29/17,2016,2,1,40,y,Cutting Finger Roll Layup Shot,2PT Field Goal,2,San Antonio Spurs,28,0
+Golden State Warriors,11/25/16,2016,3,10,59,y,Cutting Layup Shot,2PT Field Goal,1,Los Angeles Lakers,13,6
+Golden State Warriors,12/28/16,2016,3,3,54,y,Cutting Layup Shot,2PT Field Goal,1,Toronto Raptors,-9,8
+Golden State Warriors,3/28/17,2016,4,9,36,y,Cutting Layup Shot,2PT Field Goal,0,Houston Rockets,-4,-5
+Golden State Warriors,12/11/16,2016,4,3,34,y,Cutting Layup Shot,2PT Field Goal,1,Minnesota Timberwolves,14,7
+Golden State Warriors,12/10/16,2016,3,4,12,n,Cutting Layup Shot,2PT Field Goal,2,Memphis Grizzlies,-24,-6
+Golden State Warriors,2/27/17,2016,1,9,29,y,Cutting Layup Shot,2PT Field Goal,0,Philadelphia 76ers,-7,-6
+Golden State Warriors,3/6/17,2016,1,1,40,y,Cutting Layup Shot,2PT Field Goal,2,Atlanta Hawks,20,7
+Golden State Warriors,3/21/17,2016,1,8,40,y,Cutting Layup Shot,2PT Field Goal,1,Dallas Mavericks,12,-1
+Golden State Warriors,12/3/16,2016,3,9,14,y,Cutting Layup Shot,2PT Field Goal,1,Phoenix Suns,0,11
+Golden State Warriors,2/27/17,2016,4,5,51,y,Cutting Layup Shot,2PT Field Goal,1,Philadelphia 76ers,12,7
+Golden State Warriors,12/7/16,2016,1,3,8,y,Cutting Layup Shot,2PT Field Goal,2,Los Angeles Clippers,-7,21
+Golden State Warriors,3/16/17,2016,3,5,51,n,Cutting Layup Shot,2PT Field Goal,2,Orlando Magic,22,18
+Golden State Warriors,1/6/17,2016,1,8,39,y,Cutting Layup Shot,2PT Field Goal,1,Memphis Grizzlies,4,11
+Golden State Warriors,10/28/16,2016,3,3,12,y,Cutting Layup Shot,2PT Field Goal,1,New Orleans Pelicans,17,7
+Golden State Warriors,11/23/16,2016,3,2,55,y,Cutting Layup Shot,2PT Field Goal,1,Los Angeles Lakers,1,11
+Golden State Warriors,2/2/17,2016,4,6,16,y,Cutting Layup Shot,2PT Field Goal,2,Los Angeles Clippers,22,16
+Golden State Warriors,12/17/16,2016,1,3,20,y,Cutting Layup Shot,2PT Field Goal,2,Portland Trail Blazers,-1,23
+Golden State Warriors,12/20/16,2016,2,1,36,y,Cutting Layup Shot,2PT Field Goal,1,Utah Jazz,-1,16
+Golden State Warriors,11/25/16,2016,4,2,31,y,Cutting Layup Shot,2PT Field Goal,0,Los Angeles Lakers,8,-2
+Golden State Warriors,3/26/17,2016,3,8,9,n,Cutting Layup Shot,2PT Field Goal,2,Memphis Grizzlies,9,21
+Golden State Warriors,2/10/17,2016,1,2,41,y,Cutting Layup Shot,2PT Field Goal,2,Memphis Grizzlies,24,7
+Golden State Warriors,1/28/17,2016,1,11,22,y,Cutting Layup Shot,2PT Field Goal,1,Los Angeles Clippers,-7,16
+Golden State Warriors,12/25/16,2016,4,4,28,y,Cutting Layup Shot,2PT Field Goal,0,Cleveland Cavaliers,1,-5
+Golden State Warriors,11/19/16,2016,3,8,3,y,Cutting Layup Shot,2PT Field Goal,0,Milwaukee Bucks,0,7
+Golden State Warriors,11/23/16,2016,2,2,41,y,Cutting Layup Shot,2PT Field Goal,1,Los Angeles Lakers,10,16
+Golden State Warriors,2/15/17,2016,1,9,28,y,Cutting Layup Shot,2PT Field Goal,1,Sacramento Kings,6,16
+Golden State Warriors,12/7/16,2016,1,7,6,y,Cutting Layup Shot,2PT Field Goal,2,Los Angeles Clippers,25,2
+Golden State Warriors,12/7/16,2016,2,4,38,y,Cutting Layup Shot,2PT Field Goal,2,Los Angeles Clippers,6,21
+Golden State Warriors,11/21/16,2016,3,6,46,y,Driving Bank shot,2PT Field Goal,11,Indiana Pacers,-110,36
+Golden State Warriors,1/6/17,2016,4,1,20,y,Driving Bank shot,2PT Field Goal,6,Memphis Grizzlies,-43,46
+Golden State Warriors,11/26/16,2016,1,2,41,y,Driving Bank shot,2PT Field Goal,3,Minnesota Timberwolves,12,31
+Golden State Warriors,2/2/17,2016,1,4,7,y,Driving Bank shot,2PT Field Goal,5,Los Angeles Clippers,-52,18
+Golden State Warriors,11/13/16,2016,2,5,30,y,Driving Bank shot,2PT Field Goal,11,Phoenix Suns,-70,85
+Golden State Warriors,11/9/16,2016,2,8,42,y,Driving Finger Roll Layup Shot,2PT Field Goal,1,Dallas Mavericks,10,16
+Golden State Warriors,1/4/17,2016,1,5,53,y,Driving Finger Roll Layup Shot,2PT Field Goal,2,Portland Trail Blazers,-7,26
+Golden State Warriors,11/18/16,2016,2,1,52,y,Driving Finger Roll Layup Shot,2PT Field Goal,2,Boston Celtics,-25,7
+Golden State Warriors,11/18/16,2016,4,0,48,y,Driving Finger Roll Layup Shot,2PT Field Goal,1,Boston Celtics,-9,16
+Golden State Warriors,11/13/16,2016,3,1,6,y,Driving Finger Roll Layup Shot,2PT Field Goal,2,Phoenix Suns,-1,21
+Golden State Warriors,3/29/17,2016,3,5,22,y,Driving Finger Roll Layup Shot,2PT Field Goal,1,San Antonio Spurs,9,-5
+Golden State Warriors,1/2/17,2016,1,2,24,n,Driving Finger Roll Layup Shot,2PT Field Goal,2,Denver Nuggets,17,11
+Golden State Warriors,2/25/17,2016,4,2,59,y,Driving Finger Roll Layup Shot,2PT Field Goal,3,Brooklyn Nets,20,23
+Golden State Warriors,11/16/16,2016,1,7,22,y,Driving Finger Roll Layup Shot,2PT Field Goal,3,Toronto Raptors,-29,11
+Golden State Warriors,4/4/17,2016,1,10,16,n,Driving Finger Roll Layup Shot,2PT Field Goal,3,Minnesota Timberwolves,22,26
+Golden State Warriors,2/23/17,2016,3,1,52,y,Driving Finger Roll Layup Shot,2PT Field Goal,2,Los Angeles Clippers,-12,16
+Golden State Warriors,3/29/17,2016,1,1,49,n,Driving Finger Roll Layup Shot,2PT Field Goal,0,San Antonio Spurs,-2,8
+Golden State Warriors,12/28/16,2016,4,0,13,y,Driving Finger Roll Layup Shot,2PT Field Goal,1,Toronto Raptors,0,16
+Golden State Warriors,12/20/16,2016,1,1,0,n,Driving Finger Roll Layup Shot,2PT Field Goal,2,Utah Jazz,-9,28
+Golden State Warriors,11/26/16,2016,3,2,9,y,Driving Finger Roll Layup Shot,2PT Field Goal,2,Minnesota Timberwolves,0,26
+Golden State Warriors,11/26/16,2016,4,5,3,y,Driving Finger Roll Layup Shot,2PT Field Goal,1,Minnesota Timberwolves,6,16
+Golden State Warriors,12/30/16,2016,1,7,31,y,Driving Finger Roll Layup Shot,2PT Field Goal,0,Dallas Mavericks,2,7
+Golden State Warriors,12/20/16,2016,1,1,49,y,Driving Finger Roll Layup Shot,2PT Field Goal,2,Utah Jazz,2,21
+Golden State Warriors,3/29/17,2016,2,0,49,y,Driving Finger Roll Layup Shot,2PT Field Goal,1,San Antonio Spurs,-19,2
+Golden State Warriors,11/19/16,2016,4,2,47,y,Driving Finger Roll Layup Shot,2PT Field Goal,1,Milwaukee Bucks,15,7
+Golden State Warriors,11/18/16,2016,3,7,18,y,Driving Finger Roll Layup Shot,2PT Field Goal,1,Boston Celtics,9,-5
+Golden State Warriors,2/27/17,2016,3,0,25,y,Driving Finger Roll Layup Shot,2PT Field Goal,1,Philadelphia 76ers,0,16
+Golden State Warriors,3/31/17,2016,3,3,28,y,Driving Finger Roll Layup Shot,2PT Field Goal,2,Houston Rockets,-1,21
+Golden State Warriors,12/11/16,2016,2,0,29,n,Driving Finger Roll Layup Shot,2PT Field Goal,3,Minnesota Timberwolves,24,31
+Golden State Warriors,3/16/17,2016,3,0,54,y,Driving Finger Roll Layup Shot,2PT Field Goal,2,Orlando Magic,19,18
+Golden State Warriors,12/8/16,2016,3,7,36,y,Driving Finger Roll Layup Shot,2PT Field Goal,2,Utah Jazz,22,0
+Golden State Warriors,12/5/16,2016,2,1,10,y,Driving Finger Roll Layup Shot,2PT Field Goal,0,Indiana Pacers,0,8
+Golden State Warriors,1/16/17,2016,1,4,57,n,Driving Finger Roll Layup Shot,2PT Field Goal,2,Cleveland Cavaliers,-1,26
+Golden State Warriors,3/31/17,2016,3,9,15,y,Driving Finger Roll Layup Shot,2PT Field Goal,1,Houston Rockets,12,7
+Golden State Warriors,11/3/16,2016,1,8,59,y,Driving Finger Roll Layup Shot,2PT Field Goal,1,Oklahoma City Thunder,-4,16
+Golden State Warriors,2/2/17,2016,3,11,6,y,Driving Floating Bank Jump Shot,2PT Field Goal,8,Los Angeles Clippers,76,44
+Golden State Warriors,2/28/17,2016,2,2,28,y,Driving Floating Bank Jump Shot,2PT Field Goal,3,Washington Wizards,30,21
+Golden State Warriors,3/29/17,2016,4,4,43,n,Driving Floating Bank Jump Shot,2PT Field Goal,10,San Antonio Spurs,97,31
+Golden State Warriors,11/1/16,2016,2,0,1,n,Driving Floating Jump Shot,2PT Field Goal,15,Portland Trail Blazers,-53,149
+Golden State Warriors,2/11/17,2016,4,5,27,n,Driving Floating Jump Shot,2PT Field Goal,3,Oklahoma City Thunder,25,21
+Golden State Warriors,11/28/16,2016,4,4,6,n,Driving Floating Jump Shot,2PT Field Goal,10,Atlanta Hawks,-93,49
+Golden State Warriors,3/2/17,2016,1,6,16,y,Driving Floating Jump Shot,2PT Field Goal,3,Chicago Bulls,4,38
+Golden State Warriors,12/20/16,2016,2,5,29,n,Driving Floating Jump Shot,2PT Field Goal,11,Utah Jazz,92,70
+Golden State Warriors,10/25/16,2016,2,4,58,y,Driving Floating Jump Shot,2PT Field Goal,7,San Antonio Spurs,-16,70
+Golden State Warriors,11/1/16,2016,1,6,45,n,Driving Floating Jump Shot,2PT Field Goal,14,Portland Trail Blazers,51,134
+Golden State Warriors,12/28/16,2016,1,8,46,y,Driving Floating Jump Shot,2PT Field Goal,12,Toronto Raptors,60,115
+Golden State Warriors,10/30/16,2016,4,10,0,n,Driving Floating Jump Shot,2PT Field Goal,7,Phoenix Suns,-16,72
+Golden State Warriors,3/24/17,2016,3,4,34,n,Driving Floating Jump Shot,2PT Field Goal,5,Sacramento Kings,6,51
+Golden State Warriors,11/28/16,2016,4,3,29,y,Driving Floating Jump Shot,2PT Field Goal,4,Atlanta Hawks,-4,46
+Golden State Warriors,11/1/16,2016,3,6,19,n,Driving Floating Jump Shot,2PT Field Goal,6,Portland Trail Blazers,66,13
+Golden State Warriors,4/4/17,2016,2,2,11,n,Driving Floating Jump Shot,2PT Field Goal,6,Minnesota Timberwolves,20,57
+Golden State Warriors,12/3/16,2016,3,1,36,y,Driving Floating Jump Shot,2PT Field Goal,5,Phoenix Suns,-7,51
+Golden State Warriors,10/25/16,2016,4,6,46,y,Driving Floating Jump Shot,2PT Field Goal,4,San Antonio Spurs,2,41
+Golden State Warriors,12/28/16,2016,3,1,36,y,Driving Floating Jump Shot,2PT Field Goal,10,Toronto Raptors,-92,51
+Golden State Warriors,11/3/16,2016,1,5,1,n,Driving Floating Jump Shot,2PT Field Goal,8,Oklahoma City Thunder,-34,82
+Golden State Warriors,1/6/17,2016,1,10,56,y,Driving Hook Shot,2PT Field Goal,4,Memphis Grizzlies,27,31
+Golden State Warriors,11/7/16,2016,3,1,11,n,Driving Hook Shot,2PT Field Goal,5,New Orleans Pelicans,2,57
+Golden State Warriors,1/2/17,2016,2,1,11,n,Driving Hook Shot,2PT Field Goal,2,Denver Nuggets,4,26
+Golden State Warriors,11/18/16,2016,1,7,28,y,Driving Hook Shot,2PT Field Goal,6,Boston Celtics,-27,56
+Golden State Warriors,3/5/17,2016,1,1,56,y,Driving Layup Shot,2PT Field Goal,2,New York Knicks,-29,0
+Golden State Warriors,11/4/16,2016,1,9,44,y,Driving Layup Shot,2PT Field Goal,0,Los Angeles Lakers,1,1
+Golden State Warriors,1/2/17,2016,1,0,53,y,Driving Layup Shot,2PT Field Goal,1,Denver Nuggets,1,11
+Golden State Warriors,3/5/17,2016,3,4,38,y,Driving Layup Shot,2PT Field Goal,1,New York Knicks,-12,3
+Golden State Warriors,11/4/16,2016,1,8,4,y,Driving Layup Shot,2PT Field Goal,1,Los Angeles Lakers,-18,1
+Golden State Warriors,3/28/17,2016,2,3,53,y,Driving Layup Shot,2PT Field Goal,0,Houston Rockets,-2,2
+Golden State Warriors,11/16/16,2016,3,8,1,y,Driving Layup Shot,2PT Field Goal,1,Toronto Raptors,-19,2
+Golden State Warriors,10/28/16,2016,4,1,47,y,Driving Layup Shot,2PT Field Goal,0,New Orleans Pelicans,4,8
+Golden State Warriors,12/28/16,2016,2,2,43,y,Driving Layup Shot,2PT Field Goal,0,Toronto Raptors,-2,2
+Golden State Warriors,2/28/17,2016,3,4,58,y,Driving Layup Shot,2PT Field Goal,1,Washington Wizards,-6,8
+Golden State Warriors,12/13/16,2016,1,1,8,y,Driving Layup Shot,2PT Field Goal,2,New Orleans Pelicans,-22,3
+Golden State Warriors,12/13/16,2016,3,10,42,y,Driving Layup Shot,2PT Field Goal,1,New Orleans Pelicans,12,8
+Golden State Warriors,11/9/16,2016,3,1,23,y,Driving Layup Shot,2PT Field Goal,2,Dallas Mavericks,0,28
+Golden State Warriors,11/28/16,2016,4,6,33,n,Driving Layup Shot,2PT Field Goal,0,Atlanta Hawks,4,7
+Golden State Warriors,12/23/16,2016,4,3,48,y,Driving Layup Shot,2PT Field Goal,0,Detroit Pistons,-1,3
+Golden State Warriors,1/20/17,2016,3,4,10,n,Driving Layup Shot,2PT Field Goal,2,Houston Rockets,17,11
+Golden State Warriors,12/23/16,2016,2,4,46,n,Driving Layup Shot,2PT Field Goal,0,Detroit Pistons,-2,-1
+Golden State Warriors,1/18/17,2016,1,7,8,y,Driving Layup Shot,2PT Field Goal,2,Oklahoma City Thunder,-1,26
+Golden State Warriors,3/2/17,2016,1,0,21,y,Driving Layup Shot,2PT Field Goal,0,Chicago Bulls,8,5
+Golden State Warriors,3/26/17,2016,2,1,44,y,Driving Layup Shot,2PT Field Goal,1,Memphis Grizzlies,2,18
+Golden State Warriors,1/18/17,2016,1,2,51,y,Driving Layup Shot,2PT Field Goal,2,Oklahoma City Thunder,-11,26
+Golden State Warriors,2/10/17,2016,3,4,40,y,Driving Layup Shot,2PT Field Goal,0,Memphis Grizzlies,4,2
+Golden State Warriors,3/2/17,2016,4,7,41,y,Driving Layup Shot,2PT Field Goal,1,Chicago Bulls,-14,2
+Golden State Warriors,2/1/17,2016,3,6,17,y,Driving Layup Shot,2PT Field Goal,1,Charlotte Hornets,-7,11
+Golden State Warriors,2/11/17,2016,3,6,48,y,Driving Layup Shot,2PT Field Goal,2,Oklahoma City Thunder,28,0
+Golden State Warriors,2/13/17,2016,3,4,42,n,Driving Layup Shot,2PT Field Goal,2,Denver Nuggets,-29,-1
+Golden State Warriors,10/30/16,2016,1,4,2,n,Driving Layup Shot,2PT Field Goal,2,Phoenix Suns,19,7
+Golden State Warriors,2/8/17,2016,2,1,20,n,Driving Layup Shot,2PT Field Goal,2,Chicago Bulls,0,21
+Golden State Warriors,12/30/16,2016,1,2,6,n,Driving Layup Shot,2PT Field Goal,2,Dallas Mavericks,-20,19
+Golden State Warriors,2/28/17,2016,3,1,45,y,Driving Layup Shot,2PT Field Goal,1,Washington Wizards,15,7
+Golden State Warriors,2/11/17,2016,3,2,5,y,Driving Layup Shot,2PT Field Goal,0,Oklahoma City Thunder,0,7
+Golden State Warriors,1/22/17,2016,1,0,0,n,Driving Layup Shot,2PT Field Goal,1,Orlando Magic,-12,8
+Golden State Warriors,10/25/16,2016,3,1,16,y,Driving Layup Shot,2PT Field Goal,1,San Antonio Spurs,9,13
+Golden State Warriors,2/4/17,2016,1,2,7,y,Driving Layup Shot,2PT Field Goal,3,Sacramento Kings,-20,28
+Golden State Warriors,1/8/17,2016,3,1,59,y,Driving Layup Shot,2PT Field Goal,2,Sacramento Kings,24,8
+Golden State Warriors,3/2/17,2016,4,6,46,y,Driving Layup Shot,2PT Field Goal,1,Chicago Bulls,14,3
+Golden State Warriors,3/20/17,2016,1,1,29,n,Driving Layup Shot,2PT Field Goal,0,Oklahoma City Thunder,-4,3
+Golden State Warriors,10/25/16,2016,2,3,34,y,Driving Layup Shot,2PT Field Goal,0,San Antonio Spurs,-1,7
+Golden State Warriors,12/11/16,2016,3,10,22,n,Driving Layup Shot,2PT Field Goal,1,Minnesota Timberwolves,12,7
+Golden State Warriors,12/11/16,2016,1,1,14,y,Driving Layup Shot,2PT Field Goal,2,Minnesota Timberwolves,6,21
+Golden State Warriors,3/18/17,2016,2,0,38,y,Driving Layup Shot,2PT Field Goal,1,Milwaukee Bucks,1,13
+Golden State Warriors,2/27/17,2016,3,8,3,n,Driving Layup Shot,2PT Field Goal,1,Philadelphia 76ers,19,2
+Golden State Warriors,12/15/16,2016,2,7,40,n,Driving Layup Shot,2PT Field Goal,1,New York Knicks,9,8
+Golden State Warriors,11/13/16,2016,2,2,6,y,Driving Layup Shot,2PT Field Goal,2,Phoenix Suns,0,21
+Golden State Warriors,2/27/17,2016,4,3,42,y,Driving Layup Shot,2PT Field Goal,1,Philadelphia 76ers,-9,16
+Golden State Warriors,2/27/17,2016,2,4,51,y,Driving Layup Shot,2PT Field Goal,1,Philadelphia 76ers,10,11
+Golden State Warriors,2/4/17,2016,2,1,36,y,Driving Layup Shot,2PT Field Goal,2,Sacramento Kings,28,2
+Golden State Warriors,11/26/16,2016,3,1,48,y,Driving Layup Shot,2PT Field Goal,2,Minnesota Timberwolves,9,18
+Golden State Warriors,3/2/17,2016,4,1,27,n,Driving Layup Shot,2PT Field Goal,2,Chicago Bulls,9,21
+Golden State Warriors,3/2/17,2016,2,2,38,y,Driving Layup Shot,2PT Field Goal,0,Chicago Bulls,9,3
+Golden State Warriors,1/28/17,2016,3,9,46,y,Driving Layup Shot,2PT Field Goal,1,Los Angeles Clippers,9,7
+Golden State Warriors,3/29/17,2016,4,2,8,y,Driving Layup Shot,2PT Field Goal,1,San Antonio Spurs,-6,8
+Golden State Warriors,1/25/17,2016,4,4,48,y,Driving Layup Shot,2PT Field Goal,1,Charlotte Hornets,-12,3
+Golden State Warriors,1/25/17,2016,1,5,29,y,Driving Layup Shot,2PT Field Goal,1,Charlotte Hornets,-14,7
+Golden State Warriors,1/6/17,2016,1,3,33,y,Driving Layup Shot,2PT Field Goal,2,Memphis Grizzlies,14,23
+Golden State Warriors,12/7/16,2016,1,2,10,y,Driving Layup Shot,2PT Field Goal,2,Los Angeles Clippers,20,18
+Golden State Warriors,1/28/17,2016,2,4,40,n,Driving Layup Shot,2PT Field Goal,2,Los Angeles Clippers,20,16
+Golden State Warriors,3/5/17,2016,3,1,23,y,Driving Layup Shot,2PT Field Goal,0,New York Knicks,-6,3
+Golden State Warriors,10/25/16,2016,3,3,35,y,Driving Reverse Layup Shot,2PT Field Goal,0,San Antonio Spurs,8,5
+Golden State Warriors,2/25/17,2016,4,4,45,n,Driving Reverse Layup Shot,2PT Field Goal,3,Brooklyn Nets,2,31
+Golden State Warriors,12/3/16,2016,2,0,28,y,Driving Reverse Layup Shot,2PT Field Goal,1,Phoenix Suns,10,13
+Golden State Warriors,3/18/17,2016,3,5,16,n,Driving Reverse Layup Shot,2PT Field Goal,1,Milwaukee Bucks,-11,7
+Golden State Warriors,12/28/16,2016,4,5,24,y,Driving Reverse Layup Shot,2PT Field Goal,1,Toronto Raptors,-12,11
+Golden State Warriors,11/3/16,2016,3,2,58,y,Driving Reverse Layup Shot,2PT Field Goal,1,Oklahoma City Thunder,-9,16
+Golden State Warriors,11/3/16,2016,1,9,54,y,Driving Reverse Layup Shot,2PT Field Goal,1,Oklahoma City Thunder,-6,11
+Golden State Warriors,1/6/17,2016,1,5,35,y,Driving Reverse Layup Shot,2PT Field Goal,1,Memphis Grizzlies,10,11
+Golden State Warriors,3/2/17,2016,3,11,22,n,Driving Reverse Layup Shot,2PT Field Goal,2,Chicago Bulls,24,11
+Golden State Warriors,1/20/17,2016,1,10,37,y,Driving Reverse Layup Shot,2PT Field Goal,1,Houston Rockets,15,11
+Golden State Warriors,1/25/17,2016,3,1,45,y,Driving Reverse Layup Shot,2PT Field Goal,0,Charlotte Hornets,-7,0
+Golden State Warriors,1/22/17,2016,1,4,18,y,Driving Reverse Layup Shot,2PT Field Goal,2,Orlando Magic,28,7
+Golden State Warriors,3/6/17,2016,4,1,59,y,Driving Reverse Layup Shot,2PT Field Goal,1,Atlanta Hawks,19,2
+Golden State Warriors,3/16/17,2016,3,3,14,y,Driving Reverse Layup Shot,2PT Field Goal,1,Orlando Magic,-7,13
+Golden State Warriors,1/18/17,2016,4,2,13,y,Driving Reverse Layup Shot,2PT Field Goal,1,Oklahoma City Thunder,-2,13
+Golden State Warriors,11/13/16,2016,1,1,48,n,Driving Reverse Layup Shot,2PT Field Goal,2,Phoenix Suns,-7,21
+Golden State Warriors,1/2/17,2016,3,3,6,y,Driving Reverse Layup Shot,2PT Field Goal,1,Denver Nuggets,1,18
+Golden State Warriors,1/4/17,2016,3,8,18,y,Driving Reverse Layup Shot,2PT Field Goal,0,Portland Trail Blazers,9,2
+Golden State Warriors,11/16/16,2016,1,5,11,y,Driving Reverse Layup Shot,2PT Field Goal,3,Toronto Raptors,-34,8
+Golden State Warriors,1/28/17,2016,1,0,33,y,Driving Reverse Layup Shot,2PT Field Goal,0,Los Angeles Clippers,-4,2
+Golden State Warriors,3/14/17,2016,3,6,0,n,Driving Reverse Layup Shot,2PT Field Goal,1,Philadelphia 76ers,9,7
+Golden State Warriors,11/23/16,2016,3,3,49,n,Driving Reverse Layup Shot,2PT Field Goal,2,Los Angeles Lakers,17,21
+Golden State Warriors,1/18/17,2016,3,4,21,y,Driving Reverse Layup Shot,2PT Field Goal,0,Oklahoma City Thunder,-2,3
+Golden State Warriors,3/29/17,2016,3,0,8,y,Dunk Shot,2PT Field Goal,0,San Antonio Spurs,0,1
+Golden State Warriors,11/1/16,2016,2,1,23,n,Fadeaway Jump Shot,2PT Field Goal,21,Portland Trail Blazers,-125,174
+Golden State Warriors,12/8/16,2016,3,9,21,n,Fadeaway Jump Shot,2PT Field Goal,8,Utah Jazz,-81,11
+Golden State Warriors,12/22/16,2016,1,4,50,y,Fadeaway Jump Shot,2PT Field Goal,14,Brooklyn Nets,-140,36
+Golden State Warriors,3/28/17,2016,1,7,28,n,Fadeaway Jump Shot,2PT Field Goal,8,Houston Rockets,1,80
+Golden State Warriors,11/18/16,2016,4,1,13,y,Fadeaway Jump Shot,3PT Field Goal,23,Boston Celtics,233,57
+Golden State Warriors,11/3/16,2016,3,6,1,y,Fadeaway Jump Shot,3PT Field Goal,26,Oklahoma City Thunder,218,144
+Golden State Warriors,3/18/17,2016,1,0,3,y,Fadeaway Jump Shot,3PT Field Goal,26,Milwaukee Bucks,-223,139
+Golden State Warriors,11/10/16,2016,3,3,25,y,Fadeaway Jump Shot,3PT Field Goal,28,Denver Nuggets,-205,195
+Golden State Warriors,3/24/17,2016,3,9,49,y,Finger Roll Layup Shot,2PT Field Goal,2,Sacramento Kings,-22,18
+Golden State Warriors,1/16/17,2016,1,11,41,y,Finger Roll Layup Shot,2PT Field Goal,2,Cleveland Cavaliers,-20,16
+Golden State Warriors,12/11/16,2016,2,0,19,y,Finger Roll Layup Shot,2PT Field Goal,1,Minnesota Timberwolves,-11,16
+Golden State Warriors,12/8/16,2016,1,3,55,y,Floating Jump shot,2PT Field Goal,20,Utah Jazz,-102,178
+Golden State Warriors,3/20/17,2016,2,5,18,n,Floating Jump shot,2PT Field Goal,4,Oklahoma City Thunder,1,41
+Golden State Warriors,12/1/16,2016,1,10,48,y,Floating Jump shot,2PT Field Goal,12,Houston Rockets,-45,115
+Golden State Warriors,3/2/17,2016,4,6,4,y,Floating Jump shot,2PT Field Goal,18,Chicago Bulls,-186,-1
+Golden State Warriors,11/13/16,2016,3,0,7,n,Floating Jump shot,2PT Field Goal,10,Phoenix Suns,33,101
+Golden State Warriors,10/30/16,2016,1,8,55,y,Floating Jump shot,2PT Field Goal,7,Phoenix Suns,58,47
+Golden State Warriors,11/3/16,2016,3,5,29,n,Floating Jump shot,2PT Field Goal,4,Oklahoma City Thunder,-34,36
+Golden State Warriors,4/4/17,2016,3,2,52,n,Floating Jump shot,2PT Field Goal,21,Minnesota Timberwolves,-156,143
+Golden State Warriors,2/2/17,2016,2,0,44,n,Floating Jump shot,2PT Field Goal,9,Los Angeles Clippers,14,92
+Golden State Warriors,3/14/17,2016,3,4,46,n,Floating Jump shot,2PT Field Goal,9,Philadelphia 76ers,-1,97
+Golden State Warriors,12/17/16,2016,2,5,32,n,Floating Jump shot,2PT Field Goal,7,Portland Trail Blazers,-9,70
+Golden State Warriors,3/16/17,2016,3,7,55,y,Floating Jump shot,2PT Field Goal,5,Orlando Magic,0,51
+Golden State Warriors,11/23/16,2016,1,3,19,y,Floating Jump shot,2PT Field Goal,4,Los Angeles Lakers,-34,36
+Golden State Warriors,12/3/16,2016,3,0,2,n,Floating Jump shot,2PT Field Goal,9,Phoenix Suns,93,34
+Golden State Warriors,3/24/17,2016,1,8,36,y,Floating Jump shot,2PT Field Goal,15,Sacramento Kings,-17,159
+Golden State Warriors,1/4/17,2016,3,11,15,n,Floating Jump shot,2PT Field Goal,18,Portland Trail Blazers,87,159
+Golden State Warriors,11/19/16,2016,1,5,25,y,Floating Jump shot,2PT Field Goal,9,Milwaukee Bucks,74,62
+Golden State Warriors,1/4/17,2016,3,4,25,y,Floating Jump shot,2PT Field Goal,8,Portland Trail Blazers,-1,82
+Golden State Warriors,11/19/16,2016,1,3,12,n,Floating Jump shot,2PT Field Goal,5,Milwaukee Bucks,50,7
+Golden State Warriors,1/4/17,2016,2,3,21,y,Floating Jump shot,2PT Field Goal,6,Portland Trail Blazers,-14,61
+Golden State Warriors,11/26/16,2016,1,3,14,y,Floating Jump shot,2PT Field Goal,9,Minnesota Timberwolves,96,21
+Golden State Warriors,11/26/16,2016,3,2,55,y,Floating Jump shot,2PT Field Goal,8,Minnesota Timberwolves,4,85
+Golden State Warriors,2/23/17,2016,2,3,27,n,Floating Jump shot,2PT Field Goal,6,Los Angeles Clippers,-14,65
+Golden State Warriors,3/6/17,2016,3,6,16,n,Floating Jump shot,2PT Field Goal,8,Atlanta Hawks,-86,26
+Golden State Warriors,11/26/16,2016,1,8,14,y,Floating Jump shot,2PT Field Goal,14,Minnesota Timberwolves,-73,129
+Golden State Warriors,11/9/16,2016,4,9,34,y,Floating Jump shot,2PT Field Goal,13,Dallas Mavericks,89,105
+Golden State Warriors,1/6/17,2016,3,0,4,y,Floating Jump shot,2PT Field Goal,13,Memphis Grizzlies,59,121
+Golden State Warriors,1/8/17,2016,1,6,8,n,Floating Jump shot,2PT Field Goal,9,Sacramento Kings,66,65
+Golden State Warriors,11/7/16,2016,4,1,28,n,Floating Jump shot,2PT Field Goal,5,New Orleans Pelicans,-1,57
+Golden State Warriors,12/5/16,2016,1,1,41,n,Floating Jump shot,2PT Field Goal,4,Indiana Pacers,-27,36
+Golden State Warriors,11/26/16,2016,1,0,57,y,Floating Jump shot,2PT Field Goal,9,Minnesota Timberwolves,87,31
+Golden State Warriors,2/10/17,2016,1,3,50,y,Floating Jump shot,2PT Field Goal,11,Memphis Grizzlies,-53,100
+Golden State Warriors,12/3/16,2016,1,0,2,n,Floating Jump shot,2PT Field Goal,12,Phoenix Suns,4,126
+Golden State Warriors,11/7/16,2016,3,7,43,n,Floating Jump shot,2PT Field Goal,12,New Orleans Pelicans,40,115
+Golden State Warriors,2/8/17,2016,3,3,14,y,Floating Jump shot,2PT Field Goal,13,Chicago Bulls,-55,120
+Golden State Warriors,12/3/16,2016,3,3,46,y,Floating Jump shot,2PT Field Goal,10,Phoenix Suns,92,41
+Golden State Warriors,2/27/17,2016,1,0,0,n,Hook Shot,2PT Field Goal,5,Philadelphia 76ers,56,16
+Golden State Warriors,3/16/17,2016,3,11,36,y,Jump Bank Shot,3PT Field Goal,26,Orlando Magic,112,244
+Golden State Warriors,2/13/17,2016,3,4,19,n,Jump Bank Shot,2PT Field Goal,16,Denver Nuggets,-125,105
+Golden State Warriors,1/25/17,2016,1,10,18,n,Jump Bank Shot,2PT Field Goal,6,Charlotte Hornets,63,8
+Golden State Warriors,3/29/17,2016,1,6,17,n,Jump Bank Shot,2PT Field Goal,11,San Antonio Spurs,117,26
+Golden State Warriors,3/31/17,2016,3,5,31,n,Jump Shot,3PT Field Goal,27,Houston Rockets,171,213
+Golden State Warriors,1/22/17,2016,2,1,3,y,Jump Shot,3PT Field Goal,23,Orlando Magic,-230,11
+Golden State Warriors,11/4/16,2016,2,2,33,n,Jump Shot,3PT Field Goal,25,Los Angeles Lakers,-170,194
+Golden State Warriors,11/4/16,2016,2,8,42,n,Jump Shot,3PT Field Goal,24,Los Angeles Lakers,-246,-6
+Golden State Warriors,11/4/16,2016,2,6,23,n,Jump Shot,3PT Field Goal,25,Los Angeles Lakers,-116,223
+Golden State Warriors,11/4/16,2016,1,11,11,n,Jump Shot,3PT Field Goal,25,Los Angeles Lakers,-196,168
+Golden State Warriors,11/4/16,2016,3,8,49,n,Jump Shot,3PT Field Goal,25,Los Angeles Lakers,-85,243
+Golden State Warriors,11/4/16,2016,3,4,30,n,Jump Shot,3PT Field Goal,26,Los Angeles Lakers,-245,94
+Golden State Warriors,11/4/16,2016,4,4,38,n,Jump Shot,3PT Field Goal,25,Los Angeles Lakers,-122,223
+Golden State Warriors,11/4/16,2016,1,5,12,n,Jump Shot,2PT Field Goal,20,Los Angeles Lakers,-202,41
+Golden State Warriors,11/4/16,2016,1,11,4,n,Jump Shot,3PT Field Goal,25,Los Angeles Lakers,-232,114
+Golden State Warriors,3/2/17,2016,3,6,28,y,Jump Shot,3PT Field Goal,25,Chicago Bulls,122,223
+Golden State Warriors,3/2/17,2016,4,6,8,n,Jump Shot,2PT Field Goal,6,Chicago Bulls,-60,13
+Golden State Warriors,3/2/17,2016,4,4,44,n,Jump Shot,3PT Field Goal,25,Chicago Bulls,-135,213
+Golden State Warriors,3/2/17,2016,2,3,13,y,Jump Shot,3PT Field Goal,23,Chicago Bulls,-233,-21
+Golden State Warriors,11/10/16,2016,2,4,49,n,Jump Shot,3PT Field Goal,25,Denver Nuggets,-147,208
+Golden State Warriors,11/10/16,2016,3,0,1,n,Jump Shot,3PT Field Goal,29,Denver Nuggets,155,247
+Golden State Warriors,11/10/16,2016,3,7,2,n,Jump Shot,3PT Field Goal,23,Denver Nuggets,-237,-11
+Golden State Warriors,11/10/16,2016,3,4,12,y,Jump Shot,3PT Field Goal,29,Denver Nuggets,-176,232
+Golden State Warriors,11/10/16,2016,2,1,38,n,Jump Shot,3PT Field Goal,24,Denver Nuggets,-243,-11
+Golden State Warriors,11/10/16,2016,3,3,3,n,Jump Shot,3PT Field Goal,33,Denver Nuggets,107,321
+Golden State Warriors,11/10/16,2016,3,10,37,n,Jump Shot,2PT Field Goal,20,Denver Nuggets,207,11
+Golden State Warriors,11/10/16,2016,1,5,21,n,Jump Shot,3PT Field Goal,26,Denver Nuggets,-37,267
+Golden State Warriors,11/10/16,2016,1,6,32,y,Jump Shot,3PT Field Goal,25,Denver Nuggets,-147,208
+Golden State Warriors,11/10/16,2016,1,0,37,y,Jump Shot,3PT Field Goal,25,Denver Nuggets,-156,198
+Golden State Warriors,11/10/16,2016,3,6,32,y,Jump Shot,3PT Field Goal,25,Denver Nuggets,-201,149
+Golden State Warriors,12/15/16,2016,3,1,42,n,Jump Shot,2PT Field Goal,22,New York Knicks,-215,62
+Golden State Warriors,1/22/17,2016,3,10,51,n,Jump Shot,3PT Field Goal,23,Orlando Magic,236,11
+Golden State Warriors,1/22/17,2016,3,5,19,n,Jump Shot,3PT Field Goal,25,Orlando Magic,200,165
+Golden State Warriors,1/22/17,2016,3,1,30,y,Jump Shot,3PT Field Goal,22,Orlando Magic,-222,-11
+Golden State Warriors,1/22/17,2016,1,4,47,y,Jump Shot,3PT Field Goal,26,Orlando Magic,-97,244
+Golden State Warriors,1/22/17,2016,1,8,45,n,Jump Shot,3PT Field Goal,25,Orlando Magic,184,178
+Golden State Warriors,12/15/16,2016,2,11,35,n,Jump Shot,2PT Field Goal,4,New York Knicks,24,43
+Golden State Warriors,12/15/16,2016,1,10,13,n,Jump Shot,3PT Field Goal,27,New York Knicks,-197,195
+Golden State Warriors,12/15/16,2016,1,6,9,n,Jump Shot,3PT Field Goal,26,New York Knicks,-194,183
+Golden State Warriors,11/26/16,2016,3,0,3,n,Jump Shot,3PT Field Goal,27,Minnesota Timberwolves,-78,259
+Golden State Warriors,11/26/16,2016,4,3,47,n,Jump Shot,3PT Field Goal,26,Minnesota Timberwolves,-30,262
+Golden State Warriors,11/26/16,2016,1,7,59,n,Jump Shot,3PT Field Goal,31,Minnesota Timberwolves,-165,267
+Golden State Warriors,11/26/16,2016,3,9,30,y,Jump Shot,3PT Field Goal,28,Minnesota Timberwolves,-142,249
+Golden State Warriors,11/26/16,2016,3,0,35,y,Jump Shot,3PT Field Goal,29,Minnesota Timberwolves,-106,272
+Golden State Warriors,11/26/16,2016,1,1,44,n,Jump Shot,3PT Field Goal,27,Minnesota Timberwolves,-187,200
+Golden State Warriors,12/15/16,2016,3,3,25,n,Jump Shot,3PT Field Goal,26,New York Knicks,-2,262
+Golden State Warriors,12/15/16,2016,2,2,23,y,Jump Shot,3PT Field Goal,23,New York Knicks,230,16
+Golden State Warriors,12/15/16,2016,2,3,13,n,Jump Shot,3PT Field Goal,29,New York Knicks,-161,244
+Golden State Warriors,2/23/17,2016,3,0,30,y,Jump Shot,3PT Field Goal,27,Los Angeles Clippers,-199,188
+Golden State Warriors,2/23/17,2016,1,5,57,y,Jump Shot,2PT Field Goal,22,Los Angeles Clippers,-173,139
+Golden State Warriors,2/23/17,2016,1,11,4,y,Jump Shot,2PT Field Goal,17,Los Angeles Clippers,-174,16
+Golden State Warriors,10/28/16,2016,3,10,14,n,Jump Shot,2PT Field Goal,19,New Orleans Pelicans,-171,90
+Golden State Warriors,10/28/16,2016,4,1,22,n,Jump Shot,3PT Field Goal,26,New Orleans Pelicans,-55,257
+Golden State Warriors,10/28/16,2016,3,5,0,n,Jump Shot,3PT Field Goal,26,New Orleans Pelicans,-178,200
+Golden State Warriors,10/28/16,2016,1,8,57,n,Jump Shot,3PT Field Goal,25,New Orleans Pelicans,-156,203
+Golden State Warriors,10/28/16,2016,3,0,39,n,Jump Shot,3PT Field Goal,31,New Orleans Pelicans,64,306
+Golden State Warriors,10/28/16,2016,1,10,53,y,Jump Shot,3PT Field Goal,25,New Orleans Pelicans,-107,228
+Golden State Warriors,10/28/16,2016,2,6,36,y,Jump Shot,3PT Field Goal,26,New Orleans Pelicans,105,242
+Golden State Warriors,10/28/16,2016,3,0,56,y,Jump Shot,3PT Field Goal,29,New Orleans Pelicans,-138,262
+Golden State Warriors,10/28/16,2016,1,4,54,n,Jump Shot,3PT Field Goal,24,New Orleans Pelicans,19,247
+Golden State Warriors,10/28/16,2016,4,4,52,n,Jump Shot,3PT Field Goal,25,New Orleans Pelicans,135,218
+Golden State Warriors,10/28/16,2016,3,3,57,y,Jump Shot,3PT Field Goal,22,New Orleans Pelicans,-228,-1
+Golden State Warriors,2/23/17,2016,3,3,42,n,Jump Shot,3PT Field Goal,26,Los Angeles Clippers,163,205
+Golden State Warriors,2/23/17,2016,3,2,19,n,Jump Shot,3PT Field Goal,25,Los Angeles Clippers,-192,165
+Golden State Warriors,2/23/17,2016,3,11,28,n,Jump Shot,3PT Field Goal,25,Los Angeles Clippers,182,174
+Golden State Warriors,1/4/17,2016,2,4,5,y,Jump Shot,3PT Field Goal,24,Portland Trail Blazers,102,228
+Golden State Warriors,11/18/16,2016,2,4,22,n,Jump Shot,3PT Field Goal,26,Boston Celtics,-14,262
+Golden State Warriors,1/4/17,2016,1,4,27,n,Jump Shot,3PT Field Goal,24,Portland Trail Blazers,63,239
+Golden State Warriors,3/26/17,2016,4,4,57,y,Jump Shot,3PT Field Goal,24,Memphis Grizzlies,-19,247
+Golden State Warriors,3/26/17,2016,1,4,36,n,Jump Shot,3PT Field Goal,26,Memphis Grizzlies,-176,200
+Golden State Warriors,2/11/17,2016,1,0,0,n,Jump Shot,3PT Field Goal,44,Oklahoma City Thunder,64,439
+Golden State Warriors,2/11/17,2016,3,2,9,n,Jump Shot,2PT Field Goal,6,Oklahoma City Thunder,-20,61
+Golden State Warriors,2/11/17,2016,3,0,0,n,Jump Shot,3PT Field Goal,45,Oklahoma City Thunder,91,442
+Golden State Warriors,2/11/17,2016,1,1,46,n,Jump Shot,3PT Field Goal,24,Oklahoma City Thunder,174,174
+Golden State Warriors,2/11/17,2016,2,1,26,n,Jump Shot,3PT Field Goal,22,Oklahoma City Thunder,225,31
+Golden State Warriors,12/3/16,2016,3,3,5,n,Jump Shot,2PT Field Goal,8,Phoenix Suns,-29,80
+Golden State Warriors,12/3/16,2016,2,4,51,n,Jump Shot,3PT Field Goal,27,Phoenix Suns,69,267
+Golden State Warriors,12/3/16,2016,1,2,23,y,Jump Shot,3PT Field Goal,25,Phoenix Suns,-168,193
+Golden State Warriors,12/3/16,2016,3,4,43,y,Jump Shot,3PT Field Goal,25,Phoenix Suns,-209,154
+Golden State Warriors,12/3/16,2016,1,0,38,y,Jump Shot,3PT Field Goal,23,Phoenix Suns,-228,61
+Golden State Warriors,12/3/16,2016,3,2,30,y,Jump Shot,3PT Field Goal,26,Phoenix Suns,115,237
+Golden State Warriors,12/3/16,2016,3,10,29,n,Jump Shot,3PT Field Goal,26,Phoenix Suns,-112,237
+Golden State Warriors,12/22/16,2016,3,6,45,n,Jump Shot,2PT Field Goal,11,Brooklyn Nets,114,26
+Golden State Warriors,12/22/16,2016,1,6,58,n,Jump Shot,3PT Field Goal,24,Brooklyn Nets,-125,213
+Golden State Warriors,12/22/16,2016,2,5,23,n,Jump Shot,2PT Field Goal,16,Brooklyn Nets,86,144
+Golden State Warriors,12/22/16,2016,1,2,51,n,Jump Shot,3PT Field Goal,23,Brooklyn Nets,-232,-19
+Golden State Warriors,12/22/16,2016,1,2,6,n,Jump Shot,3PT Field Goal,25,Brooklyn Nets,150,205
+Golden State Warriors,12/22/16,2016,1,1,40,n,Jump Shot,3PT Field Goal,23,Brooklyn Nets,-222,77
+Golden State Warriors,12/22/16,2016,1,1,6,y,Jump Shot,3PT Field Goal,22,Brooklyn Nets,227,-1
+Golden State Warriors,12/22/16,2016,1,0,1,n,Jump Shot,3PT Field Goal,47,Brooklyn Nets,9,478
+Golden State Warriors,12/22/16,2016,4,4,12,y,Jump Shot,3PT Field Goal,27,Brooklyn Nets,-179,203
+Golden State Warriors,12/22/16,2016,2,0,22,n,Jump Shot,3PT Field Goal,23,Brooklyn Nets,-233,41
+Golden State Warriors,12/22/16,2016,3,10,49,y,Jump Shot,3PT Field Goal,24,Brooklyn Nets,94,223
+Golden State Warriors,12/22/16,2016,3,10,15,n,Jump Shot,3PT Field Goal,24,Brooklyn Nets,184,159
+Golden State Warriors,12/22/16,2016,4,6,22,n,Jump Shot,3PT Field Goal,24,Brooklyn Nets,-240,-6
+Golden State Warriors,12/22/16,2016,4,5,29,n,Jump Shot,3PT Field Goal,24,Brooklyn Nets,94,228
+Golden State Warriors,12/22/16,2016,2,0,1,n,Jump Shot,3PT Field Goal,44,Brooklyn Nets,48,442
+Golden State Warriors,11/18/16,2016,1,3,2,n,Jump Shot,3PT Field Goal,25,Boston Celtics,138,218
+Golden State Warriors,1/4/17,2016,2,3,42,n,Jump Shot,2PT Field Goal,20,Portland Trail Blazers,37,200
+Golden State Warriors,11/18/16,2016,4,6,18,n,Jump Shot,3PT Field Goal,23,Boston Celtics,235,21
+Golden State Warriors,11/18/16,2016,1,2,0,n,Jump Shot,3PT Field Goal,25,Boston Celtics,135,218
+Golden State Warriors,11/18/16,2016,2,0,0,n,Jump Shot,3PT Field Goal,43,Boston Celtics,-181,395
+Golden State Warriors,11/18/16,2016,3,1,46,n,Jump Shot,3PT Field Goal,28,Boston Celtics,-204,193
+Golden State Warriors,11/18/16,2016,4,0,12,n,Jump Shot,3PT Field Goal,30,Boston Celtics,89,287
+Golden State Warriors,11/18/16,2016,4,6,55,n,Jump Shot,2PT Field Goal,19,Boston Celtics,-102,170
+Golden State Warriors,11/18/16,2016,1,2,39,n,Jump Shot,2PT Field Goal,14,Boston Celtics,-145,18
+Golden State Warriors,1/4/17,2016,3,3,40,y,Jump Shot,3PT Field Goal,23,Portland Trail Blazers,228,46
+Golden State Warriors,1/4/17,2016,3,3,46,n,Jump Shot,3PT Field Goal,22,Portland Trail Blazers,223,21
+Golden State Warriors,1/4/17,2016,1,0,55,n,Jump Shot,3PT Field Goal,26,Portland Trail Blazers,-109,244
+Golden State Warriors,1/4/17,2016,1,0,0,n,Jump Shot,3PT Field Goal,71,Portland Trail Blazers,140,704
+Golden State Warriors,1/4/17,2016,3,2,1,y,Jump Shot,2PT Field Goal,9,Portland Trail Blazers,-11,97
+Golden State Warriors,11/28/16,2016,4,0,56,n,Jump Shot,3PT Field Goal,26,Atlanta Hawks,25,264
+Golden State Warriors,11/28/16,2016,4,0,20,n,Jump Shot,3PT Field Goal,26,Atlanta Hawks,-104,249
+Golden State Warriors,1/4/17,2016,1,8,55,n,Jump Shot,3PT Field Goal,28,Portland Trail Blazers,22,282
+Golden State Warriors,1/4/17,2016,4,5,11,y,Jump Shot,2PT Field Goal,12,Portland Trail Blazers,1,129
+Golden State Warriors,1/4/17,2016,4,4,9,n,Jump Shot,3PT Field Goal,28,Portland Trail Blazers,-7,282
+Golden State Warriors,1/4/17,2016,4,3,9,y,Jump Shot,3PT Field Goal,22,Portland Trail Blazers,228,28
+Golden State Warriors,1/4/17,2016,1,11,22,y,Jump Shot,3PT Field Goal,25,Portland Trail Blazers,-29,252
+Golden State Warriors,1/4/17,2016,2,1,1,n,Jump Shot,3PT Field Goal,26,Portland Trail Blazers,-119,239
+Golden State Warriors,1/4/17,2016,2,0,59,n,Jump Shot,3PT Field Goal,26,Portland Trail Blazers,-142,219
+Golden State Warriors,1/4/17,2016,3,8,41,y,Jump Shot,3PT Field Goal,29,Portland Trail Blazers,148,254
+Golden State Warriors,1/4/17,2016,4,1,37,n,Jump Shot,2PT Field Goal,19,Portland Trail Blazers,17,198
+Golden State Warriors,1/4/17,2016,4,0,31,n,Jump Shot,2PT Field Goal,23,Portland Trail Blazers,37,234
+Golden State Warriors,12/17/16,2016,1,8,40,y,Jump Shot,3PT Field Goal,26,Portland Trail Blazers,-219,144
+Golden State Warriors,12/10/16,2016,2,3,52,n,Jump Shot,3PT Field Goal,25,Memphis Grizzlies,105,232
+Golden State Warriors,12/10/16,2016,2,5,35,y,Jump Shot,3PT Field Goal,25,Memphis Grizzlies,125,223
+Golden State Warriors,12/28/16,2016,1,5,51,n,Jump Shot,3PT Field Goal,27,Toronto Raptors,74,267
+Golden State Warriors,12/28/16,2016,1,0,4,n,Jump Shot,2PT Field Goal,8,Toronto Raptors,-20,80
+Golden State Warriors,12/28/16,2016,4,5,54,n,Jump Shot,2PT Field Goal,18,Toronto Raptors,115,139
+Golden State Warriors,12/28/16,2016,3,11,36,n,Jump Shot,2PT Field Goal,19,Toronto Raptors,-124,154
+Golden State Warriors,12/28/16,2016,3,8,52,n,Jump Shot,2PT Field Goal,18,Toronto Raptors,-16,183
+Golden State Warriors,11/28/16,2016,2,6,5,n,Jump Shot,3PT Field Goal,27,Atlanta Hawks,156,228
+Golden State Warriors,11/23/16,2016,2,0,42,n,Jump Shot,3PT Field Goal,26,Los Angeles Lakers,-196,174
+Golden State Warriors,1/25/17,2016,4,3,30,y,Jump Shot,3PT Field Goal,23,Charlotte Hornets,233,31
+Golden State Warriors,1/25/17,2016,3,4,53,y,Jump Shot,3PT Field Goal,24,Charlotte Hornets,69,237
+Golden State Warriors,11/28/16,2016,3,5,33,y,Jump Shot,3PT Field Goal,25,Atlanta Hawks,104,228
+Golden State Warriors,11/28/16,2016,1,10,32,y,Jump Shot,3PT Field Goal,25,Atlanta Hawks,-196,170
+Golden State Warriors,11/28/16,2016,1,6,58,n,Jump Shot,3PT Field Goal,25,Atlanta Hawks,82,242
+Golden State Warriors,11/28/16,2016,2,0,9,n,Jump Shot,2PT Field Goal,3,Atlanta Hawks,4,36
+Golden State Warriors,11/28/16,2016,1,4,42,n,Jump Shot,3PT Field Goal,26,Atlanta Hawks,191,188
+Golden State Warriors,3/26/17,2016,1,10,16,n,Jump Shot,3PT Field Goal,29,Memphis Grizzlies,-117,267
+Golden State Warriors,10/30/16,2016,1,11,26,y,Jump Shot,2PT Field Goal,17,Phoenix Suns,-169,61
+Golden State Warriors,3/26/17,2016,3,10,34,n,Jump Shot,3PT Field Goal,27,Memphis Grizzlies,-63,267
+Golden State Warriors,3/26/17,2016,1,1,23,y,Jump Shot,3PT Field Goal,27,Memphis Grizzlies,-209,185
+Golden State Warriors,3/26/17,2016,4,0,51,n,Jump Shot,3PT Field Goal,29,Memphis Grizzlies,133,262
+Golden State Warriors,3/26/17,2016,2,4,42,n,Jump Shot,2PT Field Goal,20,Memphis Grizzlies,-205,26
+Golden State Warriors,3/26/17,2016,1,9,55,y,Jump Shot,3PT Field Goal,23,Memphis Grizzlies,-235,8
+Golden State Warriors,3/26/17,2016,1,6,49,n,Jump Shot,3PT Field Goal,27,Memphis Grizzlies,-22,272
+Golden State Warriors,3/26/17,2016,3,0,58,n,Jump Shot,3PT Field Goal,26,Memphis Grizzlies,104,244
+Golden State Warriors,3/26/17,2016,1,0,7,n,Jump Shot,3PT Field Goal,25,Memphis Grizzlies,155,208
+Golden State Warriors,1/6/17,2016,4,0,0,n,Jump Shot,3PT Field Goal,34,Memphis Grizzlies,177,301
+Golden State Warriors,11/23/16,2016,2,0,0,n,Jump Shot,3PT Field Goal,59,Los Angeles Lakers,38,591
+Golden State Warriors,11/23/16,2016,2,5,3,y,Jump Shot,3PT Field Goal,26,Los Angeles Lakers,-38,262
+Golden State Warriors,11/23/16,2016,1,9,53,y,Jump Shot,3PT Field Goal,25,Los Angeles Lakers,-215,146
+Golden State Warriors,11/23/16,2016,1,6,8,n,Jump Shot,3PT Field Goal,26,Los Angeles Lakers,-22,262
+Golden State Warriors,11/23/16,2016,3,0,2,n,Jump Shot,3PT Field Goal,25,Los Angeles Lakers,153,203
+Golden State Warriors,11/23/16,2016,1,0,4,n,Jump Shot,2PT Field Goal,22,Los Angeles Lakers,127,185
+Golden State Warriors,11/23/16,2016,3,6,11,y,Jump Shot,3PT Field Goal,24,Los Angeles Lakers,232,65
+Golden State Warriors,11/23/16,2016,2,3,26,y,Jump Shot,3PT Field Goal,25,Los Angeles Lakers,-199,164
+Golden State Warriors,11/23/16,2016,3,4,58,n,Jump Shot,3PT Field Goal,25,Los Angeles Lakers,-176,183
+Golden State Warriors,11/23/16,2016,1,9,20,y,Jump Shot,3PT Field Goal,26,Los Angeles Lakers,94,252
+Golden State Warriors,10/30/16,2016,2,6,36,y,Jump Shot,3PT Field Goal,26,Phoenix Suns,235,120
+Golden State Warriors,10/30/16,2016,4,4,40,n,Jump Shot,3PT Field Goal,23,Phoenix Suns,-232,-21
+Golden State Warriors,10/30/16,2016,4,5,27,y,Jump Shot,2PT Field Goal,19,Phoenix Suns,-56,185
+Golden State Warriors,10/30/16,2016,1,10,14,y,Jump Shot,3PT Field Goal,25,Phoenix Suns,1,252
+Golden State Warriors,10/30/16,2016,1,8,22,y,Jump Shot,3PT Field Goal,25,Phoenix Suns,-147,214
+Golden State Warriors,11/7/16,2016,4,3,34,y,Jump Shot,3PT Field Goal,25,New Orleans Pelicans,-194,159
+Golden State Warriors,11/7/16,2016,1,7,29,y,Jump Shot,3PT Field Goal,30,New Orleans Pelicans,-196,228
+Golden State Warriors,11/7/16,2016,1,1,54,n,Jump Shot,2PT Field Goal,23,New Orleans Pelicans,-163,164
+Golden State Warriors,11/7/16,2016,3,1,41,y,Jump Shot,3PT Field Goal,26,New Orleans Pelicans,-91,252
+Golden State Warriors,11/7/16,2016,3,5,59,n,Jump Shot,3PT Field Goal,25,New Orleans Pelicans,-222,121
+Golden State Warriors,11/7/16,2016,2,3,14,n,Jump Shot,2PT Field Goal,7,New Orleans Pelicans,4,75
+Golden State Warriors,11/7/16,2016,2,0,0,n,Jump Shot,3PT Field Goal,55,New Orleans Pelicans,-153,535
+Golden State Warriors,11/7/16,2016,1,7,5,n,Jump Shot,3PT Field Goal,27,New Orleans Pelicans,-53,272
+Golden State Warriors,11/7/16,2016,4,2,54,y,Jump Shot,3PT Field Goal,25,New Orleans Pelicans,-89,237
+Golden State Warriors,1/16/17,2016,1,10,3,n,Jump Shot,3PT Field Goal,23,Cleveland Cavaliers,-228,33
+Golden State Warriors,1/25/17,2016,2,4,17,n,Jump Shot,3PT Field Goal,25,Charlotte Hornets,-63,247
+Golden State Warriors,3/14/17,2016,1,3,13,y,Jump Shot,3PT Field Goal,23,Philadelphia 76ers,-232,47
+Golden State Warriors,11/19/16,2016,2,3,46,n,Jump Shot,3PT Field Goal,26,Milwaukee Bucks,37,262
+Golden State Warriors,11/19/16,2016,3,4,20,n,Jump Shot,3PT Field Goal,22,Milwaukee Bucks,-227,31
+Golden State Warriors,2/13/17,2016,1,4,58,n,Jump Shot,3PT Field Goal,25,Denver Nuggets,45,252
+Golden State Warriors,11/19/16,2016,3,4,44,n,Jump Shot,3PT Field Goal,26,Milwaukee Bucks,-214,156
+Golden State Warriors,3/20/17,2016,1,10,52,y,Jump Shot,3PT Field Goal,26,Oklahoma City Thunder,-178,190
+Golden State Warriors,3/20/17,2016,3,4,55,n,Jump Shot,3PT Field Goal,23,Oklahoma City Thunder,227,56
+Golden State Warriors,12/10/16,2016,2,0,3,n,Jump Shot,3PT Field Goal,25,Memphis Grizzlies,64,242
+Golden State Warriors,12/10/16,2016,3,6,41,y,Jump Shot,3PT Field Goal,26,Memphis Grizzlies,105,244
+Golden State Warriors,12/10/16,2016,3,6,9,n,Jump Shot,3PT Field Goal,25,Memphis Grizzlies,68,242
+Golden State Warriors,12/10/16,2016,1,0,0,n,Jump Shot,3PT Field Goal,71,Memphis Grizzlies,4,717
+Golden State Warriors,12/10/16,2016,1,8,18,n,Jump Shot,3PT Field Goal,25,Memphis Grizzlies,-53,252
+Golden State Warriors,12/10/16,2016,3,1,33,y,Jump Shot,3PT Field Goal,25,Memphis Grizzlies,137,214
+Golden State Warriors,12/10/16,2016,3,0,36,n,Jump Shot,3PT Field Goal,25,Memphis Grizzlies,-106,234
+Golden State Warriors,3/20/17,2016,3,9,42,n,Jump Shot,3PT Field Goal,26,Oklahoma City Thunder,150,213
+Golden State Warriors,3/20/17,2016,1,9,13,n,Jump Shot,2PT Field Goal,15,Oklahoma City Thunder,-91,126
+Golden State Warriors,3/20/17,2016,2,0,0,y,Jump Shot,3PT Field Goal,24,Oklahoma City Thunder,110,224
+Golden State Warriors,3/20/17,2016,3,6,8,y,Jump Shot,3PT Field Goal,23,Oklahoma City Thunder,-9,239
+Golden State Warriors,1/16/17,2016,3,2,48,n,Jump Shot,2PT Field Goal,16,Cleveland Cavaliers,96,136
+Golden State Warriors,1/16/17,2016,1,8,30,n,Jump Shot,3PT Field Goal,25,Cleveland Cavaliers,-201,154
+Golden State Warriors,1/16/17,2016,3,1,28,n,Jump Shot,3PT Field Goal,25,Cleveland Cavaliers,195,165
+Golden State Warriors,1/16/17,2016,3,0,10,n,Jump Shot,2PT Field Goal,3,Cleveland Cavaliers,22,26
+Golden State Warriors,12/17/16,2016,1,4,8,n,Jump Shot,3PT Field Goal,26,Portland Trail Blazers,-220,139
+Golden State Warriors,12/17/16,2016,1,7,37,y,Jump Shot,3PT Field Goal,23,Portland Trail Blazers,223,87
+Golden State Warriors,11/19/16,2016,2,6,2,n,Jump Shot,3PT Field Goal,25,Milwaukee Bucks,-148,210
+Golden State Warriors,11/19/16,2016,1,6,30,n,Jump Shot,3PT Field Goal,26,Milwaukee Bucks,-197,178
+Golden State Warriors,11/19/16,2016,4,5,14,n,Jump Shot,3PT Field Goal,27,Milwaukee Bucks,-30,269
+Golden State Warriors,11/19/16,2016,3,2,16,n,Jump Shot,2PT Field Goal,9,Milwaukee Bucks,45,82
+Golden State Warriors,11/19/16,2016,4,1,14,n,Jump Shot,3PT Field Goal,27,Milwaukee Bucks,-9,272
+Golden State Warriors,11/19/16,2016,4,6,3,n,Jump Shot,3PT Field Goal,26,Milwaukee Bucks,-202,178
+Golden State Warriors,11/19/16,2016,3,3,13,y,Jump Shot,2PT Field Goal,21,Milwaukee Bucks,-212,-11
+Golden State Warriors,11/19/16,2016,2,1,33,y,Jump Shot,3PT Field Goal,23,Milwaukee Bucks,230,41
+Golden State Warriors,11/19/16,2016,1,11,21,n,Jump Shot,3PT Field Goal,25,Milwaukee Bucks,79,244
+Golden State Warriors,11/19/16,2016,3,9,25,n,Jump Shot,3PT Field Goal,28,Milwaukee Bucks,14,288
+Golden State Warriors,12/17/16,2016,2,5,9,n,Jump Shot,3PT Field Goal,24,Portland Trail Blazers,-6,247
+Golden State Warriors,1/16/17,2016,3,9,32,n,Jump Shot,2PT Field Goal,19,Cleveland Cavaliers,130,139
+Golden State Warriors,1/16/17,2016,3,8,10,n,Jump Shot,2PT Field Goal,3,Cleveland Cavaliers,17,26
+Golden State Warriors,1/16/17,2016,1,10,56,n,Jump Shot,3PT Field Goal,30,Cleveland Cavaliers,-19,301
+Golden State Warriors,1/16/17,2016,3,6,23,n,Jump Shot,3PT Field Goal,23,Cleveland Cavaliers,230,11
+Golden State Warriors,1/16/17,2016,3,0,1,n,Jump Shot,3PT Field Goal,25,Cleveland Cavaliers,-150,210
+Golden State Warriors,4/4/17,2016,1,9,55,n,Jump Shot,3PT Field Goal,26,Minnesota Timberwolves,119,232
+Golden State Warriors,1/6/17,2016,4,5,14,n,Jump Shot,3PT Field Goal,27,Memphis Grizzlies,166,214
+Golden State Warriors,1/6/17,2016,1,2,4,n,Jump Shot,2PT Field Goal,13,Memphis Grizzlies,73,116
+Golden State Warriors,1/6/17,2016,3,4,28,n,Jump Shot,3PT Field Goal,28,Memphis Grizzlies,166,234
+Golden State Warriors,1/6/17,2016,1,10,11,n,Jump Shot,3PT Field Goal,25,Memphis Grizzlies,91,234
+Golden State Warriors,1/6/17,2016,3,11,0,n,Jump Shot,2PT Field Goal,16,Memphis Grizzlies,-38,164
+Golden State Warriors,1/25/17,2016,1,1,57,n,Jump Shot,2PT Field Goal,14,Charlotte Hornets,127,75
+Golden State Warriors,1/25/17,2016,3,1,7,n,Jump Shot,3PT Field Goal,31,Charlotte Hornets,125,287
+Golden State Warriors,1/25/17,2016,3,11,34,n,Jump Shot,2PT Field Goal,16,Charlotte Hornets,74,144
+Golden State Warriors,1/25/17,2016,4,0,25,n,Jump Shot,3PT Field Goal,33,Charlotte Hornets,181,277
+Golden State Warriors,1/25/17,2016,1,1,4,n,Jump Shot,3PT Field Goal,31,Charlotte Hornets,-70,303
+Golden State Warriors,1/25/17,2016,3,0,0,n,Jump Shot,3PT Field Goal,67,Charlotte Hornets,-102,665
+Golden State Warriors,1/25/17,2016,1,1,32,y,Jump Shot,3PT Field Goal,30,Charlotte Hornets,145,272
+Golden State Warriors,1/25/17,2016,3,6,10,n,Jump Shot,3PT Field Goal,24,Charlotte Hornets,78,237
+Golden State Warriors,3/14/17,2016,3,10,46,n,Jump Shot,3PT Field Goal,24,Philadelphia 76ers,2,249
+Golden State Warriors,3/14/17,2016,3,6,28,n,Jump Shot,2PT Field Goal,2,Philadelphia 76ers,-10,24
+Golden State Warriors,3/14/17,2016,4,10,43,y,Jump Shot,3PT Field Goal,26,Philadelphia 76ers,73,254
+Golden State Warriors,3/14/17,2016,2,4,2,n,Jump Shot,2PT Field Goal,21,Philadelphia 76ers,140,169
+Golden State Warriors,3/14/17,2016,3,0,1,n,Jump Shot,3PT Field Goal,23,Philadelphia 76ers,230,31
+Golden State Warriors,3/14/17,2016,1,11,49,n,Jump Shot,3PT Field Goal,25,Philadelphia 76ers,37,249
+Golden State Warriors,3/14/17,2016,4,6,17,n,Jump Shot,3PT Field Goal,25,Philadelphia 76ers,176,190
+Golden State Warriors,3/14/17,2016,4,3,42,y,Jump Shot,3PT Field Goal,22,Philadelphia 76ers,-227,11
+Golden State Warriors,3/14/17,2016,2,3,15,n,Jump Shot,3PT Field Goal,32,Philadelphia 76ers,-179,267
+Golden State Warriors,3/14/17,2016,2,1,38,n,Jump Shot,3PT Field Goal,25,Philadelphia 76ers,-11,257
+Golden State Warriors,3/14/17,2016,3,8,17,n,Jump Shot,2PT Field Goal,5,Philadelphia 76ers,-11,51
+Golden State Warriors,3/14/17,2016,1,7,51,n,Jump Shot,3PT Field Goal,26,Philadelphia 76ers,46,264
+Golden State Warriors,4/4/17,2016,3,1,39,n,Jump Shot,3PT Field Goal,22,Minnesota Timberwolves,-225,16
+Golden State Warriors,4/4/17,2016,3,4,29,y,Jump Shot,3PT Field Goal,25,Minnesota Timberwolves,-147,214
+Golden State Warriors,4/4/17,2016,1,0,0,n,Jump Shot,3PT Field Goal,28,Minnesota Timberwolves,-178,228
+Golden State Warriors,4/4/17,2016,2,2,59,n,Jump Shot,3PT Field Goal,26,Minnesota Timberwolves,-205,169
+Golden State Warriors,4/4/17,2016,1,8,25,n,Jump Shot,3PT Field Goal,23,Minnesota Timberwolves,-232,61
+Golden State Warriors,4/4/17,2016,3,4,52,y,Jump Shot,3PT Field Goal,26,Minnesota Timberwolves,-2,262
+Golden State Warriors,4/4/17,2016,3,1,12,n,Jump Shot,2PT Field Goal,7,Minnesota Timberwolves,-20,75
+Golden State Warriors,3/28/17,2016,1,10,39,y,Jump Shot,3PT Field Goal,25,Houston Rockets,233,100
+Golden State Warriors,11/13/16,2016,3,11,28,n,Jump Shot,3PT Field Goal,25,Phoenix Suns,-192,170
+Golden State Warriors,11/13/16,2016,3,2,53,y,Jump Shot,3PT Field Goal,24,Phoenix Suns,28,247
+Golden State Warriors,11/13/16,2016,3,10,42,n,Jump Shot,2PT Field Goal,15,Phoenix Suns,53,146
+Golden State Warriors,11/13/16,2016,2,1,38,y,Jump Shot,3PT Field Goal,26,Phoenix Suns,-94,249
+Golden State Warriors,2/13/17,2016,3,11,37,n,Jump Shot,3PT Field Goal,23,Denver Nuggets,-233,-24
+Golden State Warriors,12/11/16,2016,3,5,58,y,Jump Shot,3PT Field Goal,25,Minnesota Timberwolves,0,252
+Golden State Warriors,10/25/16,2016,3,4,6,n,Jump Shot,3PT Field Goal,22,San Antonio Spurs,225,36
+Golden State Warriors,12/11/16,2016,3,0,2,n,Jump Shot,3PT Field Goal,25,Minnesota Timberwolves,140,213
+Golden State Warriors,12/11/16,2016,1,7,51,n,Jump Shot,3PT Field Goal,24,Minnesota Timberwolves,-166,183
+Golden State Warriors,12/11/16,2016,3,4,51,n,Jump Shot,3PT Field Goal,25,Minnesota Timberwolves,138,213
+Golden State Warriors,12/11/16,2016,1,3,24,n,Jump Shot,2PT Field Goal,19,Minnesota Timberwolves,99,169
+Golden State Warriors,12/11/16,2016,3,6,30,y,Jump Shot,3PT Field Goal,24,Minnesota Timberwolves,-127,214
+Golden State Warriors,10/25/16,2016,1,2,1,n,Jump Shot,2PT Field Goal,21,San Antonio Spurs,163,141
+Golden State Warriors,10/25/16,2016,3,0,50,y,Jump Shot,2PT Field Goal,22,San Antonio Spurs,-214,56
+Golden State Warriors,10/25/16,2016,1,9,2,n,Jump Shot,3PT Field Goal,28,San Antonio Spurs,130,257
+Golden State Warriors,10/25/16,2016,3,8,36,n,Jump Shot,3PT Field Goal,31,San Antonio Spurs,-169,262
+Golden State Warriors,10/25/16,2016,2,6,47,y,Jump Shot,3PT Field Goal,26,San Antonio Spurs,-9,267
+Golden State Warriors,10/25/16,2016,2,2,55,n,Jump Shot,3PT Field Goal,28,San Antonio Spurs,130,252
+Golden State Warriors,10/25/16,2016,3,5,8,n,Jump Shot,3PT Field Goal,29,San Antonio Spurs,-73,288
+Golden State Warriors,10/25/16,2016,1,2,23,n,Jump Shot,3PT Field Goal,27,San Antonio Spurs,159,229
+Golden State Warriors,11/21/16,2016,2,4,5,y,Jump Shot,3PT Field Goal,25,Indiana Pacers,179,178
+Golden State Warriors,11/21/16,2016,1,9,4,n,Jump Shot,3PT Field Goal,25,Indiana Pacers,-115,232
+Golden State Warriors,12/5/16,2016,2,4,13,n,Jump Shot,3PT Field Goal,24,Indiana Pacers,232,65
+Golden State Warriors,12/5/16,2016,1,0,25,n,Jump Shot,3PT Field Goal,25,Indiana Pacers,76,247
+Golden State Warriors,12/5/16,2016,1,0,1,n,Jump Shot,3PT Field Goal,55,Indiana Pacers,-191,516
+Golden State Warriors,12/5/16,2016,3,8,57,n,Jump Shot,3PT Field Goal,26,Indiana Pacers,81,257
+Golden State Warriors,11/1/16,2016,2,2,43,n,Jump Shot,3PT Field Goal,27,Portland Trail Blazers,82,264
+Golden State Warriors,12/1/16,2016,3,8,1,n,Jump Shot,3PT Field Goal,28,Houston Rockets,151,247
+Golden State Warriors,3/5/17,2016,3,10,56,y,Jump Shot,3PT Field Goal,26,New York Knicks,163,208
+Golden State Warriors,3/5/17,2016,3,10,24,n,Jump Shot,2PT Field Goal,3,New York Knicks,28,11
+Golden State Warriors,11/1/16,2016,1,8,37,n,Jump Shot,3PT Field Goal,27,Portland Trail Blazers,-99,252
+Golden State Warriors,3/5/17,2016,1,0,38,n,Jump Shot,3PT Field Goal,23,New York Knicks,232,-36
+Golden State Warriors,11/1/16,2016,1,9,51,n,Jump Shot,3PT Field Goal,23,Portland Trail Blazers,-230,3
+Golden State Warriors,11/1/16,2016,2,0,0,n,Jump Shot,3PT Field Goal,40,Portland Trail Blazers,6,404
+Golden State Warriors,11/1/16,2016,3,0,13,y,Jump Shot,3PT Field Goal,25,Portland Trail Blazers,104,229
+Golden State Warriors,11/1/16,2016,3,8,50,y,Jump Shot,3PT Field Goal,24,Portland Trail Blazers,81,232
+Golden State Warriors,3/5/17,2016,2,4,17,n,Jump Shot,3PT Field Goal,24,New York Knicks,240,-19
+Golden State Warriors,2/25/17,2016,1,9,15,y,Jump Shot,3PT Field Goal,25,Brooklyn Nets,94,232
+Golden State Warriors,2/25/17,2016,1,6,36,y,Jump Shot,3PT Field Goal,25,Brooklyn Nets,-125,219
+Golden State Warriors,2/25/17,2016,1,5,55,n,Jump Shot,2PT Field Goal,3,Brooklyn Nets,4,31
+Golden State Warriors,2/25/17,2016,1,3,8,n,Jump Shot,2PT Field Goal,7,Brooklyn Nets,-14,75
+Golden State Warriors,2/25/17,2016,3,4,48,n,Jump Shot,2PT Field Goal,20,Brooklyn Nets,2,203
+Golden State Warriors,2/25/17,2016,3,3,2,n,Jump Shot,3PT Field Goal,24,Brooklyn Nets,50,242
+Golden State Warriors,2/25/17,2016,2,5,36,n,Jump Shot,2PT Field Goal,3,Brooklyn Nets,-6,36
+Golden State Warriors,2/25/17,2016,2,0,0,y,Jump Shot,3PT Field Goal,25,Brooklyn Nets,-160,203
+Golden State Warriors,2/25/17,2016,4,3,47,n,Jump Shot,3PT Field Goal,25,Brooklyn Nets,137,219
+Golden State Warriors,2/25/17,2016,1,2,53,n,Jump Shot,3PT Field Goal,26,Brooklyn Nets,146,223
+Golden State Warriors,2/25/17,2016,1,1,41,y,Jump Shot,2PT Field Goal,18,Brooklyn Nets,-71,170
+Golden State Warriors,3/5/17,2016,2,0,0,n,Jump Shot,3PT Field Goal,61,New York Knicks,-155,594
+Golden State Warriors,12/30/16,2016,1,9,50,y,Jump Shot,3PT Field Goal,23,Dallas Mavericks,225,65
+Golden State Warriors,12/30/16,2016,1,7,58,n,Jump Shot,3PT Field Goal,29,Dallas Mavericks,-181,237
+Golden State Warriors,12/30/16,2016,1,4,2,y,Jump Shot,3PT Field Goal,26,Dallas Mavericks,151,218
+Golden State Warriors,12/30/16,2016,3,1,47,n,Jump Shot,3PT Field Goal,25,Dallas Mavericks,69,248
+Golden State Warriors,12/30/16,2016,1,0,43,y,Jump Shot,2PT Field Goal,21,Dallas Mavericks,-214,33
+Golden State Warriors,3/5/17,2016,1,6,27,n,Jump Shot,3PT Field Goal,24,New York Knicks,-240,-36
+Golden State Warriors,12/1/16,2016,3,1,47,n,Jump Shot,3PT Field Goal,23,Houston Rockets,232,57
+Golden State Warriors,12/1/16,2016,3,6,15,n,Jump Shot,3PT Field Goal,25,Houston Rockets,-115,228
+Golden State Warriors,12/1/16,2016,1,7,12,n,Jump Shot,3PT Field Goal,25,Houston Rockets,-66,249
+Golden State Warriors,12/1/16,2016,4,2,46,n,Jump Shot,3PT Field Goal,23,Houston Rockets,230,16
+Golden State Warriors,12/1/16,2016,4,1,10,n,Jump Shot,3PT Field Goal,26,Houston Rockets,89,252
+Golden State Warriors,12/1/16,2016,3,10,29,n,Jump Shot,2PT Field Goal,12,Houston Rockets,-9,121
+Golden State Warriors,12/1/16,2016,3,4,4,y,Jump Shot,3PT Field Goal,27,Houston Rockets,-84,262
+Golden State Warriors,2/13/17,2016,2,5,42,n,Jump Shot,2PT Field Goal,8,Denver Nuggets,51,70
+Golden State Warriors,2/13/17,2016,1,7,54,n,Jump Shot,3PT Field Goal,24,Denver Nuggets,204,144
+Golden State Warriors,2/13/17,2016,2,2,9,n,Jump Shot,3PT Field Goal,25,Denver Nuggets,-191,164
+Golden State Warriors,2/13/17,2016,1,0,5,n,Jump Shot,3PT Field Goal,24,Denver Nuggets,225,87
+Golden State Warriors,2/13/17,2016,1,10,48,n,Jump Shot,3PT Field Goal,24,Denver Nuggets,204,139
+Golden State Warriors,2/13/17,2016,3,8,25,n,Jump Shot,3PT Field Goal,24,Denver Nuggets,-6,242
+Golden State Warriors,2/13/17,2016,2,1,43,n,Jump Shot,3PT Field Goal,26,Denver Nuggets,-179,193
+Golden State Warriors,2/13/17,2016,3,9,44,n,Jump Shot,3PT Field Goal,24,Denver Nuggets,-114,219
+Golden State Warriors,2/13/17,2016,2,0,1,n,Jump Shot,3PT Field Goal,25,Denver Nuggets,-168,190
+Golden State Warriors,2/1/17,2016,1,10,22,y,Jump Shot,3PT Field Goal,25,Charlotte Hornets,-204,154
+Golden State Warriors,2/1/17,2016,1,11,38,y,Jump Shot,3PT Field Goal,26,Charlotte Hornets,-196,183
+Golden State Warriors,2/1/17,2016,1,1,4,n,Jump Shot,3PT Field Goal,26,Charlotte Hornets,112,237
+Golden State Warriors,2/1/17,2016,1,6,47,y,Jump Shot,3PT Field Goal,25,Charlotte Hornets,-210,151
+Golden State Warriors,2/1/17,2016,1,3,25,n,Jump Shot,3PT Field Goal,27,Charlotte Hornets,127,244
+Golden State Warriors,2/1/17,2016,3,8,36,n,Jump Shot,3PT Field Goal,26,Charlotte Hornets,138,228
+Golden State Warriors,2/1/17,2016,3,4,58,n,Jump Shot,3PT Field Goal,24,Charlotte Hornets,204,144
+Golden State Warriors,2/1/17,2016,3,9,8,n,Jump Shot,2PT Field Goal,20,Charlotte Hornets,-204,-5
+Golden State Warriors,2/1/17,2016,1,1,27,y,Jump Shot,3PT Field Goal,25,Charlotte Hornets,-196,169
+Golden State Warriors,3/5/17,2016,1,5,23,y,Jump Shot,2PT Field Goal,15,New York Knicks,-127,90
+Golden State Warriors,12/13/16,2016,4,0,47,n,Jump Shot,2PT Field Goal,20,New Orleans Pelicans,-178,105
+Golden State Warriors,12/13/16,2016,3,6,19,y,Jump Shot,2PT Field Goal,22,New Orleans Pelicans,146,169
+Golden State Warriors,1/18/17,2016,1,3,48,n,Jump Shot,3PT Field Goal,26,Oklahoma City Thunder,-138,232
+Golden State Warriors,1/18/17,2016,2,0,0,n,Jump Shot,3PT Field Goal,52,Oklahoma City Thunder,-19,522
+Golden State Warriors,1/18/17,2016,1,8,28,y,Jump Shot,3PT Field Goal,29,Oklahoma City Thunder,-6,291
+Golden State Warriors,1/18/17,2016,4,4,48,n,Jump Shot,3PT Field Goal,26,Oklahoma City Thunder,-14,269
+Golden State Warriors,1/18/17,2016,2,0,39,n,Jump Shot,3PT Field Goal,28,Oklahoma City Thunder,-43,283
+Golden State Warriors,1/18/17,2016,1,2,41,n,Jump Shot,2PT Field Goal,22,Oklahoma City Thunder,-117,193
+Golden State Warriors,1/18/17,2016,3,5,45,y,Jump Shot,3PT Field Goal,27,Oklahoma City Thunder,15,277
+Golden State Warriors,1/18/17,2016,1,9,32,n,Jump Shot,2PT Field Goal,7,Oklahoma City Thunder,-14,77
+Golden State Warriors,12/13/16,2016,3,2,55,n,Jump Shot,2PT Field Goal,14,New Orleans Pelicans,148,16
+Golden State Warriors,3/5/17,2016,2,5,48,y,Jump Shot,3PT Field Goal,23,New York Knicks,-88,222
+Golden State Warriors,11/16/16,2016,4,1,38,n,Jump Shot,3PT Field Goal,26,Toronto Raptors,232,121
+Golden State Warriors,3/28/17,2016,2,2,37,n,Jump Shot,3PT Field Goal,24,Houston Rockets,-237,41
+Golden State Warriors,11/9/16,2016,2,9,39,n,Jump Shot,3PT Field Goal,23,Dallas Mavericks,-233,2
+Golden State Warriors,12/23/16,2016,2,2,55,y,Jump Shot,3PT Field Goal,26,Detroit Pistons,-227,129
+Golden State Warriors,12/23/16,2016,2,4,14,n,Jump Shot,3PT Field Goal,24,Detroit Pistons,-192,159
+Golden State Warriors,12/23/16,2016,4,3,14,y,Jump Shot,3PT Field Goal,26,Detroit Pistons,-132,228
+Golden State Warriors,12/23/16,2016,4,2,34,n,Jump Shot,2PT Field Goal,17,Detroit Pistons,156,75
+Golden State Warriors,12/23/16,2016,3,1,21,n,Jump Shot,2PT Field Goal,17,Detroit Pistons,141,101
+Golden State Warriors,12/23/16,2016,1,0,59,y,Jump Shot,3PT Field Goal,23,Detroit Pistons,-237,8
+Golden State Warriors,12/23/16,2016,1,7,44,y,Jump Shot,2PT Field Goal,16,Detroit Pistons,27,165
+Golden State Warriors,12/23/16,2016,3,7,25,y,Jump Shot,3PT Field Goal,24,Detroit Pistons,236,80
+Golden State Warriors,12/23/16,2016,3,2,27,y,Jump Shot,3PT Field Goal,26,Detroit Pistons,225,139
+Golden State Warriors,12/23/16,2016,2,0,31,n,Jump Shot,3PT Field Goal,25,Detroit Pistons,-132,223
+Golden State Warriors,12/23/16,2016,3,8,47,n,Jump Shot,3PT Field Goal,25,Detroit Pistons,220,129
+Golden State Warriors,12/23/16,2016,3,10,50,n,Jump Shot,2PT Field Goal,10,Detroit Pistons,-7,100
+Golden State Warriors,12/23/16,2016,3,3,34,n,Jump Shot,3PT Field Goal,25,Detroit Pistons,213,141
+Golden State Warriors,11/9/16,2016,3,10,39,n,Jump Shot,3PT Field Goal,23,Dallas Mavericks,-237,2
+Golden State Warriors,11/9/16,2016,1,10,38,n,Jump Shot,3PT Field Goal,28,Dallas Mavericks,-207,195
+Golden State Warriors,11/9/16,2016,3,4,38,y,Jump Shot,3PT Field Goal,26,Dallas Mavericks,-14,267
+Golden State Warriors,12/25/16,2016,4,1,14,y,Jump Shot,3PT Field Goal,25,Cleveland Cavaliers,-228,116
+Golden State Warriors,12/13/16,2016,1,2,4,n,Jump Shot,3PT Field Goal,26,New Orleans Pelicans,194,183
+Golden State Warriors,12/13/16,2016,1,4,51,y,Jump Shot,3PT Field Goal,26,New Orleans Pelicans,-163,203
+Golden State Warriors,12/13/16,2016,3,9,40,y,Jump Shot,3PT Field Goal,26,New Orleans Pelicans,-209,165
+Golden State Warriors,12/13/16,2016,2,0,0,n,Jump Shot,3PT Field Goal,41,New Orleans Pelicans,-9,414
+Golden State Warriors,12/13/16,2016,1,4,16,y,Jump Shot,3PT Field Goal,23,New Orleans Pelicans,-233,41
+Golden State Warriors,12/13/16,2016,4,3,14,y,Jump Shot,2PT Field Goal,20,New Orleans Pelicans,-200,19
+Golden State Warriors,12/13/16,2016,1,2,29,y,Jump Shot,3PT Field Goal,26,New Orleans Pelicans,6,267
+Golden State Warriors,12/13/16,2016,4,4,33,n,Jump Shot,3PT Field Goal,25,New Orleans Pelicans,97,239
+Golden State Warriors,12/13/16,2016,3,5,18,n,Jump Shot,2PT Field Goal,15,New Orleans Pelicans,115,111
+Golden State Warriors,12/13/16,2016,1,5,17,n,Jump Shot,2PT Field Goal,13,New Orleans Pelicans,130,8
+Golden State Warriors,12/13/16,2016,1,11,23,n,Jump Shot,3PT Field Goal,25,New Orleans Pelicans,-165,190
+Golden State Warriors,12/13/16,2016,3,8,40,y,Jump Shot,3PT Field Goal,26,New Orleans Pelicans,89,249
+Golden State Warriors,12/13/16,2016,3,2,22,n,Jump Shot,2PT Field Goal,16,New Orleans Pelicans,150,56
+Golden State Warriors,3/28/17,2016,2,0,34,n,Jump Shot,3PT Field Goal,25,Houston Rockets,-20,254
+Golden State Warriors,3/21/17,2016,3,6,43,y,Jump Shot,3PT Field Goal,26,Dallas Mavericks,-124,237
+Golden State Warriors,3/21/17,2016,3,4,48,n,Jump Shot,3PT Field Goal,22,Dallas Mavericks,-225,41
+Golden State Warriors,12/7/16,2016,1,3,42,y,Jump Shot,2PT Field Goal,19,Los Angeles Clippers,-165,111
+Golden State Warriors,3/21/17,2016,1,4,17,n,Jump Shot,3PT Field Goal,27,Dallas Mavericks,146,228
+Golden State Warriors,3/21/17,2016,1,1,15,y,Jump Shot,3PT Field Goal,22,Dallas Mavericks,-227,2
+Golden State Warriors,3/21/17,2016,3,0,52,n,Jump Shot,3PT Field Goal,24,Dallas Mavericks,-201,139
+Golden State Warriors,3/21/17,2016,1,3,39,n,Jump Shot,3PT Field Goal,26,Dallas Mavericks,169,198
+Golden State Warriors,3/21/17,2016,3,1,15,y,Jump Shot,3PT Field Goal,25,Dallas Mavericks,-135,213
+Golden State Warriors,3/28/17,2016,4,11,1,n,Jump Shot,2PT Field Goal,14,Houston Rockets,61,129
+Golden State Warriors,3/28/17,2016,1,1,52,n,Jump Shot,3PT Field Goal,24,Houston Rockets,120,208
+Golden State Warriors,2/2/17,2016,1,1,25,n,Jump Shot,3PT Field Goal,23,Los Angeles Clippers,-230,-16
+Golden State Warriors,2/2/17,2016,2,4,34,n,Jump Shot,2PT Field Goal,21,Los Angeles Clippers,84,198
+Golden State Warriors,2/2/17,2016,4,3,8,n,Jump Shot,2PT Field Goal,19,Los Angeles Clippers,-191,7
+Golden State Warriors,2/2/17,2016,3,7,43,n,Jump Shot,3PT Field Goal,25,Los Angeles Clippers,133,223
+Golden State Warriors,2/2/17,2016,1,5,40,n,Jump Shot,3PT Field Goal,25,Los Angeles Clippers,-147,208
+Golden State Warriors,2/2/17,2016,4,3,27,n,Jump Shot,3PT Field Goal,26,Los Angeles Clippers,-202,164
+Golden State Warriors,2/2/17,2016,1,0,3,n,Jump Shot,3PT Field Goal,26,Los Angeles Clippers,-60,262
+Golden State Warriors,12/25/16,2016,4,5,31,n,Jump Shot,3PT Field Goal,25,Cleveland Cavaliers,195,159
+Golden State Warriors,12/7/16,2016,3,2,43,n,Jump Shot,3PT Field Goal,27,Los Angeles Clippers,-160,223
+Golden State Warriors,2/2/17,2016,3,2,18,n,Jump Shot,3PT Field Goal,26,Los Angeles Clippers,-38,267
+Golden State Warriors,3/28/17,2016,2,3,56,n,Jump Shot,3PT Field Goal,24,Houston Rockets,86,234
+Golden State Warriors,3/28/17,2016,2,4,34,y,Jump Shot,2PT Field Goal,21,Houston Rockets,-161,144
+Golden State Warriors,3/28/17,2016,4,10,18,y,Jump Shot,2PT Field Goal,13,Houston Rockets,135,3
+Golden State Warriors,3/28/17,2016,4,1,46,y,Jump Shot,3PT Field Goal,25,Houston Rockets,9,259
+Golden State Warriors,3/6/17,2016,4,4,10,y,Jump Shot,3PT Field Goal,23,Atlanta Hawks,-233,0
+Golden State Warriors,3/5/17,2016,3,7,18,n,Jump Shot,3PT Field Goal,24,New York Knicks,146,198
+Golden State Warriors,12/7/16,2016,1,2,28,n,Jump Shot,3PT Field Goal,23,Los Angeles Clippers,-230,3
+Golden State Warriors,3/5/17,2016,3,0,3,y,Jump Shot,3PT Field Goal,25,New York Knicks,-137,213
+Golden State Warriors,3/5/17,2016,2,1,4,y,Jump Shot,3PT Field Goal,24,New York Knicks,145,203
+Golden State Warriors,3/5/17,2016,1,7,12,n,Jump Shot,3PT Field Goal,24,New York Knicks,-174,174
+Golden State Warriors,11/21/16,2016,1,7,19,n,Jump Shot,3PT Field Goal,23,Indiana Pacers,-237,2
+Golden State Warriors,3/5/17,2016,1,10,54,n,Jump Shot,3PT Field Goal,25,New York Knicks,186,178
+Golden State Warriors,3/28/17,2016,4,8,28,n,Jump Shot,3PT Field Goal,24,Houston Rockets,110,219
+Golden State Warriors,3/28/17,2016,2,2,31,n,Jump Shot,3PT Field Goal,25,Houston Rockets,133,213
+Golden State Warriors,3/28/17,2016,2,2,54,n,Jump Shot,3PT Field Goal,24,Houston Rockets,-60,242
+Golden State Warriors,11/25/16,2016,3,3,20,n,Jump Shot,3PT Field Goal,24,Los Angeles Lakers,205,129
+Golden State Warriors,1/8/17,2016,1,3,30,y,Jump Shot,2PT Field Goal,16,Sacramento Kings,168,-1
+Golden State Warriors,12/7/16,2016,1,8,28,n,Jump Shot,3PT Field Goal,32,Los Angeles Clippers,-47,321
+Golden State Warriors,12/7/16,2016,4,2,56,n,Jump Shot,3PT Field Goal,26,Los Angeles Clippers,-94,247
+Golden State Warriors,12/7/16,2016,3,8,56,n,Jump Shot,3PT Field Goal,24,Los Angeles Clippers,240,3
+Golden State Warriors,12/7/16,2016,3,0,38,n,Jump Shot,2PT Field Goal,11,Los Angeles Clippers,-1,116
+Golden State Warriors,12/25/16,2016,1,2,7,n,Jump Shot,3PT Field Goal,26,Cleveland Cavaliers,-238,115
+Golden State Warriors,2/8/17,2016,2,3,21,n,Jump Shot,2PT Field Goal,15,Chicago Bulls,0,154
+Golden State Warriors,11/25/16,2016,4,6,58,y,Jump Shot,3PT Field Goal,24,Los Angeles Lakers,5,246
+Golden State Warriors,11/25/16,2016,2,1,46,n,Jump Shot,3PT Field Goal,24,Los Angeles Lakers,158,187
+Golden State Warriors,11/25/16,2016,1,5,36,y,Jump Shot,3PT Field Goal,23,Los Angeles Lakers,-237,1
+Golden State Warriors,11/25/16,2016,2,5,57,n,Jump Shot,2PT Field Goal,21,Los Angeles Lakers,147,153
+Golden State Warriors,11/25/16,2016,1,11,43,n,Jump Shot,3PT Field Goal,24,Los Angeles Lakers,150,192
+Golden State Warriors,11/25/16,2016,3,1,59,y,Jump Shot,3PT Field Goal,27,Los Angeles Lakers,122,241
+Golden State Warriors,11/25/16,2016,1,2,48,y,Jump Shot,3PT Field Goal,25,Los Angeles Lakers,-131,214
+Golden State Warriors,11/25/16,2016,1,1,33,n,Jump Shot,3PT Field Goal,31,Los Angeles Lakers,-95,305
+Golden State Warriors,12/25/16,2016,3,9,36,y,Jump Shot,2PT Field Goal,5,Cleveland Cavaliers,19,51
+Golden State Warriors,12/25/16,2016,2,0,0,n,Jump Shot,3PT Field Goal,26,Cleveland Cavaliers,-233,120
+Golden State Warriors,12/25/16,2016,2,4,15,y,Jump Shot,3PT Field Goal,24,Cleveland Cavaliers,-240,2
+Golden State Warriors,12/25/16,2016,3,8,43,n,Jump Shot,3PT Field Goal,25,Cleveland Cavaliers,138,213
+Golden State Warriors,12/8/16,2016,3,0,25,n,Jump Shot,3PT Field Goal,23,Utah Jazz,232,13
+Golden State Warriors,12/8/16,2016,1,1,54,n,Jump Shot,3PT Field Goal,24,Utah Jazz,220,115
+Golden State Warriors,12/8/16,2016,1,2,39,n,Jump Shot,3PT Field Goal,23,Utah Jazz,-73,228
+Golden State Warriors,12/8/16,2016,1,9,25,y,Jump Shot,3PT Field Goal,25,Utah Jazz,115,223
+Golden State Warriors,1/8/17,2016,4,4,1,n,Jump Shot,3PT Field Goal,24,Sacramento Kings,-168,178
+Golden State Warriors,1/8/17,2016,2,7,6,n,Jump Shot,3PT Field Goal,24,Sacramento Kings,48,237
+Golden State Warriors,1/8/17,2016,3,3,52,y,Jump Shot,3PT Field Goal,26,Sacramento Kings,137,223
+Golden State Warriors,1/8/17,2016,4,7,15,n,Jump Shot,2PT Field Goal,17,Sacramento Kings,-78,156
+Golden State Warriors,1/8/17,2016,3,2,31,n,Jump Shot,3PT Field Goal,22,Sacramento Kings,-227,18
+Golden State Warriors,1/8/17,2016,4,4,23,y,Jump Shot,2PT Field Goal,22,Sacramento Kings,16,222
+Golden State Warriors,1/8/17,2016,4,1,52,y,Jump Shot,3PT Field Goal,22,Sacramento Kings,-225,11
+Golden State Warriors,1/8/17,2016,4,1,37,n,Jump Shot,3PT Field Goal,25,Sacramento Kings,2,257
+Golden State Warriors,1/8/17,2016,1,8,38,y,Jump Shot,3PT Field Goal,25,Sacramento Kings,-140,219
+Golden State Warriors,1/8/17,2016,1,7,47,n,Jump Shot,3PT Field Goal,25,Sacramento Kings,204,156
+Golden State Warriors,1/8/17,2016,1,6,38,y,Jump Shot,3PT Field Goal,25,Sacramento Kings,-205,144
+Golden State Warriors,1/8/17,2016,1,1,2,n,Jump Shot,3PT Field Goal,23,Sacramento Kings,235,7
+Golden State Warriors,1/8/17,2016,1,0,2,n,Jump Shot,2PT Field Goal,18,Sacramento Kings,176,38
+Golden State Warriors,2/27/17,2016,3,0,52,n,Jump Shot,3PT Field Goal,23,Philadelphia 76ers,-232,-21
+Golden State Warriors,2/27/17,2016,4,5,19,n,Jump Shot,3PT Field Goal,26,Philadelphia 76ers,-138,228
+Golden State Warriors,2/27/17,2016,2,2,30,n,Jump Shot,3PT Field Goal,25,Philadelphia 76ers,-135,219
+Golden State Warriors,12/8/16,2016,3,2,59,n,Jump Shot,3PT Field Goal,23,Utah Jazz,-232,3
+Golden State Warriors,12/8/16,2016,3,5,28,n,Jump Shot,2PT Field Goal,20,Utah Jazz,-91,185
+Golden State Warriors,12/8/16,2016,2,0,1,n,Jump Shot,3PT Field Goal,28,Utah Jazz,194,208
+Golden State Warriors,12/8/16,2016,1,8,27,y,Jump Shot,3PT Field Goal,23,Utah Jazz,232,21
+Golden State Warriors,12/8/16,2016,1,6,29,y,Jump Shot,2PT Field Goal,23,Utah Jazz,-217,90
+Golden State Warriors,12/20/16,2016,3,10,45,n,Jump Shot,3PT Field Goal,25,Utah Jazz,73,247
+Golden State Warriors,1/20/17,2016,1,11,25,n,Jump Shot,3PT Field Goal,26,Houston Rockets,10,264
+Golden State Warriors,2/8/17,2016,1,9,29,y,Jump Shot,3PT Field Goal,23,Chicago Bulls,-232,7
+Golden State Warriors,2/8/17,2016,1,3,12,n,Jump Shot,3PT Field Goal,29,Chicago Bulls,43,296
+Golden State Warriors,2/8/17,2016,1,8,21,n,Jump Shot,3PT Field Goal,25,Chicago Bulls,-110,232
+Golden State Warriors,2/8/17,2016,3,9,36,n,Jump Shot,3PT Field Goal,25,Chicago Bulls,-9,252
+Golden State Warriors,2/8/17,2016,1,6,57,n,Jump Shot,2PT Field Goal,7,Chicago Bulls,-69,19
+Golden State Warriors,1/20/17,2016,1,1,58,n,Jump Shot,3PT Field Goal,25,Houston Rockets,-187,178
+Golden State Warriors,3/6/17,2016,3,9,39,y,Jump Shot,3PT Field Goal,25,Atlanta Hawks,-219,134
+Golden State Warriors,1/2/17,2016,3,2,10,n,Jump Shot,3PT Field Goal,29,Denver Nuggets,27,298
+Golden State Warriors,1/2/17,2016,3,8,35,n,Jump Shot,2PT Field Goal,19,Denver Nuggets,140,134
+Golden State Warriors,11/3/16,2016,1,6,3,n,Jump Shot,3PT Field Goal,25,Oklahoma City Thunder,-227,126
+Golden State Warriors,11/3/16,2016,3,2,27,n,Jump Shot,3PT Field Goal,31,Oklahoma City Thunder,-7,313
+Golden State Warriors,11/3/16,2016,2,6,48,n,Jump Shot,3PT Field Goal,25,Oklahoma City Thunder,82,244
+Golden State Warriors,11/3/16,2016,1,8,34,n,Jump Shot,3PT Field Goal,25,Oklahoma City Thunder,151,200
+Golden State Warriors,11/3/16,2016,1,4,16,n,Jump Shot,2PT Field Goal,3,Oklahoma City Thunder,17,26
+Golden State Warriors,12/20/16,2016,3,0,3,n,Jump Shot,3PT Field Goal,26,Utah Jazz,99,242
+Golden State Warriors,12/20/16,2016,1,8,13,n,Jump Shot,2PT Field Goal,19,Utah Jazz,127,149
+Golden State Warriors,12/20/16,2016,1,7,45,n,Jump Shot,3PT Field Goal,23,Utah Jazz,230,2
+Golden State Warriors,12/20/16,2016,1,2,51,n,Jump Shot,3PT Field Goal,26,Utah Jazz,-127,232
+Golden State Warriors,12/20/16,2016,1,0,38,n,Jump Shot,2PT Field Goal,18,Utah Jazz,-63,178
+Golden State Warriors,12/20/16,2016,3,7,30,n,Jump Shot,3PT Field Goal,24,Utah Jazz,-199,144
+Golden State Warriors,1/2/17,2016,2,3,6,n,Jump Shot,3PT Field Goal,27,Denver Nuggets,-53,273
+Golden State Warriors,1/20/17,2016,3,5,58,y,Jump Shot,3PT Field Goal,24,Houston Rockets,132,203
+Golden State Warriors,11/16/16,2016,2,4,39,y,Jump Shot,3PT Field Goal,24,Toronto Raptors,192,156
+Golden State Warriors,11/16/16,2016,3,1,4,y,Jump Shot,3PT Field Goal,26,Toronto Raptors,168,205
+Golden State Warriors,11/16/16,2016,1,10,29,n,Jump Shot,3PT Field Goal,25,Toronto Raptors,207,151
+Golden State Warriors,11/16/16,2016,3,0,34,y,Jump Shot,3PT Field Goal,25,Toronto Raptors,143,208
+Golden State Warriors,11/16/16,2016,3,3,12,n,Jump Shot,3PT Field Goal,26,Toronto Raptors,-147,219
+Golden State Warriors,11/16/16,2016,4,5,49,n,Jump Shot,2PT Field Goal,17,Toronto Raptors,155,82
+Golden State Warriors,11/16/16,2016,2,1,45,n,Jump Shot,3PT Field Goal,25,Toronto Raptors,150,203
+Golden State Warriors,11/21/16,2016,2,0,10,y,Jump Shot,3PT Field Goal,25,Indiana Pacers,215,139
+Golden State Warriors,11/21/16,2016,1,11,11,n,Jump Shot,2PT Field Goal,19,Indiana Pacers,-4,198
+Golden State Warriors,11/21/16,2016,3,5,55,y,Jump Shot,2PT Field Goal,21,Indiana Pacers,-99,190
+Golden State Warriors,11/21/16,2016,3,3,2,n,Jump Shot,3PT Field Goal,26,Indiana Pacers,-6,262
+Golden State Warriors,11/21/16,2016,2,5,32,n,Jump Shot,3PT Field Goal,24,Indiana Pacers,209,134
+Golden State Warriors,1/2/17,2016,3,5,25,n,Jump Shot,3PT Field Goal,26,Denver Nuggets,-9,264
+Golden State Warriors,1/20/17,2016,4,3,20,y,Jump Shot,3PT Field Goal,23,Houston Rockets,-233,36
+Golden State Warriors,1/20/17,2016,3,0,1,n,Jump Shot,3PT Field Goal,24,Houston Rockets,204,141
+Golden State Warriors,1/20/17,2016,3,9,22,n,Jump Shot,3PT Field Goal,26,Houston Rockets,-176,203
+Golden State Warriors,1/20/17,2016,3,6,14,y,Jump Shot,3PT Field Goal,28,Houston Rockets,14,283
+Golden State Warriors,1/20/17,2016,3,1,25,n,Jump Shot,3PT Field Goal,27,Houston Rockets,7,273
+Golden State Warriors,2/28/17,2016,3,9,9,y,Jump Shot,2PT Field Goal,19,Washington Wizards,-163,101
+Golden State Warriors,1/2/17,2016,4,0,29,n,Jump Shot,3PT Field Goal,24,Denver Nuggets,236,56
+Golden State Warriors,1/2/17,2016,1,6,14,y,Jump Shot,3PT Field Goal,25,Denver Nuggets,-166,193
+Golden State Warriors,3/16/17,2016,2,8,19,n,Jump Shot,3PT Field Goal,26,Orlando Magic,-173,203
+Golden State Warriors,1/28/17,2016,1,1,5,y,Jump Shot,3PT Field Goal,23,Los Angeles Clippers,-237,13
+Golden State Warriors,1/28/17,2016,3,1,28,y,Jump Shot,3PT Field Goal,29,Los Angeles Clippers,143,257
+Golden State Warriors,1/28/17,2016,3,1,5,n,Jump Shot,3PT Field Goal,23,Los Angeles Clippers,230,38
+Golden State Warriors,1/28/17,2016,1,1,34,n,Jump Shot,2PT Field Goal,19,Los Angeles Clippers,112,164
+Golden State Warriors,1/28/17,2016,3,2,45,y,Jump Shot,3PT Field Goal,27,Los Angeles Clippers,-168,223
+Golden State Warriors,1/28/17,2016,2,2,38,y,Jump Shot,3PT Field Goal,27,Los Angeles Clippers,-212,174
+Golden State Warriors,1/28/17,2016,1,2,10,n,Jump Shot,3PT Field Goal,25,Los Angeles Clippers,-37,252
+Golden State Warriors,1/28/17,2016,3,0,0,n,Jump Shot,3PT Field Goal,57,Los Angeles Clippers,33,570
+Golden State Warriors,1/28/17,2016,2,0,1,y,Jump Shot,3PT Field Goal,51,Los Angeles Clippers,-102,503
+Golden State Warriors,1/28/17,2016,1,5,34,n,Jump Shot,3PT Field Goal,25,Los Angeles Clippers,117,224
+Golden State Warriors,1/28/17,2016,3,5,41,y,Jump Shot,3PT Field Goal,25,Los Angeles Clippers,32,257
+Golden State Warriors,1/28/17,2016,3,6,58,n,Jump Shot,3PT Field Goal,26,Los Angeles Clippers,-66,259
+Golden State Warriors,1/28/17,2016,3,11,20,y,Jump Shot,2PT Field Goal,14,Los Angeles Clippers,-19,141
+Golden State Warriors,1/28/17,2016,3,3,7,y,Jump Shot,3PT Field Goal,30,Los Angeles Clippers,168,252
+Golden State Warriors,1/28/17,2016,1,0,5,n,Jump Shot,3PT Field Goal,26,Los Angeles Clippers,127,232
+Golden State Warriors,1/28/17,2016,3,0,24,y,Jump Shot,3PT Field Goal,25,Los Angeles Clippers,168,193
+Golden State Warriors,2/27/17,2016,3,9,1,n,Jump Shot,3PT Field Goal,26,Philadelphia 76ers,166,210
+Golden State Warriors,2/27/17,2016,2,3,18,n,Jump Shot,2PT Field Goal,13,Philadelphia 76ers,114,72
+Golden State Warriors,2/27/17,2016,1,2,52,n,Jump Shot,3PT Field Goal,27,Philadelphia 76ers,-210,174
+Golden State Warriors,2/27/17,2016,1,2,8,n,Jump Shot,3PT Field Goal,23,Philadelphia 76ers,236,-15
+Golden State Warriors,2/27/17,2016,2,5,51,n,Jump Shot,3PT Field Goal,26,Philadelphia 76ers,30,264
+Golden State Warriors,2/27/17,2016,1,1,14,n,Jump Shot,3PT Field Goal,25,Philadelphia 76ers,-192,169
+Golden State Warriors,2/27/17,2016,3,1,51,n,Jump Shot,2PT Field Goal,22,Philadelphia 76ers,169,151
+Golden State Warriors,2/27/17,2016,1,4,30,n,Jump Shot,3PT Field Goal,26,Philadelphia 76ers,-135,229
+Golden State Warriors,2/27/17,2016,3,2,50,n,Jump Shot,3PT Field Goal,24,Philadelphia 76ers,151,195
+Golden State Warriors,3/16/17,2016,3,0,1,n,Jump Shot,3PT Field Goal,63,Orlando Magic,0,639
+Golden State Warriors,3/16/17,2016,2,9,37,n,Jump Shot,3PT Field Goal,25,Orlando Magic,-220,129
+Golden State Warriors,3/16/17,2016,2,1,55,n,Jump Shot,3PT Field Goal,26,Orlando Magic,97,244
+Golden State Warriors,3/16/17,2016,3,11,3,n,Jump Shot,2PT Field Goal,21,Orlando Magic,110,188
+Golden State Warriors,11/4/16,2016,1,9,0,n,Jump Shot,3PT Field Goal,23,Los Angeles Lakers,-227,60
+Golden State Warriors,11/4/16,2016,4,7,16,n,Jump Shot,3PT Field Goal,24,Los Angeles Lakers,37,238
+Golden State Warriors,2/28/17,2016,3,1,3,y,Jump Shot,3PT Field Goal,26,Washington Wizards,-176,198
+Golden State Warriors,2/28/17,2016,3,4,30,n,Jump Shot,3PT Field Goal,22,Washington Wizards,-225,18
+Golden State Warriors,2/10/17,2016,4,4,56,n,Jump Shot,3PT Field Goal,25,Memphis Grizzlies,61,247
+Golden State Warriors,2/28/17,2016,3,7,8,n,Jump Shot,3PT Field Goal,29,Washington Wizards,122,269
+Golden State Warriors,2/28/17,2016,1,7,29,n,Jump Shot,3PT Field Goal,25,Washington Wizards,223,124
+Golden State Warriors,2/28/17,2016,1,10,22,n,Jump Shot,2PT Field Goal,21,Washington Wizards,173,129
+Golden State Warriors,2/28/17,2016,4,0,6,n,Jump Shot,3PT Field Goal,31,Washington Wizards,10,313
+Golden State Warriors,2/28/17,2016,2,2,7,n,Jump Shot,3PT Field Goal,28,Washington Wizards,207,193
+Golden State Warriors,2/28/17,2016,3,0,2,n,Jump Shot,3PT Field Goal,28,Washington Wizards,-155,239
+Golden State Warriors,2/28/17,2016,2,3,36,n,Jump Shot,3PT Field Goal,27,Washington Wizards,232,139
+Golden State Warriors,2/28/17,2016,2,5,5,n,Jump Shot,2PT Field Goal,12,Washington Wizards,58,115
+Golden State Warriors,2/28/17,2016,3,11,18,y,Jump Shot,3PT Field Goal,25,Washington Wizards,-215,134
+Golden State Warriors,3/29/17,2016,3,0,1,n,Jump Shot,3PT Field Goal,38,San Antonio Spurs,30,385
+Golden State Warriors,3/6/17,2016,3,0,45,y,Jump Shot,3PT Field Goal,25,Atlanta Hawks,217,141
+Golden State Warriors,3/6/17,2016,3,3,28,n,Jump Shot,3PT Field Goal,23,Atlanta Hawks,-233,18
+Golden State Warriors,3/6/17,2016,1,11,45,n,Jump Shot,3PT Field Goal,23,Atlanta Hawks,232,31
+Golden State Warriors,3/29/17,2016,3,9,21,y,Jump Shot,3PT Field Goal,26,San Antonio Spurs,173,203
+Golden State Warriors,3/29/17,2016,3,3,16,n,Jump Shot,3PT Field Goal,28,San Antonio Spurs,-34,282
+Golden State Warriors,3/29/17,2016,3,5,52,y,Jump Shot,3PT Field Goal,25,San Antonio Spurs,194,165
+Golden State Warriors,3/29/17,2016,3,7,34,y,Jump Shot,3PT Field Goal,25,San Antonio Spurs,197,165
+Golden State Warriors,2/4/17,2016,1,2,41,y,Jump Shot,3PT Field Goal,25,Sacramento Kings,-171,193
+Golden State Warriors,2/4/17,2016,1,11,4,n,Jump Shot,2PT Field Goal,20,Sacramento Kings,2,203
+Golden State Warriors,2/4/17,2016,1,8,25,n,Jump Shot,3PT Field Goal,26,Sacramento Kings,-76,252
+Golden State Warriors,2/4/17,2016,4,1,30,n,Jump Shot,3PT Field Goal,26,Sacramento Kings,187,188
+Golden State Warriors,2/4/17,2016,4,0,16,n,Jump Shot,3PT Field Goal,27,Sacramento Kings,-27,277
+Golden State Warriors,2/4/17,2016,3,0,0,y,Jump Shot,3PT Field Goal,29,Sacramento Kings,135,267
+Golden State Warriors,2/4/17,2016,2,0,0,n,Jump Shot,3PT Field Goal,26,Sacramento Kings,1,267
+Golden State Warriors,2/4/17,2016,1,0,18,n,Jump Shot,3PT Field Goal,25,Sacramento Kings,94,232
+Golden State Warriors,2/4/17,2016,4,6,1,n,Jump Shot,3PT Field Goal,26,Sacramento Kings,-140,224
+Golden State Warriors,2/4/17,2016,3,3,17,y,Jump Shot,3PT Field Goal,26,Sacramento Kings,120,237
+Golden State Warriors,2/4/17,2016,1,1,5,y,Jump Shot,3PT Field Goal,25,Sacramento Kings,-212,141
+Golden State Warriors,2/4/17,2016,4,3,38,y,Jump Shot,3PT Field Goal,25,Sacramento Kings,222,115
+Golden State Warriors,2/10/17,2016,2,2,44,y,Jump Shot,3PT Field Goal,23,Memphis Grizzlies,-232,11
+Golden State Warriors,2/15/17,2016,2,2,43,n,Jump Shot,3PT Field Goal,29,Sacramento Kings,109,272
+Golden State Warriors,2/15/17,2016,1,3,7,n,Jump Shot,3PT Field Goal,24,Sacramento Kings,0,242
+Golden State Warriors,2/15/17,2016,1,2,18,n,Jump Shot,3PT Field Goal,25,Sacramento Kings,155,208
+Golden State Warriors,2/15/17,2016,1,7,25,n,Jump Shot,2PT Field Goal,17,Sacramento Kings,94,149
+Golden State Warriors,2/15/17,2016,1,10,23,n,Jump Shot,2PT Field Goal,7,Sacramento Kings,-37,70
+Golden State Warriors,2/15/17,2016,3,0,32,n,Jump Shot,3PT Field Goal,28,Sacramento Kings,-30,287
+Golden State Warriors,2/15/17,2016,2,0,0,n,Jump Shot,3PT Field Goal,29,Sacramento Kings,133,262
+Golden State Warriors,2/15/17,2016,2,3,44,y,Jump Shot,3PT Field Goal,25,Sacramento Kings,-192,170
+Golden State Warriors,2/10/17,2016,1,4,47,n,Jump Shot,2PT Field Goal,20,Memphis Grizzlies,112,175
+Golden State Warriors,2/10/17,2016,2,4,0,n,Jump Shot,3PT Field Goal,25,Memphis Grizzlies,94,239
+Golden State Warriors,2/10/17,2016,1,1,7,y,Jump Shot,3PT Field Goal,23,Memphis Grizzlies,230,-16
+Golden State Warriors,2/10/17,2016,1,4,21,n,Jump Shot,3PT Field Goal,25,Memphis Grizzlies,-99,237
+Golden State Warriors,2/10/17,2016,1,0,48,n,Jump Shot,3PT Field Goal,25,Memphis Grizzlies,63,242
+Golden State Warriors,2/10/17,2016,1,9,12,n,Jump Shot,2PT Field Goal,20,Memphis Grizzlies,153,139
+Golden State Warriors,3/31/17,2016,3,2,40,y,Jump Shot,3PT Field Goal,25,Houston Rockets,207,144
+Golden State Warriors,3/18/17,2016,1,1,32,n,Jump Shot,3PT Field Goal,25,Milwaukee Bucks,120,228
+Golden State Warriors,3/24/17,2016,3,0,49,n,Jump Shot,2PT Field Goal,20,Sacramento Kings,-201,11
+Golden State Warriors,3/24/17,2016,1,2,26,y,Jump Shot,3PT Field Goal,26,Sacramento Kings,55,262
+Golden State Warriors,3/24/17,2016,2,3,33,n,Jump Shot,3PT Field Goal,22,Sacramento Kings,-228,11
+Golden State Warriors,3/24/17,2016,3,7,14,y,Jump Shot,2PT Field Goal,22,Sacramento Kings,184,124
+Golden State Warriors,3/24/17,2016,1,3,0,n,Jump Shot,3PT Field Goal,24,Sacramento Kings,73,237
+Golden State Warriors,3/24/17,2016,2,2,58,n,Jump Shot,3PT Field Goal,25,Sacramento Kings,155,208
+Golden State Warriors,3/24/17,2016,4,3,12,n,Jump Shot,3PT Field Goal,30,Sacramento Kings,-187,244
+Golden State Warriors,3/24/17,2016,4,4,12,y,Jump Shot,3PT Field Goal,26,Sacramento Kings,-192,178
+Golden State Warriors,3/24/17,2016,2,2,33,y,Jump Shot,2PT Field Goal,15,Sacramento Kings,-110,105
+Golden State Warriors,3/24/17,2016,1,11,35,y,Jump Shot,3PT Field Goal,25,Sacramento Kings,-184,174
+Golden State Warriors,3/31/17,2016,2,1,41,n,Jump Shot,2PT Field Goal,19,Houston Rockets,-129,141
+Golden State Warriors,3/31/17,2016,1,2,17,n,Jump Shot,3PT Field Goal,26,Houston Rockets,87,249
+Golden State Warriors,3/31/17,2016,2,4,39,n,Jump Shot,3PT Field Goal,26,Houston Rockets,-214,149
+Golden State Warriors,3/31/17,2016,1,2,11,n,Jump Shot,2PT Field Goal,12,Houston Rockets,51,116
+Golden State Warriors,3/31/17,2016,4,1,11,n,Jump Shot,3PT Field Goal,29,Houston Rockets,76,282
+Golden State Warriors,3/31/17,2016,3,4,48,n,Jump Shot,3PT Field Goal,29,Houston Rockets,-4,291
+Golden State Warriors,1/18/17,2016,3,2,18,n,Layup Shot,2PT Field Goal,1,Oklahoma City Thunder,-7,11
+Golden State Warriors,12/13/16,2016,3,3,51,n,Layup Shot,2PT Field Goal,2,New Orleans Pelicans,-20,8
+Golden State Warriors,3/18/17,2016,1,9,10,n,Layup Shot,2PT Field Goal,2,Milwaukee Bucks,9,21
+Golden State Warriors,2/28/17,2016,4,0,41,y,Layup Shot,2PT Field Goal,2,Washington Wizards,-20,-6
+Golden State Warriors,12/13/16,2016,4,1,53,y,Layup Shot,2PT Field Goal,2,New Orleans Pelicans,-24,7
+Golden State Warriors,11/3/16,2016,2,5,25,n,Layup Shot,2PT Field Goal,2,Oklahoma City Thunder,17,21
+Golden State Warriors,11/19/16,2016,3,3,18,n,Layup Shot,2PT Field Goal,0,Milwaukee Bucks,-1,2
+Golden State Warriors,3/14/17,2016,1,7,44,n,Layup Shot,2PT Field Goal,2,Philadelphia 76ers,17,18
+Golden State Warriors,12/28/16,2016,4,2,45,n,Layup Shot,2PT Field Goal,2,Toronto Raptors,6,21
+Golden State Warriors,1/18/17,2016,2,2,52,n,Layup Shot,2PT Field Goal,2,Oklahoma City Thunder,-19,13
+Golden State Warriors,10/28/16,2016,4,4,41,n,Layup Shot,2PT Field Goal,2,New Orleans Pelicans,19,7
+Golden State Warriors,3/28/17,2016,2,5,23,y,Layup Shot,2PT Field Goal,1,Houston Rockets,-16,-5
+Golden State Warriors,3/28/17,2016,3,8,49,n,Layup Shot,2PT Field Goal,0,Houston Rockets,0,3
+Golden State Warriors,2/28/17,2016,3,7,29,y,Layup Shot,2PT Field Goal,0,Washington Wizards,0,-1
+Golden State Warriors,2/28/17,2016,4,6,21,n,Layup Shot,2PT Field Goal,2,Washington Wizards,17,-15
+Golden State Warriors,11/7/16,2016,2,2,0,y,Layup Shot,2PT Field Goal,1,New Orleans Pelicans,-1,11
+Golden State Warriors,12/13/16,2016,4,5,35,n,Layup Shot,2PT Field Goal,1,New Orleans Pelicans,-14,2
+Golden State Warriors,11/4/16,2016,3,11,28,n,Layup Shot,2PT Field Goal,2,Los Angeles Lakers,-21,0
+Golden State Warriors,1/25/17,2016,2,0,1,n,Layup Shot,2PT Field Goal,1,Charlotte Hornets,-12,2
+Golden State Warriors,10/28/16,2016,4,5,26,n,Layup Shot,2PT Field Goal,2,New Orleans Pelicans,-20,8
+Golden State Warriors,3/5/17,2016,3,3,40,y,Layup Shot,2PT Field Goal,1,New York Knicks,19,-5
+Golden State Warriors,11/23/16,2016,3,9,36,y,Layup Shot,2PT Field Goal,1,Los Angeles Lakers,9,16
+Golden State Warriors,1/18/17,2016,2,1,1,y,Layup Shot,2PT Field Goal,2,Oklahoma City Thunder,-1,21
+Golden State Warriors,2/10/17,2016,4,6,54,n,Layup Shot,2PT Field Goal,1,Memphis Grizzlies,-14,7
+Golden State Warriors,12/17/16,2016,2,2,51,n,Layup Shot,2PT Field Goal,1,Portland Trail Blazers,9,16
+Golden State Warriors,12/10/16,2016,1,5,6,y,Layup Shot,2PT Field Goal,1,Memphis Grizzlies,-14,-1
+Golden State Warriors,1/25/17,2016,4,2,33,n,Layup Shot,2PT Field Goal,2,Charlotte Hornets,-1,23
+Golden State Warriors,3/5/17,2016,1,3,5,n,Layup Shot,2PT Field Goal,2,New York Knicks,27,11
+Golden State Warriors,12/30/16,2016,3,8,54,n,Layup Shot,2PT Field Goal,2,Dallas Mavericks,10,23
+Golden State Warriors,3/29/17,2016,2,2,2,n,Layup Shot,2PT Field Goal,1,San Antonio Spurs,-2,-11
+Golden State Warriors,11/10/16,2016,3,10,24,y,Layup Shot,2PT Field Goal,1,Denver Nuggets,-12,-6
+Golden State Warriors,11/19/16,2016,2,4,15,n,Layup Shot,2PT Field Goal,0,Milwaukee Bucks,-3,-6
+Golden State Warriors,11/1/16,2016,3,2,30,n,Layup Shot,2PT Field Goal,1,Portland Trail Blazers,17,2
+Golden State Warriors,2/1/17,2016,1,1,44,n,Layup Shot,2PT Field Goal,0,Charlotte Hornets,4,7
+Golden State Warriors,11/4/16,2016,4,5,2,y,Layup Shot,2PT Field Goal,1,Los Angeles Lakers,-10,3
+Golden State Warriors,4/4/17,2016,2,3,26,n,Layup Shot,2PT Field Goal,2,Minnesota Timberwolves,9,26
+Golden State Warriors,1/8/17,2016,3,9,16,y,Layup Shot,2PT Field Goal,1,Sacramento Kings,15,11
+Golden State Warriors,3/29/17,2016,3,2,13,n,Layup Shot,2PT Field Goal,2,San Antonio Spurs,28,-5
+Golden State Warriors,2/25/17,2016,1,0,8,n,Layup Shot,2PT Field Goal,0,Brooklyn Nets,-2,7
+Golden State Warriors,2/28/17,2016,4,5,55,n,Layup Shot,2PT Field Goal,1,Washington Wizards,-19,2
+Golden State Warriors,3/5/17,2016,4,6,5,n,Layup Shot,2PT Field Goal,2,New York Knicks,-20,-11
+Golden State Warriors,2/15/17,2016,3,9,47,n,Layup Shot,2PT Field Goal,1,Sacramento Kings,-11,8
+Golden State Warriors,10/25/16,2016,3,4,34,n,Layup Shot,2PT Field Goal,0,San Antonio Spurs,-2,7
+Golden State Warriors,2/23/17,2016,1,4,59,n,Layup Shot,2PT Field Goal,1,Los Angeles Clippers,4,16
+Golden State Warriors,12/13/16,2016,3,1,36,n,Layup Shot,2PT Field Goal,1,New Orleans Pelicans,15,7
+Golden State Warriors,11/10/16,2016,1,6,48,y,Layup Shot,2PT Field Goal,2,Denver Nuggets,25,7
+Golden State Warriors,3/5/17,2016,2,4,13,n,Layup Shot,2PT Field Goal,1,New York Knicks,19,-1
+Golden State Warriors,11/18/16,2016,1,7,35,n,Layup Shot,2PT Field Goal,1,Boston Celtics,1,16
+Golden State Warriors,2/15/17,2016,1,2,3,n,Layup Shot,2PT Field Goal,2,Sacramento Kings,-14,21
+Golden State Warriors,12/28/16,2016,4,5,44,n,Layup Shot,2PT Field Goal,2,Toronto Raptors,-19,18
+Golden State Warriors,3/16/17,2016,1,4,26,y,Layup Shot,2PT Field Goal,1,Orlando Magic,-12,2
+Golden State Warriors,2/27/17,2016,3,10,26,y,Layup Shot,2PT Field Goal,1,Philadelphia 76ers,-6,16
+Golden State Warriors,3/31/17,2016,1,3,43,n,Layup Shot,2PT Field Goal,1,Houston Rockets,2,18
+Golden State Warriors,2/25/17,2016,3,2,32,n,Layup Shot,2PT Field Goal,2,Brooklyn Nets,22,18
+Golden State Warriors,3/5/17,2016,1,6,33,n,Layup Shot,2PT Field Goal,2,New York Knicks,19,7
+Golden State Warriors,12/20/16,2016,3,3,42,n,Layup Shot,2PT Field Goal,0,Utah Jazz,-7,7
+Golden State Warriors,12/1/16,2016,3,6,21,n,Layup Shot,2PT Field Goal,2,Houston Rockets,0,21
+Golden State Warriors,10/28/16,2016,1,9,41,n,Layup Shot,2PT Field Goal,2,New Orleans Pelicans,-22,16
+Golden State Warriors,12/13/16,2016,2,0,28,y,Layup Shot,2PT Field Goal,2,New Orleans Pelicans,24,7
+Golden State Warriors,1/18/17,2016,2,3,51,n,Layup Shot,2PT Field Goal,0,Oklahoma City Thunder,4,-5
+Golden State Warriors,1/2/17,2016,3,0,59,y,Pullup Bank shot,2PT Field Goal,15,Denver Nuggets,4,156
+Golden State Warriors,2/2/17,2016,3,0,56,y,Pullup Jump shot,2PT Field Goal,12,Los Angeles Clippers,60,110
+Golden State Warriors,3/14/17,2016,1,10,35,y,Pullup Jump shot,2PT Field Goal,14,Philadelphia 76ers,102,100
+Golden State Warriors,12/17/16,2016,3,7,41,y,Pullup Jump shot,3PT Field Goal,31,Portland Trail Blazers,132,282
+Golden State Warriors,3/24/17,2016,2,0,29,n,Pullup Jump shot,3PT Field Goal,30,Sacramento Kings,-9,301
+Golden State Warriors,3/2/17,2016,4,7,11,n,Pullup Jump shot,3PT Field Goal,26,Chicago Bulls,-6,267
+Golden State Warriors,12/15/16,2016,4,5,27,n,Pullup Jump shot,3PT Field Goal,26,New York Knicks,-155,218
+Golden State Warriors,3/29/17,2016,1,9,9,n,Pullup Jump shot,2PT Field Goal,21,San Antonio Spurs,-97,190
+Golden State Warriors,12/25/16,2016,3,6,54,n,Pullup Jump shot,2PT Field Goal,15,Cleveland Cavaliers,-102,121
+Golden State Warriors,3/6/17,2016,1,4,14,n,Pullup Jump shot,3PT Field Goal,26,Atlanta Hawks,64,252
+Golden State Warriors,12/17/16,2016,3,0,0,y,Pullup Jump shot,3PT Field Goal,27,Portland Trail Blazers,-142,239
+Golden State Warriors,3/6/17,2016,3,1,46,n,Pullup Jump shot,3PT Field Goal,25,Atlanta Hawks,-71,242
+Golden State Warriors,3/6/17,2016,3,5,59,n,Pullup Jump shot,3PT Field Goal,25,Atlanta Hawks,45,247
+Golden State Warriors,11/9/16,2016,4,9,12,y,Pullup Jump shot,3PT Field Goal,32,Dallas Mavericks,127,301
+Golden State Warriors,3/2/17,2016,2,0,0,n,Pullup Jump shot,3PT Field Goal,39,Chicago Bulls,166,355
+Golden State Warriors,2/4/17,2016,1,9,24,y,Pullup Jump shot,3PT Field Goal,25,Sacramento Kings,-19,257
+Golden State Warriors,11/28/16,2016,2,4,37,n,Pullup Jump shot,3PT Field Goal,26,Atlanta Hawks,205,169
+Golden State Warriors,3/6/17,2016,1,7,26,n,Pullup Jump shot,2PT Field Goal,21,Atlanta Hawks,197,85
+Golden State Warriors,12/17/16,2016,3,7,11,n,Pullup Jump shot,3PT Field Goal,26,Portland Trail Blazers,161,210
+Golden State Warriors,1/16/17,2016,2,0,1,y,Pullup Jump shot,3PT Field Goal,27,Cleveland Cavaliers,117,244
+Golden State Warriors,1/16/17,2016,1,0,12,y,Pullup Jump shot,3PT Field Goal,26,Cleveland Cavaliers,6,262
+Golden State Warriors,12/15/16,2016,2,10,26,n,Pullup Jump shot,2PT Field Goal,18,New York Knicks,-97,154
+Golden State Warriors,11/13/16,2016,3,1,44,y,Pullup Jump shot,3PT Field Goal,27,Phoenix Suns,15,272
+Golden State Warriors,3/2/17,2016,2,2,8,n,Pullup Jump shot,3PT Field Goal,24,Chicago Bulls,73,237
+Golden State Warriors,11/28/16,2016,4,3,0,y,Pullup Jump shot,3PT Field Goal,28,Atlanta Hawks,-163,229
+Golden State Warriors,11/13/16,2016,2,1,9,n,Pullup Jump shot,3PT Field Goal,28,Phoenix Suns,-6,288
+Golden State Warriors,11/28/16,2016,3,4,18,n,Pullup Jump shot,3PT Field Goal,25,Atlanta Hawks,2,252
+Golden State Warriors,11/13/16,2016,1,8,47,y,Pullup Jump shot,3PT Field Goal,23,Phoenix Suns,-232,18
+Golden State Warriors,12/20/16,2016,1,4,22,y,Pullup Jump shot,3PT Field Goal,25,Utah Jazz,-74,244
+Golden State Warriors,3/6/17,2016,3,8,13,n,Pullup Jump shot,3PT Field Goal,24,Atlanta Hawks,155,190
+Golden State Warriors,1/16/17,2016,2,4,31,n,Pullup Jump shot,3PT Field Goal,25,Cleveland Cavaliers,96,239
+Golden State Warriors,11/13/16,2016,2,5,8,n,Pullup Jump shot,3PT Field Goal,25,Phoenix Suns,114,228
+Golden State Warriors,3/20/17,2016,2,0,26,n,Pullup Jump shot,2PT Field Goal,22,Oklahoma City Thunder,-84,213
+Golden State Warriors,12/15/16,2016,2,5,34,y,Pullup Jump shot,3PT Field Goal,25,New York Knicks,-186,169
+Golden State Warriors,12/3/16,2016,3,7,48,y,Pullup Jump shot,3PT Field Goal,25,Phoenix Suns,-204,154
+Golden State Warriors,11/13/16,2016,2,5,59,y,Pullup Jump shot,3PT Field Goal,25,Phoenix Suns,46,252
+Golden State Warriors,3/2/17,2016,1,0,33,n,Pullup Jump shot,3PT Field Goal,24,Chicago Bulls,110,214
+Golden State Warriors,11/13/16,2016,3,4,9,n,Pullup Jump shot,3PT Field Goal,28,Phoenix Suns,-150,242
+Golden State Warriors,2/2/17,2016,3,2,48,y,Pullup Jump shot,2PT Field Goal,15,Los Angeles Clippers,94,120
+Golden State Warriors,10/25/16,2016,4,6,11,n,Pullup Jump shot,3PT Field Goal,23,San Antonio Spurs,-232,26
+Golden State Warriors,12/11/16,2016,1,2,49,n,Pullup Jump shot,2PT Field Goal,18,Minnesota Timberwolves,133,131
+Golden State Warriors,12/3/16,2016,1,4,14,y,Pullup Jump shot,2PT Field Goal,18,Phoenix Suns,97,159
+Golden State Warriors,2/23/17,2016,3,3,37,y,Pullup Jump shot,3PT Field Goal,23,Los Angeles Clippers,230,11
+Golden State Warriors,1/22/17,2016,3,2,49,n,Pullup Jump shot,3PT Field Goal,25,Orlando Magic,-17,252
+Golden State Warriors,11/4/16,2016,1,4,44,y,Pullup Jump shot,2PT Field Goal,21,Los Angeles Lakers,-160,140
+Golden State Warriors,11/16/16,2016,1,3,15,y,Pullup Jump shot,2PT Field Goal,22,Toronto Raptors,-97,205
+Golden State Warriors,3/6/17,2016,3,7,34,n,Pullup Jump shot,3PT Field Goal,24,Atlanta Hawks,9,247
+Golden State Warriors,12/28/16,2016,4,4,25,n,Pullup Jump shot,3PT Field Goal,26,Toronto Raptors,207,159
+Golden State Warriors,2/23/17,2016,3,3,7,y,Pullup Jump shot,3PT Field Goal,24,Los Angeles Clippers,177,174
+Golden State Warriors,3/24/17,2016,4,5,4,y,Pullup Jump shot,3PT Field Goal,26,Sacramento Kings,-197,180
+Golden State Warriors,1/8/17,2016,3,8,21,n,Pullup Jump shot,2PT Field Goal,20,Sacramento Kings,148,144
+Golden State Warriors,11/28/16,2016,3,11,32,y,Pullup Jump shot,2PT Field Goal,16,Atlanta Hawks,119,120
+Golden State Warriors,11/16/16,2016,2,5,58,n,Pullup Jump shot,3PT Field Goal,25,Toronto Raptors,-6,257
+Golden State Warriors,11/16/16,2016,3,1,41,y,Pullup Jump shot,2PT Field Goal,16,Toronto Raptors,-143,82
+Golden State Warriors,11/7/16,2016,4,6,2,n,Pullup Jump shot,3PT Field Goal,25,New Orleans Pelicans,127,224
+Golden State Warriors,11/16/16,2016,4,3,16,n,Pullup Jump shot,3PT Field Goal,26,Toronto Raptors,55,262
+Golden State Warriors,11/7/16,2016,3,11,13,y,Pullup Jump shot,3PT Field Goal,26,New Orleans Pelicans,19,262
+Golden State Warriors,3/6/17,2016,3,1,51,n,Pullup Jump shot,2PT Field Goal,20,Atlanta Hawks,187,95
+Golden State Warriors,11/7/16,2016,2,5,5,y,Pullup Jump shot,3PT Field Goal,26,New Orleans Pelicans,-201,165
+Golden State Warriors,1/22/17,2016,3,6,54,y,Pullup Jump shot,3PT Field Goal,27,Orlando Magic,145,234
+Golden State Warriors,12/5/16,2016,2,3,29,y,Pullup Jump shot,3PT Field Goal,23,Indiana Pacers,-233,21
+Golden State Warriors,11/7/16,2016,2,4,20,y,Pullup Jump shot,3PT Field Goal,27,New Orleans Pelicans,-207,183
+Golden State Warriors,12/5/16,2016,1,7,25,y,Pullup Jump shot,3PT Field Goal,26,Indiana Pacers,145,218
+Golden State Warriors,11/16/16,2016,4,1,59,n,Pullup Jump shot,2PT Field Goal,19,Toronto Raptors,-97,169
+Golden State Warriors,3/6/17,2016,4,0,33,n,Pullup Jump shot,3PT Field Goal,25,Atlanta Hawks,140,213
+Golden State Warriors,1/8/17,2016,3,7,35,y,Pullup Jump shot,3PT Field Goal,24,Sacramento Kings,-34,244
+Golden State Warriors,2/13/17,2016,2,2,36,y,Pullup Jump shot,3PT Field Goal,26,Denver Nuggets,132,229
+Golden State Warriors,3/18/17,2016,2,1,47,y,Pullup Jump shot,3PT Field Goal,26,Milwaukee Bucks,-63,257
+Golden State Warriors,3/2/17,2016,4,2,7,n,Pullup Jump shot,3PT Field Goal,24,Chicago Bulls,135,208
+Golden State Warriors,2/11/17,2016,1,9,46,y,Pullup Jump shot,2PT Field Goal,16,Oklahoma City Thunder,79,141
+Golden State Warriors,2/11/17,2016,1,4,26,n,Pullup Jump shot,3PT Field Goal,24,Oklahoma City Thunder,82,232
+Golden State Warriors,10/30/16,2016,3,0,7,n,Pullup Jump shot,3PT Field Goal,27,Phoenix Suns,151,232
+Golden State Warriors,12/1/16,2016,4,4,25,y,Pullup Jump shot,3PT Field Goal,24,Houston Rockets,184,164
+Golden State Warriors,11/23/16,2016,1,3,37,y,Pullup Jump shot,3PT Field Goal,26,Los Angeles Lakers,-169,203
+Golden State Warriors,2/13/17,2016,1,3,59,y,Pullup Jump shot,2PT Field Goal,19,Denver Nuggets,146,129
+Golden State Warriors,12/1/16,2016,4,7,34,n,Pullup Jump shot,3PT Field Goal,26,Houston Rockets,9,269
+Golden State Warriors,2/13/17,2016,1,6,52,n,Pullup Jump shot,2PT Field Goal,21,Denver Nuggets,125,174
+Golden State Warriors,3/2/17,2016,3,4,21,n,Pullup Jump shot,2PT Field Goal,22,Chicago Bulls,127,190
+Golden State Warriors,2/11/17,2016,2,0,30,y,Pullup Jump shot,3PT Field Goal,23,Oklahoma City Thunder,-225,52
+Golden State Warriors,10/30/16,2016,3,7,29,y,Pullup Jump shot,3PT Field Goal,26,Phoenix Suns,-91,252
+Golden State Warriors,12/1/16,2016,2,6,56,y,Pullup Jump shot,3PT Field Goal,28,Houston Rockets,-179,223
+Golden State Warriors,11/10/16,2016,3,7,36,y,Pullup Jump shot,3PT Field Goal,25,Denver Nuggets,68,242
+Golden State Warriors,10/30/16,2016,1,3,26,n,Pullup Jump shot,3PT Field Goal,23,Phoenix Suns,-232,-1
+Golden State Warriors,3/2/17,2016,1,3,49,n,Pullup Jump shot,2PT Field Goal,14,Chicago Bulls,146,-1
+Golden State Warriors,1/2/17,2016,2,4,54,y,Pullup Jump shot,3PT Field Goal,33,Denver Nuggets,-61,332
+Golden State Warriors,10/28/16,2016,4,5,49,y,Pullup Jump shot,2PT Field Goal,20,New Orleans Pelicans,-6,205
+Golden State Warriors,1/2/17,2016,4,3,53,y,Pullup Jump shot,3PT Field Goal,29,Denver Nuggets,141,259
+Golden State Warriors,3/2/17,2016,1,8,20,y,Pullup Jump shot,2PT Field Goal,22,Chicago Bulls,120,188
+Golden State Warriors,11/26/16,2016,3,1,16,y,Pullup Jump shot,3PT Field Goal,22,Minnesota Timberwolves,225,26
+Golden State Warriors,3/21/17,2016,1,11,24,n,Pullup Jump shot,2PT Field Goal,20,Dallas Mavericks,-38,203
+Golden State Warriors,3/6/17,2016,3,6,36,y,Pullup Jump shot,3PT Field Goal,24,Atlanta Hawks,105,223
+Golden State Warriors,11/18/16,2016,3,7,48,y,Pullup Jump shot,3PT Field Goal,25,Boston Celtics,10,257
+Golden State Warriors,2/2/17,2016,4,5,14,y,Pullup Jump shot,3PT Field Goal,26,Los Angeles Clippers,212,164
+Golden State Warriors,1/6/17,2016,4,3,14,y,Pullup Jump shot,2PT Field Goal,10,Memphis Grizzlies,-6,106
+Golden State Warriors,1/6/17,2016,4,0,41,n,Pullup Jump shot,3PT Field Goal,26,Memphis Grizzlies,97,242
+Golden State Warriors,1/6/17,2016,3,6,34,y,Pullup Jump shot,3PT Field Goal,27,Memphis Grizzlies,207,183
+Golden State Warriors,1/16/17,2016,3,5,15,y,Pullup Jump shot,3PT Field Goal,24,Cleveland Cavaliers,107,223
+Golden State Warriors,3/21/17,2016,1,8,7,y,Pullup Jump shot,2PT Field Goal,19,Dallas Mavericks,24,193
+Golden State Warriors,1/6/17,2016,1,1,27,y,Pullup Jump shot,3PT Field Goal,26,Memphis Grizzlies,-16,262
+Golden State Warriors,3/29/17,2016,2,3,0,n,Pullup Jump shot,3PT Field Goal,28,San Antonio Spurs,114,262
+Golden State Warriors,1/20/17,2016,1,0,57,y,Pullup Jump shot,2PT Field Goal,19,Houston Rockets,164,110
+Golden State Warriors,1/2/17,2016,2,5,16,y,Pullup Jump shot,2PT Field Goal,20,Denver Nuggets,115,174
+Golden State Warriors,1/6/17,2016,3,9,23,y,Pullup Jump shot,3PT Field Goal,25,Memphis Grizzlies,101,237
+Golden State Warriors,1/6/17,2016,3,8,6,y,Pullup Jump shot,3PT Field Goal,26,Memphis Grizzlies,213,151
+Golden State Warriors,1/22/17,2016,1,4,0,n,Pullup Jump shot,3PT Field Goal,25,Orlando Magic,132,218
+Golden State Warriors,12/28/16,2016,3,8,22,y,Pullup Jump shot,3PT Field Goal,24,Toronto Raptors,-235,56
+Golden State Warriors,3/28/17,2016,1,3,58,n,Pullup Jump shot,3PT Field Goal,24,Houston Rockets,73,237
+Golden State Warriors,1/2/17,2016,1,0,27,n,Pullup Jump shot,3PT Field Goal,27,Denver Nuggets,-181,203
+Golden State Warriors,3/18/17,2016,3,2,18,y,Pullup Jump shot,3PT Field Goal,26,Milwaukee Bucks,138,229
+Golden State Warriors,3/18/17,2016,1,4,53,y,Pullup Jump shot,3PT Field Goal,25,Milwaukee Bucks,-207,156
+Golden State Warriors,1/25/17,2016,4,1,8,y,Pullup Jump shot,3PT Field Goal,24,Charlotte Hornets,123,213
+Golden State Warriors,1/25/17,2016,1,5,2,y,Pullup Jump shot,3PT Field Goal,26,Charlotte Hornets,155,219
+Golden State Warriors,1/16/17,2016,2,2,34,y,Pullup Jump shot,2PT Field Goal,22,Cleveland Cavaliers,-187,120
+Golden State Warriors,2/4/17,2016,3,9,25,y,Pullup Jump shot,3PT Field Goal,24,Sacramento Kings,-101,228
+Golden State Warriors,12/25/16,2016,1,4,36,n,Pullup Jump shot,3PT Field Goal,25,Cleveland Cavaliers,-235,90
+Golden State Warriors,11/10/16,2016,1,2,22,y,Pullup Jump shot,3PT Field Goal,25,Denver Nuggets,-148,205
+Golden State Warriors,1/25/17,2016,1,8,7,y,Pullup Jump shot,3PT Field Goal,24,Charlotte Hornets,69,232
+Golden State Warriors,3/29/17,2016,3,6,54,n,Pullup Jump shot,3PT Field Goal,28,San Antonio Spurs,43,277
+Golden State Warriors,3/18/17,2016,1,3,22,n,Pullup Jump shot,3PT Field Goal,26,Milwaukee Bucks,94,252
+Golden State Warriors,3/2/17,2016,3,7,39,n,Pullup Jump shot,2PT Field Goal,20,Chicago Bulls,110,174
+Golden State Warriors,1/25/17,2016,3,2,35,y,Pullup Jump shot,2PT Field Goal,22,Charlotte Hornets,-89,203
+Golden State Warriors,12/15/16,2016,4,5,0,n,Pullup Jump shot,3PT Field Goal,27,New York Knicks,6,272
+Golden State Warriors,3/14/17,2016,4,5,51,y,Pullup Jump shot,3PT Field Goal,27,Philadelphia 76ers,-158,223
+Golden State Warriors,3/14/17,2016,3,7,21,y,Pullup Jump shot,3PT Field Goal,27,Philadelphia 76ers,2,272
+Golden State Warriors,1/20/17,2016,2,5,8,n,Pullup Jump shot,3PT Field Goal,26,Houston Rockets,169,208
+Golden State Warriors,1/20/17,2016,2,0,39,n,Pullup Jump shot,2PT Field Goal,19,Houston Rockets,141,136
+Golden State Warriors,3/18/17,2016,3,7,36,y,Pullup Jump shot,3PT Field Goal,25,Milwaukee Bucks,-163,193
+Golden State Warriors,2/11/17,2016,1,0,10,y,Pullup Jump shot,3PT Field Goal,25,Oklahoma City Thunder,-25,257
+Golden State Warriors,11/1/16,2016,3,1,11,n,Pullup Jump shot,2PT Field Goal,22,Portland Trail Blazers,102,198
+Golden State Warriors,3/6/17,2016,4,3,16,y,Pullup Jump shot,3PT Field Goal,25,Atlanta Hawks,197,164
+Golden State Warriors,11/1/16,2016,3,3,22,y,Pullup Jump shot,3PT Field Goal,22,Portland Trail Blazers,228,11
+Golden State Warriors,11/7/16,2016,4,2,23,y,Pullup Jump shot,3PT Field Goal,26,New Orleans Pelicans,71,252
+Golden State Warriors,11/1/16,2016,3,6,41,n,Pullup Jump shot,3PT Field Goal,26,Portland Trail Blazers,64,252
+Golden State Warriors,2/4/17,2016,1,8,49,y,Pullup Jump shot,2PT Field Goal,19,Sacramento Kings,89,175
+Golden State Warriors,3/2/17,2016,1,0,0,n,Pullup Jump shot,3PT Field Goal,40,Chicago Bulls,-132,380
+Golden State Warriors,11/7/16,2016,3,0,9,y,Pullup Jump shot,3PT Field Goal,24,New Orleans Pelicans,-196,154
+Golden State Warriors,2/25/17,2016,1,9,39,n,Pullup Jump shot,3PT Field Goal,28,Brooklyn Nets,159,232
+Golden State Warriors,1/2/17,2016,3,11,27,y,Pullup Jump shot,2PT Field Goal,19,Denver Nuggets,120,151
+Golden State Warriors,1/22/17,2016,3,0,5,n,Pullup Jump shot,3PT Field Goal,28,Orlando Magic,-65,282
+Golden State Warriors,12/8/16,2016,4,5,26,n,Pullup Jump shot,2PT Field Goal,19,Utah Jazz,102,169
+Golden State Warriors,2/25/17,2016,1,4,17,y,Pullup Jump shot,3PT Field Goal,25,Brooklyn Nets,-102,237
+Golden State Warriors,3/2/17,2016,3,2,48,y,Pullup Jump shot,2PT Field Goal,14,Chicago Bulls,12,149
+Golden State Warriors,2/11/17,2016,2,4,54,y,Pullup Jump shot,3PT Field Goal,23,Oklahoma City Thunder,148,188
+Golden State Warriors,3/2/17,2016,1,1,38,n,Pullup Jump shot,3PT Field Goal,26,Chicago Bulls,-161,214
+Golden State Warriors,2/1/17,2016,3,0,4,y,Pullup Jump shot,3PT Field Goal,28,Charlotte Hornets,163,237
+Golden State Warriors,11/7/16,2016,3,3,59,y,Pullup Jump shot,3PT Field Goal,25,New Orleans Pelicans,-120,228
+Golden State Warriors,2/25/17,2016,4,2,31,y,Pullup Jump shot,3PT Field Goal,25,Brooklyn Nets,-19,259
+Golden State Warriors,2/1/17,2016,2,3,37,y,Pullup Jump shot,3PT Field Goal,26,Charlotte Hornets,150,223
+Golden State Warriors,2/28/17,2016,1,8,0,y,Pullup Jump shot,2PT Field Goal,18,Washington Wizards,81,169
+Golden State Warriors,3/31/17,2016,4,2,22,y,Pullup Jump shot,3PT Field Goal,28,Houston Rockets,161,232
+Golden State Warriors,11/3/16,2016,3,3,23,y,Pullup Jump shot,3PT Field Goal,23,Oklahoma City Thunder,230,26
+Golden State Warriors,2/1/17,2016,1,0,1,y,Pullup Jump shot,3PT Field Goal,29,Charlotte Hornets,-179,234
+Golden State Warriors,2/8/17,2016,3,3,59,y,Pullup Jump shot,2PT Field Goal,16,Chicago Bulls,87,144
+Golden State Warriors,12/30/16,2016,1,2,43,n,Pullup Jump shot,3PT Field Goal,26,Dallas Mavericks,50,257
+Golden State Warriors,11/1/16,2016,3,9,30,y,Pullup Jump shot,3PT Field Goal,29,Portland Trail Blazers,-210,203
+Golden State Warriors,11/1/16,2016,3,7,28,y,Pullup Jump shot,3PT Field Goal,28,Portland Trail Blazers,-2,288
+Golden State Warriors,3/16/17,2016,3,3,56,y,Pullup Jump shot,3PT Field Goal,25,Orlando Magic,35,257
+Golden State Warriors,11/7/16,2016,1,4,32,y,Pullup Jump shot,3PT Field Goal,27,New Orleans Pelicans,-184,203
+Golden State Warriors,2/23/17,2016,3,10,29,y,Pullup Jump shot,3PT Field Goal,26,Los Angeles Clippers,-156,213
+Golden State Warriors,2/2/17,2016,2,1,19,y,Putback Layup Shot,2PT Field Goal,1,Los Angeles Clippers,1,18
+Golden State Warriors,11/25/16,2016,4,1,56,y,Putback Layup Shot,2PT Field Goal,1,Los Angeles Lakers,-16,8
+Golden State Warriors,11/4/16,2016,2,3,9,y,Reverse Layup Shot,2PT Field Goal,1,Los Angeles Lakers,-18,1
+Golden State Warriors,11/1/16,2016,3,1,30,y,Reverse Layup Shot,2PT Field Goal,2,Portland Trail Blazers,-22,7
+Golden State Warriors,2/27/17,2016,3,6,32,y,Reverse Layup Shot,2PT Field Goal,1,Philadelphia 76ers,-9,7
+Golden State Warriors,11/10/16,2016,2,3,53,y,Reverse Layup Shot,2PT Field Goal,1,Denver Nuggets,-17,2
+Golden State Warriors,11/1/16,2016,3,8,23,y,Reverse Layup Shot,2PT Field Goal,1,Portland Trail Blazers,12,2
+Golden State Warriors,11/1/16,2016,2,3,3,y,Reverse Layup Shot,2PT Field Goal,1,Portland Trail Blazers,10,3
+Golden State Warriors,2/27/17,2016,3,5,55,n,Reverse Layup Shot,2PT Field Goal,1,Philadelphia 76ers,-2,18
+Golden State Warriors,10/28/16,2016,3,8,55,n,Reverse Layup Shot,2PT Field Goal,1,New Orleans Pelicans,-14,7
+Golden State Warriors,3/29/17,2016,2,5,19,n,Reverse Layup Shot,2PT Field Goal,2,San Antonio Spurs,-22,2
+Golden State Warriors,11/1/16,2016,3,0,52,y,Reverse Layup Shot,2PT Field Goal,0,Portland Trail Blazers,9,2
+Golden State Warriors,1/18/17,2016,3,0,41,n,Reverse Layup Shot,2PT Field Goal,1,Oklahoma City Thunder,1,16
+Golden State Warriors,2/2/17,2016,1,7,19,y,Reverse Layup Shot,2PT Field Goal,1,Los Angeles Clippers,6,18
+Golden State Warriors,11/25/16,2016,2,4,17,n,Running Dunk Shot,2PT Field Goal,0,Los Angeles Lakers,0,1
+Golden State Warriors,3/20/17,2016,1,8,13,y,Running Dunk Shot,2PT Field Goal,0,Oklahoma City Thunder,0,1
+Golden State Warriors,4/4/17,2016,3,8,11,y,Running Dunk Shot,2PT Field Goal,0,Minnesota Timberwolves,0,1
+Golden State Warriors,12/20/16,2016,3,8,58,y,Running Finger Roll Layup Shot,2PT Field Goal,0,Utah Jazz,-1,2
+Golden State Warriors,12/5/16,2016,2,4,2,y,Running Finger Roll Layup Shot,2PT Field Goal,1,Indiana Pacers,-9,16
+Golden State Warriors,4/4/17,2016,1,3,4,y,Running Finger Roll Layup Shot,2PT Field Goal,0,Minnesota Timberwolves,0,3
+Golden State Warriors,3/16/17,2016,2,10,45,y,Running Finger Roll Layup Shot,2PT Field Goal,1,Orlando Magic,-4,11
+Golden State Warriors,1/8/17,2016,2,3,0,y,Running Finger Roll Layup Shot,2PT Field Goal,0,Sacramento Kings,4,2
+Golden State Warriors,1/18/17,2016,1,5,58,y,Running Finger Roll Layup Shot,2PT Field Goal,0,Oklahoma City Thunder,-4,2
+Golden State Warriors,3/28/17,2016,1,3,29,y,Running Finger Roll Layup Shot,2PT Field Goal,1,Houston Rockets,-2,-11
+Golden State Warriors,2/1/17,2016,2,3,12,y,Running Finger Roll Layup Shot,2PT Field Goal,1,Charlotte Hornets,9,11
+Golden State Warriors,1/6/17,2016,3,4,52,y,Running Finger Roll Layup Shot,2PT Field Goal,0,Memphis Grizzlies,1,8
+Golden State Warriors,1/4/17,2016,2,0,5,y,Running Finger Roll Layup Shot,2PT Field Goal,2,Portland Trail Blazers,-4,26
+Golden State Warriors,11/7/16,2016,2,3,54,y,Running Jump Shot,3PT Field Goal,25,New Orleans Pelicans,-16,259
+Golden State Warriors,1/4/17,2016,2,2,52,n,Running Jump Shot,2PT Field Goal,10,Portland Trail Blazers,-61,85
+Golden State Warriors,11/26/16,2016,1,9,47,y,Running Jump Shot,3PT Field Goal,24,Minnesota Timberwolves,-238,70
+Golden State Warriors,1/28/17,2016,1,8,36,y,Running Jump Shot,3PT Field Goal,29,Los Angeles Clippers,63,287
+Golden State Warriors,1/8/17,2016,1,2,54,n,Running Jump Shot,2PT Field Goal,14,Sacramento Kings,143,3
+Golden State Warriors,12/7/16,2016,2,0,0,n,Running Jump Shot,3PT Field Goal,64,Los Angeles Clippers,164,626
+Golden State Warriors,1/16/17,2016,3,10,49,y,Running Jump Shot,3PT Field Goal,25,Cleveland Cavaliers,168,193
+Golden State Warriors,1/6/17,2016,3,5,16,y,Running Jump Shot,3PT Field Goal,26,Memphis Grizzlies,120,232
+Golden State Warriors,1/16/17,2016,1,3,58,y,Running Jump Shot,3PT Field Goal,27,Cleveland Cavaliers,-202,193
+Golden State Warriors,3/31/17,2016,3,6,22,y,Running Jump Shot,3PT Field Goal,23,Houston Rockets,230,65
+Golden State Warriors,3/18/17,2016,2,0,27,y,Running Jump Shot,3PT Field Goal,33,Milwaukee Bucks,-143,298
+Golden State Warriors,4/4/17,2016,1,3,40,y,Running Jump Shot,3PT Field Goal,26,Minnesota Timberwolves,1,267
+Golden State Warriors,12/8/16,2016,3,2,45,y,Running Jump Shot,3PT Field Goal,24,Utah Jazz,125,213
+Golden State Warriors,11/13/16,2016,4,5,8,n,Running Jump Shot,2PT Field Goal,4,Phoenix Suns,9,43
+Golden State Warriors,12/10/16,2016,2,3,3,n,Running Jump Shot,3PT Field Goal,25,Memphis Grizzlies,205,159
+Golden State Warriors,12/10/16,2016,3,4,42,n,Running Jump Shot,2PT Field Goal,3,Memphis Grizzlies,30,7
+Golden State Warriors,12/10/16,2016,1,3,23,n,Running Jump Shot,3PT Field Goal,25,Memphis Grizzlies,42,249
+Golden State Warriors,3/20/17,2016,1,10,9,n,Running Jump Shot,3PT Field Goal,24,Oklahoma City Thunder,-169,174
+Golden State Warriors,10/25/16,2016,2,3,17,y,Running Jump Shot,3PT Field Goal,27,San Antonio Spurs,114,247
+Golden State Warriors,1/22/17,2016,3,1,9,y,Running Jump Shot,3PT Field Goal,29,Orlando Magic,177,239
+Golden State Warriors,1/22/17,2016,3,9,58,y,Running Jump Shot,3PT Field Goal,25,Orlando Magic,238,95
+Golden State Warriors,2/15/17,2016,1,8,34,y,Running Jump Shot,2PT Field Goal,9,Sacramento Kings,88,44
+Golden State Warriors,2/15/17,2016,3,7,34,y,Running Jump Shot,3PT Field Goal,30,Sacramento Kings,-122,283
+Golden State Warriors,12/8/16,2016,4,3,26,n,Running Jump Shot,3PT Field Goal,23,Utah Jazz,-225,80
+Golden State Warriors,2/25/17,2016,2,0,29,n,Running Jump Shot,3PT Field Goal,26,Brooklyn Nets,0,267
+Golden State Warriors,12/30/16,2016,3,11,18,y,Running Jump Shot,3PT Field Goal,25,Dallas Mavericks,205,149
+Golden State Warriors,2/1/17,2016,2,1,19,y,Running Jump Shot,3PT Field Goal,31,Charlotte Hornets,-61,306
+Golden State Warriors,2/1/17,2016,1,9,32,y,Running Jump Shot,3PT Field Goal,29,Charlotte Hornets,25,298
+Golden State Warriors,12/20/16,2016,3,8,25,y,Running Jump Shot,3PT Field Goal,26,Utah Jazz,32,262
+Golden State Warriors,2/23/17,2016,1,1,38,y,Running Jump Shot,3PT Field Goal,27,Los Angeles Clippers,-32,269
+Golden State Warriors,3/31/17,2016,1,10,41,y,Running Jump Shot,3PT Field Goal,25,Houston Rockets,42,249
+Golden State Warriors,2/23/17,2016,1,2,31,y,Running Jump Shot,2PT Field Goal,20,Los Angeles Clippers,-99,175
+Golden State Warriors,11/9/16,2016,2,8,10,y,Running Jump Shot,3PT Field Goal,30,Dallas Mavericks,-137,277
+Golden State Warriors,3/20/17,2016,1,6,18,y,Running Jump Shot,3PT Field Goal,22,Oklahoma City Thunder,-228,8
+Golden State Warriors,3/21/17,2016,3,0,0,n,Running Jump Shot,3PT Field Goal,49,Dallas Mavericks,191,452
+Golden State Warriors,12/28/16,2016,1,7,49,y,Running Jump Shot,3PT Field Goal,27,Toronto Raptors,-29,272
+Golden State Warriors,2/10/17,2016,3,7,5,y,Running Layup Shot,2PT Field Goal,0,Memphis Grizzlies,-7,2
+Golden State Warriors,1/20/17,2016,1,6,4,y,Running Layup Shot,2PT Field Goal,1,Houston Rockets,4,16
+Golden State Warriors,12/30/16,2016,2,2,13,n,Running Layup Shot,2PT Field Goal,2,Dallas Mavericks,-4,23
+Golden State Warriors,1/28/17,2016,1,6,21,y,Running Layup Shot,2PT Field Goal,1,Los Angeles Clippers,-7,8
+Golden State Warriors,2/2/17,2016,3,6,7,y,Running Layup Shot,2PT Field Goal,2,Los Angeles Clippers,-1,28
+Golden State Warriors,2/2/17,2016,3,9,59,n,Running Layup Shot,2PT Field Goal,2,Los Angeles Clippers,25,7
+Golden State Warriors,2/2/17,2016,3,2,1,n,Running Layup Shot,2PT Field Goal,2,Los Angeles Clippers,10,21
+Golden State Warriors,10/30/16,2016,4,9,51,n,Running Layup Shot,2PT Field Goal,1,Phoenix Suns,-2,18
+Golden State Warriors,12/7/16,2016,1,4,17,y,Running Layup Shot,2PT Field Goal,1,Los Angeles Clippers,-6,11
+Golden State Warriors,12/7/16,2016,3,7,47,y,Running Layup Shot,2PT Field Goal,1,Los Angeles Clippers,6,8
+Golden State Warriors,1/6/17,2016,1,4,28,y,Running Layup Shot,2PT Field Goal,2,Memphis Grizzlies,10,18
+Golden State Warriors,3/21/17,2016,3,6,18,y,Running Layup Shot,2PT Field Goal,1,Dallas Mavericks,15,7
+Golden State Warriors,11/18/16,2016,4,4,30,n,Running Layup Shot,2PT Field Goal,0,Boston Celtics,-7,3
+Golden State Warriors,1/6/17,2016,3,2,50,n,Running Layup Shot,2PT Field Goal,0,Memphis Grizzlies,2,7
+Golden State Warriors,10/30/16,2016,2,1,46,y,Running Layup Shot,2PT Field Goal,5,Phoenix Suns,-35,36
+Golden State Warriors,12/22/16,2016,2,1,59,n,Running Layup Shot,2PT Field Goal,2,Brooklyn Nets,-22,-6
+Golden State Warriors,1/25/17,2016,2,3,16,n,Running Layup Shot,2PT Field Goal,1,Charlotte Hornets,9,7
+Golden State Warriors,11/19/16,2016,1,5,9,y,Running Layup Shot,2PT Field Goal,0,Milwaukee Bucks,2,0
+Golden State Warriors,11/25/16,2016,1,9,0,n,Running Layup Shot,2PT Field Goal,1,Los Angeles Lakers,-2,11
+Golden State Warriors,12/1/16,2016,3,5,1,y,Running Layup Shot,2PT Field Goal,1,Houston Rockets,9,16
+Golden State Warriors,11/25/16,2016,3,7,37,y,Running Layup Shot,2PT Field Goal,0,Los Angeles Lakers,0,1
+Golden State Warriors,3/14/17,2016,1,5,21,y,Running Layup Shot,2PT Field Goal,1,Philadelphia 76ers,10,16
+Golden State Warriors,12/8/16,2016,4,1,29,y,Running Layup Shot,2PT Field Goal,1,Utah Jazz,19,2
+Golden State Warriors,1/16/17,2016,2,4,18,n,Running Layup Shot,2PT Field Goal,0,Cleveland Cavaliers,4,2
+Golden State Warriors,11/16/16,2016,3,7,27,y,Running Layup Shot,2PT Field Goal,3,Toronto Raptors,35,-6
+Golden State Warriors,2/11/17,2016,1,3,19,y,Running Layup Shot,2PT Field Goal,1,Oklahoma City Thunder,10,7
+Golden State Warriors,2/25/17,2016,3,0,2,y,Running Layup Shot,2PT Field Goal,2,Brooklyn Nets,20,7
+Golden State Warriors,11/16/16,2016,2,3,20,y,Running Layup Shot,2PT Field Goal,0,Toronto Raptors,-1,3
+Golden State Warriors,1/8/17,2016,3,3,1,y,Running Layup Shot,2PT Field Goal,2,Sacramento Kings,-2,21
+Golden State Warriors,3/20/17,2016,1,5,50,n,Running Pull-Up Jump Shot,3PT Field Goal,26,Oklahoma City Thunder,-42,257
+Golden State Warriors,1/22/17,2016,2,2,51,y,Running Pull-Up Jump Shot,3PT Field Goal,28,Orlando Magic,10,282
+Golden State Warriors,3/6/17,2016,2,0,37,n,Running Pull-Up Jump Shot,3PT Field Goal,27,Atlanta Hawks,-109,249
+Golden State Warriors,3/20/17,2016,1,8,33,y,Running Pull-Up Jump Shot,3PT Field Goal,23,Oklahoma City Thunder,51,234
+Golden State Warriors,11/25/16,2016,4,6,9,n,Running Pull-Up Jump Shot,3PT Field Goal,25,Los Angeles Lakers,111,232
+Golden State Warriors,11/25/16,2016,1,7,28,n,Running Pull-Up Jump Shot,3PT Field Goal,24,Los Angeles Lakers,-180,163
+Golden State Warriors,3/2/17,2016,4,1,1,n,Running Pull-Up Jump Shot,3PT Field Goal,25,Chicago Bulls,55,249
+Golden State Warriors,12/7/16,2016,3,8,5,n,Running Pull-Up Jump Shot,3PT Field Goal,26,Los Angeles Clippers,141,223
+Golden State Warriors,2/2/17,2016,1,11,13,n,Running Pull-Up Jump Shot,3PT Field Goal,28,Los Angeles Clippers,-9,282
+Golden State Warriors,3/18/17,2016,1,0,35,y,Running Reverse Layup Shot,2PT Field Goal,1,Milwaukee Bucks,4,16
+Golden State Warriors,3/18/17,2016,1,6,51,y,Running Reverse Layup Shot,2PT Field Goal,2,Milwaukee Bucks,-19,7
+Golden State Warriors,3/28/17,2016,1,2,44,y,Running Reverse Layup Shot,2PT Field Goal,1,Houston Rockets,12,-6
+Golden State Warriors,11/18/16,2016,1,11,6,n,Running Reverse Layup Shot,2PT Field Goal,1,Boston Celtics,9,8
+Golden State Warriors,1/28/17,2016,3,1,46,y,Running Reverse Layup Shot,2PT Field Goal,1,Los Angeles Clippers,-7,11
+Golden State Warriors,12/20/16,2016,1,3,28,y,Running Reverse Layup Shot,2PT Field Goal,0,Utah Jazz,-2,7
+Golden State Warriors,3/2/17,2016,1,9,35,n,Running Reverse Layup Shot,2PT Field Goal,1,Chicago Bulls,-17,8
+Golden State Warriors,11/13/16,2016,1,9,14,y,Running Reverse Layup Shot,2PT Field Goal,0,Phoenix Suns,-9,3
+Golden State Warriors,1/18/17,2016,2,0,14,y,Running Reverse Layup Shot,2PT Field Goal,1,Oklahoma City Thunder,14,7
+Golden State Warriors,3/26/17,2016,1,8,48,n,Running Reverse Layup Shot,2PT Field Goal,2,Memphis Grizzlies,-11,21
+Golden State Warriors,11/26/16,2016,1,0,30,n,Running Reverse Layup Shot,2PT Field Goal,2,Minnesota Timberwolves,9,23
+Golden State Warriors,10/30/16,2016,2,5,16,n,Step Back Bank Jump Shot,2PT Field Goal,13,Phoenix Suns,-129,43
+Golden State Warriors,12/22/16,2016,2,0,39,y,Step Back Bank Jump Shot,2PT Field Goal,14,Brooklyn Nets,-104,100
+Golden State Warriors,3/31/17,2016,1,5,35,n,Step Back Jump shot,2PT Field Goal,14,Houston Rockets,-16,149
+Golden State Warriors,11/3/16,2016,2,1,29,y,Step Back Jump shot,2PT Field Goal,18,Oklahoma City Thunder,32,178
+Golden State Warriors,3/20/17,2016,2,3,49,y,Step Back Jump shot,3PT Field Goal,22,Oklahoma City Thunder,-225,8
+Golden State Warriors,12/11/16,2016,3,7,23,y,Step Back Jump shot,2PT Field Goal,19,Minnesota Timberwolves,128,144
+Golden State Warriors,11/28/16,2016,1,1,33,y,Step Back Jump shot,3PT Field Goal,27,Atlanta Hawks,-169,213
+Golden State Warriors,3/20/17,2016,1,1,54,n,Step Back Jump shot,3PT Field Goal,24,Oklahoma City Thunder,132,203
+Golden State Warriors,2/27/17,2016,1,10,10,n,Step Back Jump shot,3PT Field Goal,25,Philadelphia 76ers,78,242
+Golden State Warriors,3/20/17,2016,3,0,0,y,Step Back Jump shot,3PT Field Goal,25,Oklahoma City Thunder,-25,249
+Golden State Warriors,2/13/17,2016,1,11,24,y,Step Back Jump shot,2PT Field Goal,16,Denver Nuggets,30,159
+Golden State Warriors,11/9/16,2016,4,11,5,y,Step Back Jump shot,2PT Field Goal,20,Dallas Mavericks,163,129
+Golden State Warriors,11/9/16,2016,2,0,6,n,Step Back Jump shot,3PT Field Goal,26,Dallas Mavericks,-35,264
+Golden State Warriors,11/9/16,2016,2,5,23,y,Step Back Jump shot,3PT Field Goal,25,Dallas Mavericks,182,178
+Golden State Warriors,2/25/17,2016,4,5,21,y,Step Back Jump shot,2PT Field Goal,21,Brooklyn Nets,-215,26
+Golden State Warriors,11/28/16,2016,2,6,57,n,Step Back Jump shot,2PT Field Goal,19,Atlanta Hawks,-24,190
+Golden State Warriors,3/31/17,2016,1,3,25,y,Step Back Jump shot,2PT Field Goal,19,Houston Rockets,-119,154
+Golden State Warriors,3/24/17,2016,4,3,45,y,Step Back Jump shot,3PT Field Goal,28,Sacramento Kings,-48,277
+Golden State Warriors,3/26/17,2016,3,0,3,y,Step Back Jump shot,2PT Field Goal,12,Memphis Grizzlies,-35,115
+Golden State Warriors,12/20/16,2016,3,1,24,y,Step Back Jump shot,3PT Field Goal,24,Utah Jazz,169,183
+Golden State Warriors,12/28/16,2016,1,1,13,n,Step Back Jump shot,3PT Field Goal,26,Toronto Raptors,-91,244
+Golden State Warriors,12/5/16,2016,1,1,6,n,Step Back Jump shot,3PT Field Goal,25,Indiana Pacers,40,254
+Golden State Warriors,2/11/17,2016,3,1,21,n,Step Back Jump shot,2PT Field Goal,20,Oklahoma City Thunder,156,126
+Golden State Warriors,11/7/16,2016,3,5,41,n,Step Back Jump shot,2PT Field Goal,19,New Orleans Pelicans,128,144
+Golden State Warriors,3/16/17,2016,1,0,0,n,Step Back Jump shot,3PT Field Goal,27,Orlando Magic,-201,193
+Golden State Warriors,3/24/17,2016,1,7,40,n,Step Back Jump shot,3PT Field Goal,26,Sacramento Kings,-142,224
+Golden State Warriors,12/20/16,2016,2,0,27,y,Step Back Jump shot,3PT Field Goal,25,Utah Jazz,128,219
+Golden State Warriors,2/23/17,2016,1,7,59,n,Step Back Jump shot,3PT Field Goal,26,Los Angeles Clippers,-106,242
+Golden State Warriors,10/25/16,2016,1,8,6,y,Step Back Jump shot,3PT Field Goal,25,San Antonio Spurs,189,174
+Golden State Warriors,2/8/17,2016,1,0,32,y,Step Back Jump shot,2PT Field Goal,21,Chicago Bulls,-142,165
+Golden State Warriors,1/2/17,2016,4,1,47,n,Step Back Jump shot,2PT Field Goal,19,Denver Nuggets,61,188
+Golden State Warriors,11/23/16,2016,1,1,49,y,Step Back Jump shot,3PT Field Goal,26,Los Angeles Lakers,-187,188
+Golden State Warriors,11/18/16,2016,3,11,25,n,Step Back Jump shot,3PT Field Goal,26,Boston Celtics,135,223
+Golden State Warriors,3/28/17,2016,3,8,12,y,Step Back Jump shot,3PT Field Goal,24,Houston Rockets,-174,178
+Golden State Warriors,2/2/17,2016,2,2,37,y,Step Back Jump shot,3PT Field Goal,24,Los Angeles Clippers,128,214
+Golden State Warriors,3/5/17,2016,4,4,12,n,Step Back Jump shot,3PT Field Goal,24,New York Knicks,-155,195
+Golden State Warriors,3/5/17,2016,4,1,9,y,Step Back Jump shot,2PT Field Goal,22,New York Knicks,-147,165
+Golden State Warriors,12/28/16,2016,2,0,34,y,Step Back Jump shot,3PT Field Goal,27,Toronto Raptors,-147,229
+Golden State Warriors,1/20/17,2016,1,2,20,y,Step Back Jump shot,3PT Field Goal,25,Houston Rockets,-161,192
+Golden State Warriors,2/11/17,2016,3,0,58,n,Step Back Jump shot,3PT Field Goal,24,Oklahoma City Thunder,-76,228
+Golden State Warriors,12/1/16,2016,3,0,40,n,Step Back Jump shot,2PT Field Goal,19,Houston Rockets,145,124
+Golden State Warriors,12/1/16,2016,4,1,49,y,Step Back Jump shot,2PT Field Goal,20,Houston Rockets,110,169
+Golden State Warriors,3/26/17,2016,2,3,17,y,Step Back Jump shot,3PT Field Goal,22,Memphis Grizzlies,225,16
+Golden State Warriors,12/17/16,2016,1,9,13,y,Step Back Jump shot,3PT Field Goal,28,Portland Trail Blazers,-169,229
+Golden State Warriors,11/7/16,2016,1,3,35,y,Step Back Jump shot,3PT Field Goal,23,New Orleans Pelicans,-233,31
+Golden State Warriors,2/11/17,2016,2,3,56,y,Step Back Jump shot,2PT Field Goal,18,Oklahoma City Thunder,-186,26
+Golden State Warriors,4/4/17,2016,3,7,45,y,Step Back Jump shot,2PT Field Goal,16,Minnesota Timberwolves,-169,7
+Golden State Warriors,4/4/17,2016,1,1,48,n,Step Back Jump shot,2PT Field Goal,19,Minnesota Timberwolves,107,164
+Golden State Warriors,3/14/17,2016,4,9,18,n,Step Back Jump shot,3PT Field Goal,25,Philadelphia 76ers,-94,242
+Golden State Warriors,2/11/17,2016,1,8,13,n,Step Back Jump shot,3PT Field Goal,23,Oklahoma City Thunder,-230,51
+Golden State Warriors,3/29/17,2016,1,7,46,y,Step Back Jump shot,3PT Field Goal,25,San Antonio Spurs,-225,115
+Golden State Warriors,3/26/17,2016,4,3,36,y,Step Back Jump shot,3PT Field Goal,26,Memphis Grizzlies,151,223
+Golden State Warriors,1/2/17,2016,3,7,28,n,Step Back Jump shot,3PT Field Goal,29,Denver Nuggets,56,288
+Golden State Warriors,1/20/17,2016,4,4,50,n,Step Back Jump shot,2PT Field Goal,18,Houston Rockets,184,36
+Golden State Warriors,1/20/17,2016,2,0,0,y,Step Back Jump shot,3PT Field Goal,24,Houston Rockets,-81,232
+Golden State Warriors,3/5/17,2016,3,1,1,y,Step Back Jump shot,3PT Field Goal,22,New York Knicks,-228,-11
+Golden State Warriors,2/1/17,2016,3,1,19,y,Step Back Jump shot,2PT Field Goal,20,Charlotte Hornets,-110,174
+Golden State Warriors,12/22/16,2016,3,9,28,y,Step Back Jump shot,2PT Field Goal,21,Brooklyn Nets,-209,21
+Golden State Warriors,11/26/16,2016,3,6,49,n,Step Back Jump shot,2PT Field Goal,14,Minnesota Timberwolves,148,11
+Golden State Warriors,1/25/17,2016,1,10,2,y,Step Back Jump shot,2PT Field Goal,15,Charlotte Hornets,-102,121
+Golden State Warriors,2/15/17,2016,3,3,51,n,Step Back Jump shot,3PT Field Goal,27,Sacramento Kings,-222,156
+Golden State Warriors,1/6/17,2016,2,3,53,y,Step Back Jump shot,2PT Field Goal,17,Memphis Grizzlies,-106,139
+Golden State Warriors,1/20/17,2016,4,5,15,n,Step Back Jump shot,2PT Field Goal,18,Houston Rockets,-187,31
+Golden State Warriors,12/7/16,2016,2,2,35,n,Step Back Jump shot,3PT Field Goal,24,Los Angeles Clippers,-132,210
+Golden State Warriors,2/1/17,2016,3,6,53,y,Step Back Jump shot,3PT Field Goal,26,Charlotte Hornets,-132,232
+Golden State Warriors,11/18/16,2016,2,4,53,y,Step Back Jump shot,2PT Field Goal,22,Boston Celtics,-66,218
+Golden State Warriors,2/13/17,2016,1,8,56,y,Step Back Jump shot,2PT Field Goal,21,Denver Nuggets,-127,174
+Golden State Warriors,2/1/17,2016,3,0,56,y,Step Back Jump shot,3PT Field Goal,25,Charlotte Hornets,-214,141
+Golden State Warriors,1/6/17,2016,2,2,58,n,Step Back Jump shot,3PT Field Goal,25,Memphis Grizzlies,187,170
+Golden State Warriors,2/2/17,2016,3,10,54,y,Step Back Jump shot,3PT Field Goal,27,Los Angeles Clippers,171,210
+Golden State Warriors,3/6/17,2016,1,0,45,y,Step Back Jump shot,3PT Field Goal,24,Atlanta Hawks,125,208
+Golden State Warriors,2/8/17,2016,3,7,15,y,Step Back Jump shot,2PT Field Goal,17,Chicago Bulls,-6,178
+Golden State Warriors,3/2/17,2016,4,0,32,n,Step Back Jump shot,2PT Field Goal,19,Chicago Bulls,-194,18
+Golden State Warriors,2/11/17,2016,4,2,19,y,Step Back Jump shot,3PT Field Goal,24,Oklahoma City Thunder,119,213
+Golden State Warriors,3/21/17,2016,3,3,42,n,Step Back Jump shot,3PT Field Goal,23,Dallas Mavericks,233,3
+Golden State Warriors,3/28/17,2016,4,0,45,y,Step Back Jump shot,2PT Field Goal,18,Houston Rockets,-53,174
+Golden State Warriors,11/26/16,2016,3,8,6,y,Step Back Jump shot,2PT Field Goal,19,Minnesota Timberwolves,78,180
+Golden State Warriors,12/15/16,2016,2,7,40,n,Tip Layup Shot,2PT Field Goal,0,New York Knicks,-1,2
+Golden State Warriors,11/7/16,2016,1,10,4,y,Tip Layup Shot,2PT Field Goal,1,New Orleans Pelicans,1,11
+Golden State Warriors,11/16/16,2016,3,4,51,n,Tip Layup Shot,2PT Field Goal,0,Toronto Raptors,0,9
+Golden State Warriors,11/21/16,2016,2,0,36,y,Turnaround Bank shot,2PT Field Goal,7,Indiana Pacers,71,3
+Golden State Warriors,3/26/17,2016,4,2,58,y,Turnaround Bank shot,2PT Field Goal,16,Memphis Grizzlies,137,100
+Golden State Warriors,3/31/17,2016,4,0,46,y,Turnaround Bank shot,2PT Field Goal,10,Houston Rockets,-91,61
+Golden State Warriors,3/16/17,2016,2,11,6,y,Turnaround Bank shot,2PT Field Goal,8,Orlando Magic,71,38
+Golden State Warriors,12/30/16,2016,3,1,11,n,Turnaround Fadeaway shot,2PT Field Goal,15,Dallas Mavericks,153,31
+Golden State Warriors,10/30/16,2016,4,0,25,n,Turnaround Fadeaway shot,2PT Field Goal,17,Phoenix Suns,-169,21
+Golden State Warriors,3/31/17,2016,1,8,30,n,Turnaround Fadeaway shot,2PT Field Goal,16,Houston Rockets,110,129
+Golden State Warriors,3/14/17,2016,2,2,43,n,Turnaround Jump Shot,2PT Field Goal,20,Philadelphia 76ers,2,205
+Golden State Warriors,3/21/17,2016,3,7,24,y,Turnaround Jump Shot,2PT Field Goal,8,Dallas Mavericks,-37,72
+Golden State Warriors,3/24/17,2016,1,1,39,n,Turnaround Jump Shot,2PT Field Goal,10,Sacramento Kings,-40,100
+Golden State Warriors,2/23/17,2016,3,0,1,y,Turnaround Jump Shot,3PT Field Goal,31,Los Angeles Clippers,171,259
+Golden State Warriors,11/7/16,2016,3,9,13,y,Turnaround Jump Shot,2PT Field Goal,14,New Orleans Pelicans,-142,16
+Golden State Warriors,12/25/16,2016,2,2,47,n,Turnaround Jump Shot,2PT Field Goal,9,Cleveland Cavaliers,-47,87
+Golden State Warriors,3/14/17,2016,4,9,55,y,Turnaround Jump Shot,2PT Field Goal,19,Philadelphia 76ers,-47,185
