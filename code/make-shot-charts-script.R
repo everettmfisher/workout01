@@ -1,5 +1,10 @@
 # make shot charts
 
+# plots the location and success of each shot taken for each player
+
+# inputs: individual player tibbles, combined tibble
+# outputs: .pdf images for individual players, .pdf and .png images for combined tibble
+
 ## @knitr make_shot_charts
 
 library(jpeg)

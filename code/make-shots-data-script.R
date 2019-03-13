@@ -1,5 +1,13 @@
 # make shots data
 
+# adds name column to connect shot data with the player
+# clarifies level names for shot_made_flag
+# calculates the minutes elapsed for each shot taken
+# combines individual player data into one tibble
+
+# inputs: individual .csv files for each player
+# outputs: individual tibbles, combined tibble, .txt summaries for each
+
 ## @knitr make_shots_data
 
 library(dplyr)
