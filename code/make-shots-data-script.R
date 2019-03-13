@@ -1,5 +1,7 @@
 # make shots data
 
+## @knitr make_shots_data
+
 library(dplyr)
 library(readr)
 
