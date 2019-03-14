@@ -16,43 +16,24 @@ Data for each player's shots include the type of shot (i.e. 2 or 3 points), the 
 
 A preview of the raw data for Stephen Curry is included here, as are text summaries for the combined data sets.
 
-    ## # A tibble: 6 x 15
-    ##   team_name game_date season period minutes_remaini~ seconds_remaini~
-    ##   <fct>     <chr>     <fct>   <int>            <int>            <int>
-    ## 1 Golden S~ 12/15/16  2016        3                3               51
-    ## 2 Golden S~ 10/28/16  2016        3                9               14
-    ## 3 Golden S~ 11/1/16   2016        2                5                8
-    ## 4 Golden S~ 12/1/16   2016        3                5               27
-    ## 5 Golden S~ 4/4/17    2016        3                2                4
-    ## 6 Golden S~ 11/19/16  2016        4                5               36
-    ## # ... with 9 more variables: shot_made_flag <fct>, action_type <fct>,
-    ## #   shot_type <fct>, shot_distance <int>, opponent <chr>, x <int>,
-    ## #   y <int>, name <chr>, minute <dbl>
+| team\_name            | game\_date | season |  period|  minutes\_remaining|  seconds\_remaining| shot\_made\_flag | action\_type                   | shot\_type     |  shot\_distance| opponent               |    x|    y| name          |  minute|
+|:----------------------|:-----------|:-------|-------:|-------------------:|-------------------:|:-----------------|:-------------------------------|:---------------|---------------:|:-----------------------|----:|----:|:--------------|-------:|
+| Golden State Warriors | 12/15/16   | 2016   |       3|                   3|                  51| shot\_no         | Cutting Finger Roll Layup Shot | 2PT Field Goal |               3| New York Knicks        |   25|   21| Stephen Curry |      33|
+| Golden State Warriors | 10/28/16   | 2016   |       3|                   9|                  14| shot\_no         | Cutting Finger Roll Layup Shot | 2PT Field Goal |               2| New Orleans Pelicans   |    9|   26| Stephen Curry |      27|
+| Golden State Warriors | 11/1/16    | 2016   |       2|                   5|                   8| shot\_no         | Cutting Finger Roll Layup Shot | 2PT Field Goal |               2| Portland Trail Blazers |  -22|    2| Stephen Curry |      19|
+| Golden State Warriors | 12/1/16    | 2016   |       3|                   5|                  27| shot\_no         | Cutting Finger Roll Layup Shot | 2PT Field Goal |               0| Houston Rockets        |    2|    7| Stephen Curry |      31|
+| Golden State Warriors | 4/4/17     | 2016   |       3|                   2|                   4| shot\_no         | Cutting Finger Roll Layup Shot | 2PT Field Goal |               2| Minnesota Timberwolves |    1|   26| Stephen Curry |      34|
+| Golden State Warriors | 11/19/16   | 2016   |       4|                   5|                  36| shot\_no         | Cutting Finger Roll Layup Shot | 2PT Field Goal |               0| Milwaukee Bucks        |    2|    7| Stephen Curry |      43|
 
-    ##      period          minute     seconds_remaining  shot_made_flag
-    ##  Min.   :1.000   Min.   : 1.0   Min.   : 0.00     shot_no :2078  
-    ##  1st Qu.:1.000   1st Qu.:11.0   1st Qu.:13.00     shot_yes:2256  
-    ##  Median :2.000   Median :23.0   Median :29.00                    
-    ##  Mean   :2.351   Mean   :22.8   Mean   :28.60                    
-    ##  3rd Qu.:3.000   3rd Qu.:33.0   3rd Qu.:43.75                    
-    ##  Max.   :4.000   Max.   :48.0   Max.   :59.00                    
-    ##                                                                  
-    ##               action_type            shot_type          x           
-    ##  Jump Shot          :2051   2PT Field Goal:2402   Min.   :-248.000  
-    ##  Pullup Jump shot   : 521   3PT Field Goal:1932   1st Qu.: -56.000  
-    ##  Layup Shot         : 215                         Median :   1.000  
-    ##  Driving Layup Shot : 160                         Mean   :   7.746  
-    ##  Step Back Jump shot: 133                         3rd Qu.:  95.500  
-    ##  Running Layup Shot : 115                         Max.   : 246.000  
-    ##  (Other)            :1139                                           
-    ##        y        
-    ##  Min.   :-39.0  
-    ##  1st Qu.: 13.0  
-    ##  Median : 95.0  
-    ##  Mean   :109.4  
-    ##  3rd Qu.:198.0  
-    ##  Max.   :717.0  
-    ## 
+|     |     period    |    minute    | seconds\_remaining | shot\_made\_flag |       action\_type       |      shot\_type     |         x        |       y       |
+|-----|:-------------:|:------------:|:-------------------|:----------------:|:------------------------:|:-------------------:|:----------------:|:-------------:|
+|     |  Min. :1.000  |  Min. : 1.0  | Min. : 0.00        |  shot\_no :2078  |      Jump Shot :2051     | 2PT Field Goal:2402 |  Min. :-248.000  |  Min. :-39.0  |
+|     | 1st Qu.:1.000 | 1st Qu.:11.0 | 1st Qu.:13.00      |  shot\_yes:2256  |  Pullup Jump shot : 521  | 3PT Field Goal:1932 | 1st Qu.: -56.000 | 1st Qu.: 13.0 |
+|     | Median :2.000 | Median :23.0 | Median :29.00      |        NA        |     Layup Shot : 215     |          NA         |  Median : 1.000  | Median : 95.0 |
+|     |  Mean :2.351  |  Mean :22.8  | Mean :28.60        |        NA        | Driving Layup Shot : 160 |          NA         |   Mean : 7.746   |  Mean :109.4  |
+|     | 3rd Qu.:3.000 | 3rd Qu.:33.0 | 3rd Qu.:43.75      |        NA        | Step Back Jump shot: 133 |          NA         |  3rd Qu.: 95.500 | 3rd Qu.:198.0 |
+|     |  Max. :4.000  |  Max. :48.0  | Max. :59.00        |        NA        | Running Layup Shot : 115 |          NA         |  Max. : 246.000  |  Max. :717.0  |
+|     |       NA      |      NA      | NA                 |        NA        |       (Other) :1139      |          NA         |        NA        |       NA      |
 
 Jump shots are the most common type of action taken, with layups being second most common.
 
@@ -123,4 +104,6 @@ kable(shots_data %>%
 The takeaway
 ------------
 
-Of the five players analysed, it seems that Draymond Green is the most effective shooter. However, additional analysis may give more insight beyond the scope of this report. Particularly of interest would be a look into effectiveness when grouping by the type of shot (layup, junp shot, etc.)
+Of the five players analyzed, it seems that Draymond Green is the most effective shooter overall. However, additional analysis may give more insight beyond the scope of this report. Of interest would be a look into effectiveness when grouping by the type of shot (layup, jump shot, etc.) This could reveal more insight into each player's strengths and weaknesses.
+
+<img src="../images/draymondflexslatetown.jpg" width="100%" style="display: block; margin: auto;" />

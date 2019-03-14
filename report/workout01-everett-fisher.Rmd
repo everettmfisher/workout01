@@ -30,9 +30,9 @@ Data for each player's shots include the type of shot (i.e. 2 or 3 points), the 
 A preview of the raw data for Stephen Curry is included here, as are text summaries for the combined data sets.
 
 ```{r data_sum, echo = FALSE}
-head(curry)
-select(shots_data, period, minute, seconds_remaining, shot_made_flag, action_type, shot_type, x, y) %>%
-  summary()
+kable(head(curry))
+kable(select(shots_data, period, minute, seconds_remaining, shot_made_flag, action_type, shot_type, x, y) %>%
+  summary())
 ```
 
 Jump shots are the most common type of action taken, with layups being second most common.
@@ -97,4 +97,8 @@ kable(shots_data %>%
 
 ## The takeaway
 
-Of the five players analysed, it seems that Draymond Green is the most effective shooter. However, additional analysis may give more insight beyond the scope of this report. Particularly of interest would be a look into effectiveness when grouping by the type of shot (layup, junp shot, etc.) 
+Of the five players analyzed, it seems that Draymond Green is the most effective shooter overall. However, additional analysis may give more insight beyond the scope of this report. Of interest would be a look into effectiveness when grouping by the type of shot (layup, jump shot, etc.) This could reveal more insight into each player's strengths and weaknesses.
+
+```{r out.width="100%", echo = FALSE, fig.align = "center"}
+knitr::include_graphics("../images/draymondflexslatetown.jpg")
+```
