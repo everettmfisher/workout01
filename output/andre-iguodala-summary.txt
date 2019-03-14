@@ -1,48 +1,16 @@
-                 team_name    game_date          season   
- Golden State Warriors:371   Length:371         2016:371  
-                             Class :character             
-                             Mode  :character             
-                                                          
-                                                          
-                                                          
-                                                          
-     period      minutes_remaining seconds_remaining
- Min.   :1.000   Min.   : 0.000    Min.   : 0.00    
- 1st Qu.:2.000   1st Qu.: 1.000    1st Qu.:10.00    
- Median :2.000   Median : 4.000    Median :27.00    
- Mean   :2.518   Mean   : 4.582    Mean   :26.75    
- 3rd Qu.:4.000   3rd Qu.: 8.000    3rd Qu.:41.00    
- Max.   :4.000   Max.   :11.000    Max.   :59.00    
-                                                    
-  shot_made_flag             action_type 
- shot_no :179    Jump Shot         :179  
- shot_yes:192    Pullup Jump shot  : 34  
-                 Running Layup Shot: 19  
-                 Running Dunk Shot : 18  
-                 Layup Shot        : 17  
-                 Cutting Dunk Shot : 16  
-                 (Other)           : 88  
-          shot_type   shot_distance     opponent        
- 2PT Field Goal:210   Min.   : 0.00   Length:371        
- 3PT Field Goal:161   1st Qu.: 1.00   Class :character  
-                      Median :18.00   Mode  :character  
-                      Mean   :13.69                     
-                      3rd Qu.:24.00                     
-                      Max.   :49.00                     
-                                                        
-       x                y              name          
- Min.   :-245.0   Min.   :-31.00   Length:371        
- 1st Qu.: -65.5   1st Qu.:  2.00   Class :character  
- Median :   0.0   Median : 23.00   Mode  :character  
- Mean   :   3.9   Mean   : 73.62                     
- 3rd Qu.: 101.5   3rd Qu.:150.00                     
- Max.   : 238.0   Max.   :497.00                     
-                                                     
-     minute     
- Min.   : 4.00  
- 1st Qu.:14.00  
- Median :24.00  
- Mean   :25.63  
- 3rd Qu.:37.00  
- Max.   :48.00  
-                
+                 team_name    game_date          season        period      minutes_remaining seconds_remaining  shot_made_flag             action_type           shot_type  
+ Golden State Warriors:371   Length:371         2016:371   Min.   :1.000   Min.   : 0.000    Min.   : 0.00     shot_no :179    Jump Shot         :179   2PT Field Goal:210  
+                             Class :character              1st Qu.:2.000   1st Qu.: 1.000    1st Qu.:10.00     shot_yes:192    Pullup Jump shot  : 34   3PT Field Goal:161  
+                             Mode  :character              Median :2.000   Median : 4.000    Median :27.00                     Running Layup Shot: 19                       
+                                                           Mean   :2.518   Mean   : 4.582    Mean   :26.75                     Running Dunk Shot : 18                       
+                                                           3rd Qu.:4.000   3rd Qu.: 8.000    3rd Qu.:41.00                     Layup Shot        : 17                       
+                                                           Max.   :4.000   Max.   :11.000    Max.   :59.00                     Cutting Dunk Shot : 16                       
+                                                                                                                               (Other)           : 88                       
+ shot_distance     opponent               x                y              name               minute     
+ Min.   : 0.00   Length:371         Min.   :-245.0   Min.   :-31.00   Length:371         Min.   : 4.00  
+ 1st Qu.: 1.00   Class :character   1st Qu.: -65.5   1st Qu.:  2.00   Class :character   1st Qu.:14.00  
+ Median :18.00   Mode  :character   Median :   0.0   Median : 23.00   Mode  :character   Median :24.00  
+ Mean   :13.69                      Mean   :   3.9   Mean   : 73.62                      Mean   :25.63  
+ 3rd Qu.:24.00                      3rd Qu.: 101.5   3rd Qu.:150.00                      3rd Qu.:37.00  
+ Max.   :49.00                      Max.   : 238.0   Max.   :497.00                      Max.   :48.00  
+                                                                                                        
